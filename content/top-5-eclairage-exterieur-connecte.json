@@ -1,0 +1,52 @@
+{
+  "slug": "top-5-eclairage-exterieur-connecte",
+  "title": "Top 5 Éclairages Extérieurs Connectés à Détecteur de Mouvement",
+  "excerpt": "Un projecteur qui s'allume au bon moment reste l'une des dissuasions les plus simples contre les cambriolages : voici 5 solutions connectées.",
+  "products": [
+    {
+      "name": "MEIKEE Projecteur Solaire à Détecteur de Mouvement",
+      "price": "49,99 €",
+      "image": "/images/products/meikee-projecteur-solaire.jpg",
+      "category": "eclairage",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BPL8ZKGS?tag=secure012de-21",
+      "pros": ["Option budget très populaire", "Panneau solaire déporté avec câble 5 m, étanche IP66"],
+      "cons": ["Détection PIR classique, pas de connexion app/smartphone"]
+    },
+    {
+      "name": "OREiN Projecteur Extérieur Connecté WiFi",
+      "price": "37,99 €",
+      "image": "/images/products/orein-spot-wifi.jpg",
+      "category": "eclairage",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BB1KHTF7?tag=secure012de-21",
+      "pros": ["Contrôle à distance via l'app, compatible Alexa et Google", "Orientable à 450°"],
+      "cons": ["Marque moins connue, avis clients plus limités"]
+    },
+    {
+      "name": "eufy Solar Wall Light Cam S120",
+      "price": "89,00 €",
+      "image": "/images/products/eufy-s120-solar-light-cam.jpg",
+      "category": "eclairage",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0C9ZYHLBZ?tag=secure012de-21",
+      "pros": ["Combine éclairage et caméra en un seul appareil", "Alimentation solaire, sans câblage ni changement de batterie"],
+      "cons": ["Recharge dépendante de l'exposition au soleil"]
+    },
+    {
+      "name": "Govee Projecteur LED RGBIC Connecté",
+      "price": "99,99 €",
+      "image": "/images/products/govee-projecteur-rgbic.jpg",
+      "category": "eclairage",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CZ91MK62?tag=secure012de-21",
+      "pros": ["Compatible Matter, Alexa et Google Home", "Très personnalisable (couleurs, scènes)"],
+      "cons": ["Le détecteur de mouvement est un accessoire Govee vendu séparément"]
+    },
+    {
+      "name": "Steinel XLED Home 2 SC",
+      "price": "111,21 €",
+      "image": "/images/products/steinel-xled-home2.jpg",
+      "category": "eclairage",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07Z537H44?tag=secure012de-21",
+      "pros": ["Réglages fins via app Bluetooth", "Possibilité de synchroniser plusieurs projecteurs en groupe"],
+      "cons": ["Prix plus élevé que la concurrence"]
+    }
+  ]
+}

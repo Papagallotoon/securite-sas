@@ -1,0 +1,52 @@
+{
+  "slug": "top-5-detecteurs-alarme-diy",
+  "title": "Top 5 Détecteurs Connectés pour Créer Votre Propre Alarme Maison",
+  "excerpt": "Portes, fenêtres, mouvement : ces capteurs connectés permettent de monter un système d'alarme sur-mesure sans abonnement de télésurveillance.",
+  "products": [
+    {
+      "name": "SwitchBot Capteur de Contact d'Alarme de Porte",
+      "price": "17,99 €",
+      "image": "/images/products/switchbot-door-alarm.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B094XZ8H5H?tag=secure012de-21",
+      "pros": ["Prix très accessible", "Sirène intégrée sans hub obligatoire pour une alerte locale"],
+      "cons": ["Notifications à distance nécessitent le SwitchBot Hub en plus"]
+    },
+    {
+      "name": "SwitchBot Capteur de Mouvement Intelligent",
+      "price": "17,99 €",
+      "image": "/images/products/switchbot-motion-detector.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DWXV41FS?tag=secure012de-21",
+      "pros": ["Design compact", "Bonne autonomie de batterie"],
+      "cons": ["Fonctions avancées nécessitent le SwitchBot Hub"]
+    },
+    {
+      "name": "Aqara Détecteur d'Ouverture Porte/Fenêtre",
+      "price": "19,99 €",
+      "image": "/images/products/aqara-door-sensor.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07D37VDM3?tag=secure012de-21",
+      "pros": ["Très compact", "Autonomie batterie jusqu'à 2 ans"],
+      "cons": ["Nécessite un hub Aqara pour fonctionner à distance"]
+    },
+    {
+      "name": "Aqara Détecteur de Mouvement P1",
+      "price": "24,99 €",
+      "image": "/images/products/aqara-motion-sensor-p1.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0B9XZ1D51?tag=secure012de-21",
+      "pros": ["Autonomie annoncée jusqu'à 5 ans", "Délai de détection réglable"],
+      "cons": ["Nécessite aussi un hub Aqara compatible"]
+    },
+    {
+      "name": "Somfy IntelliTAG",
+      "price": "49,90 €",
+      "image": "/images/products/somfy-intellitag.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B072DTT57R?tag=secure012de-21",
+      "pros": ["Détection pré-intrusion par vibration, avant l'ouverture", "Marque française reconnue en sécurité connectée"],
+      "cons": ["Nécessite un système Somfy Protect compatible pour fonctionner"]
+    }
+  ]
+}

@@ -52,14 +52,22 @@ export function priceToNumber(price) {
   return parseFloat(match[0].replace(/\./g, "").replace(",", "."));
 }
 
-// Budget-tier framing (cheapest → priciest) instead of a flat numbered
-// countdown — closer to how real "best of" videos are structured.
-const MIDDLE_INTROS = ["Un super compromis", "Le chouchou testé et approuvé", "Une valeur sûre"];
+// Budget-tier framing (cheapest → priciest), with varied sentence shapes
+// per slot instead of one rigid "{tag} : {name}, à {price} !" template
+// repeated five times — reads more like a person talking, less like a
+// list being read out.
+const MIDDLE_TEMPLATES = [
+  (name, price) => `Ensuite, ${name}, pour ${price} !`,
+  (name, price) => `On continue avec ${name}, à ${price} !`,
+  (name, price) => `Et voici ${name}, à ${price} !`,
+];
 
-function budgetIntro(i, total) {
-  if (i === 0) return "Petit budget";
-  if (i === total - 1) return "Et en haut de gamme";
-  return MIDDLE_INTROS[(i - 1) % MIDDLE_INTROS.length];
+function productSentence(product, i, total) {
+  const name = simplifyNameForSpeech(stripDimensionsForSpeech(product.name));
+  const price = product.price;
+  if (i === 0) return `On commence petit budget, avec ${name}, à seulement ${price} !`;
+  if (i === total - 1) return `Et si tu veux mettre le prix, ${name}, à ${price} !`;
+  return MIDDLE_TEMPLATES[(i - 1) % MIDDLE_TEMPLATES.length](name, price);
 }
 
 // A quick "in situation" cutaway after the product's own studio photo, for
@@ -67,7 +75,9 @@ function budgetIntro(i, total) {
 // cleanly for categories without one yet instead of guessing.
 const SITUATION_PHRASES = {
   "camera-exterieure": "Parfaite en extérieur !",
+  "camera-interieure": "Discrète dans votre salon !",
   serrure: "Idéale sur votre porte !",
+  alarme: "Juste à côté de l'entrée !",
 };
 
 // Short, punchy hooks — kept generic enough to fit any article title, no
@@ -105,9 +115,7 @@ export function buildScript(article, { coverImage } = {}) {
   products.forEach((product, i) => {
     lines.push({
       id: `product-${i}`,
-      spoken: clean(
-        `${budgetIntro(i, products.length)} : ${simplifyNameForSpeech(stripDimensionsForSpeech(product.name))}, à ${product.price} !`
-      ),
+      spoken: clean(productSentence(product, i, products.length)),
       caption: `${product.name}\n${product.price}`,
       image: product.image,
       product,
@@ -127,8 +135,7 @@ export function buildScript(article, { coverImage } = {}) {
 
   lines.push({
     id: "outro",
-    spoken:
-      "Ton coup de cœur ? Liens Amazon en description, prix au moment de la publication. Abonne-toi !",
+    spoken: "Alors, lequel est ton coup de cœur ? Tous les liens sont juste en dessous. Abonne-toi pour la suite !",
     caption: "Liens en description",
     image: cover,
     fullBleed: true,

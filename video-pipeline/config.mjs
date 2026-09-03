@@ -22,12 +22,16 @@ export const TTS_VOICE = "fr-FR-VivienneMultilingualNeural";
 // from pitch instead, at a pace still comfortable to understand.
 export const TTS_PROSODY = { rate: "+3%", pitch: "+7%" };
 
-// Real, free-license contextual photos (Unsplash), one per product category,
-// used as a quick "in situation" cutaway after that product's own studio
-// photo. Categories without a sourced photo yet just skip the cutaway.
+// One contextual "in situation" photo per product category, used as a
+// quick cutaway after that product's own studio photo. camera-exterieure
+// and serrure are real free-license photos (Unsplash); camera-interieure
+// and alarme are OpenAI-generated (no good free-license match found).
+// Categories without an image here just skip the cutaway.
 export const SITUATION_IMAGES = {
   "camera-exterieure": path.join(__dirname, "assets", "situations", "camera-exterieure.jpg"),
+  "camera-interieure": path.join(__dirname, "assets", "situations", "camera-interieure.jpg"),
   serrure: path.join(__dirname, "assets", "situations", "serrure.jpg"),
+  alarme: path.join(__dirname, "assets", "situations", "alarme.jpg"),
 };
 export const VIDEO_WIDTH = 1080;
 export const VIDEO_HEIGHT = 1920;
