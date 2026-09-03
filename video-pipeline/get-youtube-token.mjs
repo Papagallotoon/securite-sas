@@ -24,7 +24,11 @@ const oauth2Client = new google.auth.OAuth2(clientId, clientSecret, REDIRECT_URI
 
 const authUrl = oauth2Client.generateAuthUrl({
   access_type: "offline",
-  prompt: "consent",
+  // "select_account" forces Google to show the channel/brand-account picker
+  // when the account manages more than one — without it, Google can skip
+  // straight to consent and silently target whichever channel was last
+  // active, not necessarily the one you want.
+  prompt: "consent select_account",
   scope: ["https://www.googleapis.com/auth/youtube.upload"],
 });
 
