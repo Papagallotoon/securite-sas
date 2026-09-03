@@ -80,28 +80,42 @@ function findFontFile() {
   return candidates.find((c) => fs.existsSync(c)) || null;
 }
 
-async function renderSegment({ imagePath, audioPath, captionPath, duration, outPath, fontFile }) {
+async function renderSegment({ imagePath, audioPath, captionPath, duration, outPath, fontFile, fullBleed }) {
   const caption = toFilterPath(captionPath);
   const drawtextFont = fontFile ? `fontfile=${toFilterPath(fontFile)}` : `font=DejaVu Sans Bold`;
 
-  // Two layers so the product is never cropped: a blurred cover-fill
-  // background (fills the vertical frame) behind a "contain"-fit foreground
-  // (scaled down to fit entirely inside a safe area, never cut off). The
-  // slow zoom is applied to the composited frame as a whole, with a low max
-  // zoom, so the safe-area margin absorbs it instead of clipping the object.
-  const safeW = Math.round(VIDEO_WIDTH * 0.92);
-  const safeH = Math.round(VIDEO_HEIGHT * 0.86);
+  let filter;
+  if (fullBleed) {
+    // Plain brand backdrop (solid color / vignette, not a product photo):
+    // no blur+darken bg vs. sharp fg split here — on a near-flat image that
+    // split left a visible rectangle seam where the two layers met.
+    filter =
+      `[0:v]scale=${VIDEO_WIDTH}:${VIDEO_HEIGHT}:force_original_aspect_ratio=increase,` +
+      `crop=${VIDEO_WIDTH}:${VIDEO_HEIGHT},` +
+      `zoompan=z='min(zoom+0.0012,1.09)':d=1:s=${VIDEO_WIDTH}x${VIDEO_HEIGHT}:fps=${FPS},setsar=1[zoomed];` +
+      `[zoomed]drawtext=${drawtextFont}:textfile=${caption}:fontcolor=white:fontsize=48:` +
+      `line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=24:` +
+      `x=(w-text_w)/2:y=h-th-180[v]`;
+  } else {
+    // Two layers so the product is never cropped: a blurred cover-fill
+    // background (fills the vertical frame) behind a "contain"-fit foreground
+    // (scaled down to fit entirely inside a safe area, never cut off). The
+    // slow zoom is applied to the composited frame as a whole, with a low max
+    // zoom, so the safe-area margin absorbs it instead of clipping the object.
+    const safeW = Math.round(VIDEO_WIDTH * 0.92);
+    const safeH = Math.round(VIDEO_HEIGHT * 0.86);
 
-  const filter =
-    `[0:v]split=2[bg_src][fg_src];` +
-    `[bg_src]scale=${VIDEO_WIDTH}:${VIDEO_HEIGHT}:force_original_aspect_ratio=increase,` +
-    `crop=${VIDEO_WIDTH}:${VIDEO_HEIGHT},gblur=sigma=30,eq=brightness=-0.15[bg];` +
-    `[fg_src]scale=${safeW}:${safeH}:force_original_aspect_ratio=decrease[fg];` +
-    `[bg][fg]overlay=(W-w)/2:(H-h)/2[composite];` +
-    `[composite]zoompan=z='min(zoom+0.0012,1.09)':d=1:s=${VIDEO_WIDTH}x${VIDEO_HEIGHT}:fps=${FPS},setsar=1[zoomed];` +
-    `[zoomed]drawtext=${drawtextFont}:textfile=${caption}:fontcolor=white:fontsize=48:` +
-    `line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=24:` +
-    `x=(w-text_w)/2:y=h-th-180[v]`;
+    filter =
+      `[0:v]split=2[bg_src][fg_src];` +
+      `[bg_src]scale=${VIDEO_WIDTH}:${VIDEO_HEIGHT}:force_original_aspect_ratio=increase,` +
+      `crop=${VIDEO_WIDTH}:${VIDEO_HEIGHT},gblur=sigma=30,eq=brightness=-0.15[bg];` +
+      `[fg_src]scale=${safeW}:${safeH}:force_original_aspect_ratio=decrease[fg];` +
+      `[bg][fg]overlay=(W-w)/2:(H-h)/2[composite];` +
+      `[composite]zoompan=z='min(zoom+0.0012,1.09)':d=1:s=${VIDEO_WIDTH}x${VIDEO_HEIGHT}:fps=${FPS},setsar=1[zoomed];` +
+      `[zoomed]drawtext=${drawtextFont}:textfile=${caption}:fontcolor=white:fontsize=48:` +
+      `line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=24:` +
+      `x=(w-text_w)/2:y=h-th-180[v]`;
+  }
 
   const args = [
     "-y",
@@ -171,6 +185,7 @@ export async function renderVideo({ lines, article, tmpDir, outPath }) {
       duration: line.duration,
       outPath: segmentPath,
       fontFile,
+      fullBleed: line.fullBleed,
     });
     segmentPaths.push(segmentPath);
   }
@@ -193,6 +208,7 @@ export async function renderVideo({ lines, article, tmpDir, outPath }) {
       duration: await getAudioDurationSeconds(CHIME_PATH),
       outPath: stingSegmentPath,
       fontFile,
+      fullBleed: lastLine.fullBleed,
     });
     segmentPaths.push(stingSegmentPath);
   }

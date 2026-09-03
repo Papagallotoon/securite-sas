@@ -1,6 +1,7 @@
 // Turns an article JSON into a spoken script for the video. Purely
 // template-based: no LLM call, no external dependency, nothing that can
 // fail or cost money.
+import { INTRO_BG_PATH } from "./config.mjs";
 
 function clean(text) {
   return text.replace(/\s+/g, " ").trim();
@@ -64,15 +65,17 @@ const RANK_INTROS = [
 
 export function buildScript(article) {
   const lines = [];
-  // No curated "room" image pool for this niche yet — the first product's
-  // own photo doubles as the intro/outro backdrop.
-  const coverImage = article.products[0].image;
+  // No curated "room" image pool for this niche yet — a plain brand
+  // backdrop for intro/outro avoids repeating the same product photo
+  // across every video.
+  const coverImage = INTRO_BG_PATH;
 
   lines.push({
     id: "intro",
     spoken: clean(`${stripDimensionsForSpeech(article.title)} ! ${stripDimensionsForSpeech(article.excerpt)}`),
     caption: article.title,
     image: coverImage,
+    fullBleed: true,
   });
 
   const products = article.products.slice(0, 5);
@@ -100,6 +103,7 @@ export function buildScript(article) {
       "Abonne-toi pour ne rater aucune sélection !",
     caption: "Liens en description",
     image: coverImage,
+    fullBleed: true,
   });
 
   return lines;
