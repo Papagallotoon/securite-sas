@@ -18,7 +18,15 @@ export const INTRO_BG_PATH = path.join(__dirname, "assets", "intro-bg.png");
 // Multilingual-generation neural voice — sounds noticeably warmer/more
 // natural than the older single-locale neural voices (e.g. DeniseNeural).
 export const TTS_VOICE = "fr-FR-VivienneMultilingualNeural";
-export const TTS_PROSODY = { rate: "+2%", pitch: "+4%" };
+export const TTS_PROSODY = { rate: "+9%", pitch: "+8%" };
+
+// Real, free-license contextual photos (Unsplash), one per product category,
+// used as a quick "in situation" cutaway after that product's own studio
+// photo. Categories without a sourced photo yet just skip the cutaway.
+export const SITUATION_IMAGES = {
+  "camera-exterieure": path.join(__dirname, "assets", "situations", "camera-exterieure.jpg"),
+  serrure: path.join(__dirname, "assets", "situations", "serrure.jpg"),
+};
 export const VIDEO_WIDTH = 1080;
 export const VIDEO_HEIGHT = 1920;
 export const FPS = 30;

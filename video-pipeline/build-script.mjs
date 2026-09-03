@@ -1,7 +1,7 @@
 // Turns an article JSON into a spoken script for the video. Purely
 // template-based: no LLM call, no external dependency, nothing that can
 // fail or cost money.
-import { INTRO_BG_PATH } from "./config.mjs";
+import { INTRO_BG_PATH, SITUATION_IMAGES } from "./config.mjs";
 
 function clean(text) {
   return text.replace(/\s+/g, " ").trim();
@@ -55,13 +55,29 @@ function simplifyNameForSpeech(name) {
   return cleaned.trim() || name;
 }
 
-const RANK_INTROS = [
-  "Premier coup de cœur",
-  "En deuxième place",
-  "Numéro trois",
-  "On continue avec le numéro quatre",
-  "Et pour finir, notre dernier choix",
-];
+export function priceToNumber(price) {
+  const match = (price || "").match(/[\d.,]+/);
+  if (!match) return Infinity;
+  return parseFloat(match[0].replace(/\./g, "").replace(",", "."));
+}
+
+// Budget-tier framing (cheapest → priciest) instead of a flat numbered
+// countdown — closer to how real "best of" videos are structured.
+const MIDDLE_INTROS = ["Un super compromis", "Le chouchou testé et approuvé", "Une valeur sûre"];
+
+function budgetIntro(i, total) {
+  if (i === 0) return "On commence petit budget";
+  if (i === total - 1) return "Et si le budget suit";
+  return MIDDLE_INTROS[(i - 1) % MIDDLE_INTROS.length];
+}
+
+// A quick "in situation" cutaway after the product's own studio photo, for
+// categories with a real contextual photo sourced (see config.mjs) — skips
+// cleanly for categories without one yet instead of guessing.
+const SITUATION_PHRASES = {
+  "camera-exterieure": "Parfaite en extérieur, sur une façade !",
+  serrure: "Idéale posée sur votre porte d'entrée !",
+};
 
 export function buildScript(article) {
   const lines = [];
@@ -78,29 +94,39 @@ export function buildScript(article) {
     fullBleed: true,
   });
 
-  const products = article.products.slice(0, 5);
+  const products = [...article.products].sort((a, b) => priceToNumber(a.price) - priceToNumber(b.price)).slice(0, 5);
 
   products.forEach((product, i) => {
-    const rank = i + 1;
     const spokenPro = pickSpokenPro(product.pros);
-    const proSentence = spokenPro ? ` On l'apprécie pour : ${stripDimensionsForSpeech(spokenPro)}.` : "";
+    const proSentence = spokenPro ? ` On l'adore pour : ${stripDimensionsForSpeech(spokenPro)} !` : "";
     lines.push({
       id: `product-${i}`,
       spoken: clean(
-        `${RANK_INTROS[i]} : ${simplifyNameForSpeech(stripDimensionsForSpeech(product.name))}, à ${product.price}.${proSentence}`
+        `${budgetIntro(i, products.length)} : ${simplifyNameForSpeech(stripDimensionsForSpeech(product.name))}, à ${product.price} !${proSentence}`
       ),
-      caption: `${rank}. ${product.name}\n${product.price}`,
+      caption: `${product.name}\n${product.price}`,
       image: product.image,
       product,
     });
+
+    const situationImage = SITUATION_IMAGES[product.category];
+    const situationPhrase = SITUATION_PHRASES[product.category];
+    if (situationImage && situationPhrase) {
+      lines.push({
+        id: `product-${i}-situation`,
+        spoken: situationPhrase,
+        caption: "En situation",
+        image: situationImage,
+      });
+    }
   });
 
   lines.push({
     id: "outro",
     spoken:
-      "Alors, lequel est ton coup de cœur ? Tout est disponible sur Amazon, liens juste en dessous. " +
+      "Alors, lequel est ton coup de cœur ? Tout est disponible sur Amazon, liens juste en dessous ! " +
       "Petite précision : les prix peuvent avoir changé depuis la publication de cette vidéo. " +
-      "Abonne-toi pour ne rater aucune sélection !",
+      "Abonne-toi pour ne rater aucune sélection testée et approuvée !",
     caption: "Liens en description",
     image: coverImage,
     fullBleed: true,

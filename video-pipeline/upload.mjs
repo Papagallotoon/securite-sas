@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import { google } from "googleapis";
+import { priceToNumber } from "./build-script.mjs";
 
 function getAuthedClient() {
   const { YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN } = process.env;
@@ -38,7 +39,10 @@ function buildHookTitle(article) {
 const RANK_EMOJIS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"];
 
 function buildDescription(article) {
-  const links = article.products
+  // Same cheapest-to-priciest order as the video (see build-script.mjs) so
+  // the numbering here actually matches what's on screen.
+  const links = [...article.products]
+    .sort((a, b) => priceToNumber(a.price) - priceToNumber(b.price))
     .slice(0, 5)
     .map((p, i) => `${RANK_EMOJIS[i] || `${i + 1}.`} ${p.name} — ${p.price}\n🛒 ${p.affiliateUrl}`)
     .join("\n\n");

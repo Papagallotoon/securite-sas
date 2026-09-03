@@ -7,6 +7,7 @@
       "name": "TP-Link Tapo C210",
       "price": "21,99 €",
       "image": "/images/products/tapo-c210.jpg",
+      "category": "camera-interieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B095CLQ1PT?tag=secure012de-21",
       "pros": [
         "Rotation motorisée 360° avec suivi de mouvement",
@@ -18,6 +19,7 @@
       "name": "eufy Security SoloCam S340",
       "price": "125,59 €",
       "image": "/images/products/eufy-solocam-s340.jpg",
+      "category": "camera-exterieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0CF8R2P24?tag=secure012de-21",
       "pros": [
         "Panneau solaire intégré, autonomie sans recharge",
@@ -29,6 +31,7 @@
       "name": "Ring Indoor Cam (2ème génération)",
       "price": "49,99 €",
       "image": "/images/products/ring-indoor-cam.jpg",
+      "category": "camera-interieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0B6GKHS2S?tag=secure012de-21",
       "pros": ["Cache de confidentialité physique intégré", "Intégration Alexa native"],
       "cons": ["Abonnement Ring Protect nécessaire pour le cloud"]
@@ -37,6 +40,7 @@
       "name": "Xiaomi Outdoor Caméra CW300",
       "price": "89,85 €",
       "image": "/images/products/xiaomi-cw300.jpg",
+      "category": "camera-exterieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0CVHPQ9P3?tag=secure012de-21",
       "pros": ["Détection humaine par IA", "Résistante aux intempéries, vision nocturne couleur"],
       "cons": ["Ecosystème Xiaomi Home recommandé pour toutes les fonctions"]
@@ -45,6 +49,7 @@
       "name": "Arlo Pro 5 (lot de 2 caméras)",
       "price": "281,12 €",
       "image": "/images/products/arlo-pro-5.jpg",
+      "category": "camera-exterieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0BTMGK4VT?tag=secure012de-21",
       "pros": ["Étanchéité IP65, vision nocturne couleur avancée", "Sirène intégrée, WiFi double bande"],
       "cons": ["Fonctions IA avancées derrière l'abonnement Arlo Secure"]
