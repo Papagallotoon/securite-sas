@@ -18,7 +18,9 @@ export const INTRO_BG_PATH = path.join(__dirname, "assets", "intro-bg.png");
 // Multilingual-generation neural voice — sounds noticeably warmer/more
 // natural than the older single-locale neural voices (e.g. DeniseNeural).
 export const TTS_VOICE = "fr-FR-VivienneMultilingualNeural";
-export const TTS_PROSODY = { rate: "+9%", pitch: "+8%" };
+// A high rate makes speech hard to follow — most of the "energy" comes
+// from pitch instead, at a pace still comfortable to understand.
+export const TTS_PROSODY = { rate: "+3%", pitch: "+7%" };
 
 // Real, free-license contextual photos (Unsplash), one per product category,
 // used as a quick "in situation" cutaway after that product's own studio
