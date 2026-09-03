@@ -24,15 +24,6 @@ function stripDimensionsForSpeech(text) {
   );
 }
 
-function isDimensionHeavy(text) {
-  DIMENSION_TOKEN.lastIndex = 0;
-  return DIMENSION_TOKEN.test(text);
-}
-
-function pickSpokenPro(pros = []) {
-  return pros.find((p) => !isDimensionHeavy(p)) || null;
-}
-
 const MAX_SPOKEN_NAME_WORDS = 8;
 
 // Product names are written for a listing, not for being read aloud —
@@ -66,8 +57,8 @@ export function priceToNumber(price) {
 const MIDDLE_INTROS = ["Un super compromis", "Le chouchou testé et approuvé", "Une valeur sûre"];
 
 function budgetIntro(i, total) {
-  if (i === 0) return "On commence petit budget";
-  if (i === total - 1) return "Et si le budget suit";
+  if (i === 0) return "Petit budget";
+  if (i === total - 1) return "Et en haut de gamme";
   return MIDDLE_INTROS[(i - 1) % MIDDLE_INTROS.length];
 }
 
@@ -75,34 +66,47 @@ function budgetIntro(i, total) {
 // categories with a real contextual photo sourced (see config.mjs) — skips
 // cleanly for categories without one yet instead of guessing.
 const SITUATION_PHRASES = {
-  "camera-exterieure": "Parfaite en extérieur, sur une façade !",
-  serrure: "Idéale posée sur votre porte d'entrée !",
+  "camera-exterieure": "Parfaite en extérieur !",
+  serrure: "Idéale sur votre porte !",
 };
 
-export function buildScript(article) {
-  const lines = [];
-  // No curated "room" image pool for this niche yet — a plain brand
-  // backdrop for intro/outro avoids repeating the same product photo
-  // across every video.
-  const coverImage = INTRO_BG_PATH;
+// Short, punchy hooks — kept generic enough to fit any article title, no
+// LLM needed. Deterministic per slug so re-renders stay consistent.
+const HOOK_TEMPLATES = [
+  (t) => `${t} ? On a trouvé les meilleures options !`,
+  (t) => `Tu veux ${t.toLowerCase()} sans te ruiner ? Regarde ça !`,
+  (t) => `5 pépites testées et approuvées pour ${t.toLowerCase()} !`,
+];
 
+function hashString(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+export function buildScript(article, { coverImage } = {}) {
+  const lines = [];
+  const cover = coverImage || INTRO_BG_PATH;
+
+  // Very short hook intro — the video targets ~45s total, no room for a
+  // full excerpt read-out here.
+  const hookSubject = article.hookSubject || "sécuriser sa maison";
+  const hookTemplate = HOOK_TEMPLATES[hashString(article.slug) % HOOK_TEMPLATES.length];
   lines.push({
     id: "intro",
-    spoken: clean(`${stripDimensionsForSpeech(article.title)} ! ${stripDimensionsForSpeech(article.excerpt)}`),
+    spoken: clean(hookTemplate(hookSubject)),
     caption: article.title,
-    image: coverImage,
+    image: cover,
     fullBleed: true,
   });
 
   const products = [...article.products].sort((a, b) => priceToNumber(a.price) - priceToNumber(b.price)).slice(0, 5);
 
   products.forEach((product, i) => {
-    const spokenPro = pickSpokenPro(product.pros);
-    const proSentence = spokenPro ? ` On l'adore pour : ${stripDimensionsForSpeech(spokenPro)} !` : "";
     lines.push({
       id: `product-${i}`,
       spoken: clean(
-        `${budgetIntro(i, products.length)} : ${simplifyNameForSpeech(stripDimensionsForSpeech(product.name))}, à ${product.price} !${proSentence}`
+        `${budgetIntro(i, products.length)} : ${simplifyNameForSpeech(stripDimensionsForSpeech(product.name))}, à ${product.price} !`
       ),
       caption: `${product.name}\n${product.price}`,
       image: product.image,
@@ -124,11 +128,9 @@ export function buildScript(article) {
   lines.push({
     id: "outro",
     spoken:
-      "Alors, lequel est ton coup de cœur ? Tout est disponible sur Amazon, liens juste en dessous ! " +
-      "Petite précision : les prix peuvent avoir changé depuis la publication de cette vidéo. " +
-      "Abonne-toi pour ne rater aucune sélection testée et approuvée !",
+      "Ton coup de cœur ? Liens Amazon en description, prix au moment de la publication. Abonne-toi !",
     caption: "Liens en description",
-    image: coverImage,
+    image: cover,
     fullBleed: true,
   });
 

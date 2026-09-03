@@ -5,7 +5,8 @@ import { buildScript } from "./build-script.mjs";
 import { synthesizeLines } from "./tts.mjs";
 import { renderVideo } from "./render.mjs";
 import { uploadVideo } from "./upload.mjs";
-import { TMP_DIR, OUT_DIR } from "./config.mjs";
+import { generateIntroImage } from "./generate-image.mjs";
+import { TMP_DIR, OUT_DIR, INTRO_BG_PATH } from "./config.mjs";
 
 async function main() {
   // FORCE_ARTICLE_SLUG lets you redo one specific video instead of
@@ -27,7 +28,12 @@ async function main() {
   fs.rmSync(runTmpDir, { recursive: true, force: true });
   fs.mkdirSync(runTmpDir, { recursive: true });
 
-  const scriptLines = buildScript(article);
+  const generatedCoverPath = path.join(runTmpDir, "cover-generated.png");
+  const generated = await generateIntroImage(article, generatedCoverPath);
+  const coverImage = generated ? generatedCoverPath : INTRO_BG_PATH;
+  console.log(generated ? "Generated a themed cover image with OpenAI" : "Using the static brand background");
+
+  const scriptLines = buildScript(article, { coverImage });
   console.log(`Built script with ${scriptLines.length} lines`);
 
   const linesWithAudio = await synthesizeLines(scriptLines, runTmpDir);
