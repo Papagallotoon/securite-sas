@@ -1,0 +1,50 @@
+name: Video pipeline
+
+on:
+  schedule:
+    # 9h and 15h heure de Paris (currently UTC+2, CEST) = 7h and 13h UTC.
+    # cron is always UTC — when France switches back to UTC+1 in late
+    # October, bump both by 1 hour (8h/14h UTC) to keep the same local times.
+    - cron: "0 7 * * *"
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      force_article_slug:
+        description: "Redo one specific article's video (slug) instead of the next unused one"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  make-and-publish-short:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install ffmpeg and fonts
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - run: npm ci
+
+      - name: Generate and upload short
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          FORCE_ARTICLE_SLUG: ${{ inputs.force_article_slug }}
+        run: node video-pipeline/run.mjs
+
+      - name: Commit updated state
+        run: |
+          git config user.name "video-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add video-pipeline/state.json
+          git diff --cached --quiet || git commit -m "chore: video pipeline state update"
+          git push

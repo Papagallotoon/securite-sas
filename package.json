@@ -1,0 +1,14 @@
+{
+  "name": "securite-sas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "video:run": "node video-pipeline/run.mjs",
+    "video:token": "node video-pipeline/get-youtube-token.mjs"
+  },
+  "dependencies": {
+    "googleapis": "^176.0.0",
+    "msedge-tts": "^2.0.7"
+  }
+}
