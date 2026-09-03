@@ -54,6 +54,15 @@ const server = http.createServer(async (req, res) => {
     process.exit(1);
   }
 
+  // A request to /oauth2callback with neither "code" nor "error" isn't the
+  // real redirect (e.g. a stray browser request) — ignore it and keep
+  // waiting instead of crashing the whole exchange on a null code.
+  if (!code) {
+    res.writeHead(204);
+    res.end();
+    return;
+  }
+
   try {
     const { tokens } = await oauth2Client.getToken(code);
     res.writeHead(200, { "Content-Type": "text/plain" });
