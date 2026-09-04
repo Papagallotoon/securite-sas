@@ -2,6 +2,7 @@
   "slug": "top-5-cameras-securite-connectees",
   "title": "Top 5 Caméras de Sécurité Connectées pour la Maison",
   "excerpt": "Les meilleures caméras connectées 2026 pour surveiller votre maison à distance, avec ou sans abonnement.",
+  "hookSubject": "les meilleures caméras de sécurité connectées",
   "products": [
     {
       "name": "TP-Link Tapo C210",
@@ -13,7 +14,10 @@
         "Rotation motorisée 360° avec suivi de mouvement",
         "Aucun abonnement obligatoire, stockage microSD jusqu'à 512 Go"
       ],
-      "cons": ["Vision nocturne en noir et blanc uniquement", "WiFi 2,4 GHz seulement"]
+      "cons": [
+        "Vision nocturne en noir et blanc uniquement",
+        "WiFi 2,4 GHz seulement"
+      ]
     },
     {
       "name": "eufy Security SoloCam S340",
@@ -25,7 +29,9 @@
         "Panneau solaire intégré, autonomie sans recharge",
         "Double objectif 360° sans angle mort, zéro abonnement"
       ],
-      "cons": ["Investissement de départ plus élevé"]
+      "cons": [
+        "Investissement de départ plus élevé"
+      ]
     },
     {
       "name": "Ring Indoor Cam (2ème génération)",
@@ -33,8 +39,13 @@
       "image": "/images/products/ring-indoor-cam.jpg",
       "category": "camera-interieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0B6GKHS2S?tag=secure012de-21",
-      "pros": ["Cache de confidentialité physique intégré", "Intégration Alexa native"],
-      "cons": ["Abonnement Ring Protect nécessaire pour le cloud"]
+      "pros": [
+        "Cache de confidentialité physique intégré",
+        "Intégration Alexa native"
+      ],
+      "cons": [
+        "Abonnement Ring Protect nécessaire pour le cloud"
+      ]
     },
     {
       "name": "Xiaomi Outdoor Caméra CW300",
@@ -42,8 +53,13 @@
       "image": "/images/products/xiaomi-cw300.jpg",
       "category": "camera-exterieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0CVHPQ9P3?tag=secure012de-21",
-      "pros": ["Détection humaine par IA", "Résistante aux intempéries, vision nocturne couleur"],
-      "cons": ["Ecosystème Xiaomi Home recommandé pour toutes les fonctions"]
+      "pros": [
+        "Détection humaine par IA",
+        "Résistante aux intempéries, vision nocturne couleur"
+      ],
+      "cons": [
+        "Ecosystème Xiaomi Home recommandé pour toutes les fonctions"
+      ]
     },
     {
       "name": "Arlo Pro 5 (lot de 2 caméras)",
@@ -51,8 +67,13 @@
       "image": "/images/products/arlo-pro-5.jpg",
       "category": "camera-exterieure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0BTMGK4VT?tag=secure012de-21",
-      "pros": ["Étanchéité IP65, vision nocturne couleur avancée", "Sirène intégrée, WiFi double bande"],
-      "cons": ["Fonctions IA avancées derrière l'abonnement Arlo Secure"]
+      "pros": [
+        "Étanchéité IP65, vision nocturne couleur avancée",
+        "Sirène intégrée, WiFi double bande"
+      ],
+      "cons": [
+        "Fonctions IA avancées derrière l'abonnement Arlo Secure"
+      ]
     }
   ]
 }

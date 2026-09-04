@@ -2,11 +2,13 @@ name: Video pipeline
 
 on:
   schedule:
-    # 9h and 15h heure de Paris (currently UTC+2, CEST) = 7h and 13h UTC.
-    # cron is always UTC — when France switches back to UTC+1 in late
-    # October, bump both by 1 hour (8h/14h UTC) to keep the same local times.
+    # 9h, 14h and 19h heure de Paris (currently UTC+2, CEST) = 7h, 12h, 17h
+    # UTC. cron is always UTC — when France switches back to UTC+1 in late
+    # October, bump all three by 1 hour (8h/13h/18h UTC) to keep the same
+    # local times.
     - cron: "0 7 * * *"
-    - cron: "0 13 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 17 * * *"
   workflow_dispatch:
     inputs:
       force_article_slug:

@@ -1,7 +1,8 @@
 // Turns an article JSON into a spoken script for the video. Purely
 // template-based: no LLM call, no external dependency, nothing that can
 // fail or cost money.
-import { INTRO_BG_PATH, SITUATION_IMAGES } from "./config.mjs";
+import fs from "node:fs";
+import { ARTICLES_DIR, INTRO_BG_PATH, SITUATION_IMAGES } from "./config.mjs";
 
 function clean(text) {
   return text.replace(/\s+/g, " ").trim();
@@ -80,18 +81,32 @@ const SITUATION_PHRASES = {
   alarme: "Juste à côté de l'entrée !",
 };
 
-// Short, punchy hooks — kept generic enough to fit any article title, no
-// LLM needed. Deterministic per slug so re-renders stay consistent.
+// Hooks name the topic explicitly (hookSubject, e.g. "les meilleures
+// sonnettes connectées pour ta porte") so the viewer knows in the first
+// second what the video is about — a generic hook fitted to any topic
+// tells them nothing. Several sentence shapes, picked deterministically
+// per article so re-renders stay consistent but different articles don't
+// all sound identical.
 const HOOK_TEMPLATES = [
-  (t) => `${t} ? On a trouvé les meilleures options !`,
-  (t) => `Tu veux ${t.toLowerCase()} sans te ruiner ? Regarde ça !`,
-  (t) => `5 pépites testées et approuvées pour ${t.toLowerCase()} !`,
+  (t) => `Aujourd'hui : ${t} !`,
+  (t) => `On a testé pour toi ${t} !`,
+  (t) => `Voici ${t}, notre sélection du jour !`,
+  (t) => `Tu cherches ${t} ? T'es au bon endroit !`,
+  (t) => `5 pépites parmi ${t} !`,
+  (t) => `On a trouvé pour toi ${t} !`,
 ];
 
-function hashString(str) {
-  let h = 0;
-  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
-  return h;
+// A hash-based pick collides too easily across a handful of slugs (4 of the
+// first 5 articles landed on the same template by chance) — this article's
+// stable alphabetical position among all content files round-robins through
+// the templates instead, guaranteeing even coverage as the catalog grows.
+function articleIndex(slug) {
+  const files = fs
+    .readdirSync(ARTICLES_DIR)
+    .filter((f) => f.endsWith(".json"))
+    .sort();
+  const i = files.indexOf(`${slug}.json`);
+  return i === -1 ? 0 : i;
 }
 
 export function buildScript(article, { coverImage } = {}) {
@@ -100,8 +115,8 @@ export function buildScript(article, { coverImage } = {}) {
 
   // Very short hook intro — the video targets ~45s total, no room for a
   // full excerpt read-out here.
-  const hookSubject = article.hookSubject || "sécuriser sa maison";
-  const hookTemplate = HOOK_TEMPLATES[hashString(article.slug) % HOOK_TEMPLATES.length];
+  const hookSubject = article.hookSubject || "les meilleurs produits pour sécuriser sa maison";
+  const hookTemplate = HOOK_TEMPLATES[articleIndex(article.slug) % HOOK_TEMPLATES.length];
   lines.push({
     id: "intro",
     spoken: clean(hookTemplate(hookSubject)),

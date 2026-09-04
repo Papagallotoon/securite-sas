@@ -2,6 +2,7 @@
   "slug": "top-5-serrures-alarmes-connectees",
   "title": "Top 5 Serrures et Alarmes Connectées pour Sécuriser sa Maison",
   "excerpt": "Serrures intelligentes et systèmes d'alarme connectés 2026 pour verrouiller et surveiller votre porte à distance.",
+  "hookSubject": "les meilleures serrures et alarmes connectées",
   "products": [
     {
       "name": "Nuki Smart Lock Pro (4ème génération)",
@@ -9,8 +10,13 @@
       "image": "/images/products/nuki-smart-lock-pro.jpg",
       "category": "serrure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0CK4W99Y7?tag=secure012de-21",
-      "pros": ["Se pose sur le cylindre existant, sans perçage", "Compatible Matter, WiFi intégré"],
-      "cons": ["Le clavier à code se vend séparément"]
+      "pros": [
+        "Se pose sur le cylindre existant, sans perçage",
+        "Compatible Matter, WiFi intégré"
+      ],
+      "cons": [
+        "Le clavier à code se vend séparément"
+      ]
     },
     {
       "name": "Yale Linus Smart Lock L2",
@@ -18,8 +24,13 @@
       "image": "/images/products/yale-linus-l2.jpg",
       "category": "serrure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0DC6RXKY6?tag=secure012de-21",
-      "pros": ["Installation sans perçage ni changement de cylindre", "Aucun abonnement nécessaire"],
-      "cons": ["Certaines fonctions avancées demandent le pont WiFi Connect"]
+      "pros": [
+        "Installation sans perçage ni changement de cylindre",
+        "Aucun abonnement nécessaire"
+      ],
+      "cons": [
+        "Certaines fonctions avancées demandent le pont WiFi Connect"
+      ]
     },
     {
       "name": "Aqara Serrure de Porte U100",
@@ -27,8 +38,13 @@
       "image": "/images/products/aqara-u100.jpg",
       "category": "serrure",
       "affiliateUrl": "https://www.amazon.fr/dp/B0BZSD2L1W?tag=secure012de-21",
-      "pros": ["Lecteur d'empreintes digitales, 50 empreintes stockables", "Étanche, compatible Apple Home Key et Matter"],
-      "cons": ["Hub Aqara nécessaire pour l'intégration complète Alexa/Google Home"]
+      "pros": [
+        "Lecteur d'empreintes digitales, 50 empreintes stockables",
+        "Étanche, compatible Apple Home Key et Matter"
+      ],
+      "cons": [
+        "Hub Aqara nécessaire pour l'intégration complète Alexa/Google Home"
+      ]
     },
     {
       "name": "Somfy Home Alarm",
@@ -36,8 +52,13 @@
       "image": "/images/products/somfy-home-alarm.jpg",
       "category": "alarme",
       "affiliateUrl": "https://www.amazon.fr/dp/B0718W696D?tag=secure012de-21",
-      "pros": ["Détection anti-intrusion précoce brevetée IntelliTAG", "Fabriqué en France, télésurveillance sans engagement en option"],
-      "cons": ["Prix d'entrée élevé"]
+      "pros": [
+        "Détection anti-intrusion précoce brevetée IntelliTAG",
+        "Fabriqué en France, télésurveillance sans engagement en option"
+      ],
+      "cons": [
+        "Prix d'entrée élevé"
+      ]
     },
     {
       "name": "Kit Ring Alarm - S",
@@ -45,8 +66,13 @@
       "image": "/images/products/ring-alarm-kit.jpg",
       "category": "alarme",
       "affiliateUrl": "https://www.amazon.fr/dp/B08L5TWL9D?tag=secure012de-21",
-      "pros": ["Réseau Z-Wave, ne sature pas le WiFi", "Sirène 104dB, sans engagement"],
-      "cons": ["Pas de télésurveillance professionnelle 24/7 en France, seulement des alertes"]
+      "pros": [
+        "Réseau Z-Wave, ne sature pas le WiFi",
+        "Sirène 104dB, sans engagement"
+      ],
+      "cons": [
+        "Pas de télésurveillance professionnelle 24/7 en France, seulement des alertes"
+      ]
     }
   ]
 }

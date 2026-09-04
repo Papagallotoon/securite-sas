@@ -2,6 +2,7 @@
   "slug": "top-5-sonnettes-video-connectees",
   "title": "Top 5 Sonnettes Vidéo Connectées pour Surveiller Votre Entrée",
   "excerpt": "Voir qui sonne à la porte depuis son smartphone, où que l'on soit : notre sélection des meilleures sonnettes vidéo connectées.",
+  "hookSubject": "les meilleures sonnettes connectées pour ta porte",
   "products": [
     {
       "name": "Ring Video Doorbell (sans fil, 2ème génération)",
@@ -9,8 +10,13 @@
       "image": "/images/products/ring-video-doorbell.jpg",
       "category": "sonnette",
       "affiliateUrl": "https://www.amazon.fr/dp/B0931VRJT5?tag=secure012de-21",
-      "pros": ["Installation très simple, sans perçage électrique", "Écosystème Alexa très mature"],
-      "cons": ["Abonnement Ring Protect quasi indispensable pour l'enregistrement"]
+      "pros": [
+        "Installation très simple, sans perçage électrique",
+        "Écosystème Alexa très mature"
+      ],
+      "cons": [
+        "Abonnement Ring Protect quasi indispensable pour l'enregistrement"
+      ]
     },
     {
       "name": "TP-Link Tapo D230S1",
@@ -18,8 +24,13 @@
       "image": "/images/products/tapo-doorbell-d230s1.jpg",
       "category": "sonnette",
       "affiliateUrl": "https://www.amazon.fr/dp/B0C8BFXFN6?tag=secure012de-21",
-      "pros": ["Très bon rapport qualité-prix, vidéo 2K nette", "Autonomie batterie annoncée jusqu'à 180 jours"],
-      "cons": ["Application Tapo parfois jugée moins fluide que Ring"]
+      "pros": [
+        "Très bon rapport qualité-prix, vidéo 2K nette",
+        "Autonomie batterie annoncée jusqu'à 180 jours"
+      ],
+      "cons": [
+        "Application Tapo parfois jugée moins fluide que Ring"
+      ]
     },
     {
       "name": "Aqara Smart Video Doorbell G4",
@@ -27,8 +38,13 @@
       "image": "/images/products/aqara-doorbell-g4.jpg",
       "category": "sonnette",
       "affiliateUrl": "https://www.amazon.fr/dp/B0BZYL6W56?tag=secure012de-21",
-      "pros": ["Reconnaissance faciale", "Compatible HomeKit, Alexa et Google Home"],
-      "cons": ["Configuration initiale moins intuitive que Ring ou eufy"]
+      "pros": [
+        "Reconnaissance faciale",
+        "Compatible HomeKit, Alexa et Google Home"
+      ],
+      "cons": [
+        "Configuration initiale moins intuitive que Ring ou eufy"
+      ]
     },
     {
       "name": "eufy Security Video Doorbell E340",
@@ -36,8 +52,13 @@
       "image": "/images/products/eufy-doorbell-e340.jpg",
       "category": "sonnette",
       "affiliateUrl": "https://www.amazon.fr/dp/B0CF8RPX5M?tag=secure012de-21",
-      "pros": ["Double objectif (visage + vue tête aux pieds)", "Stockage local jusqu'à 128 Go, sans abonnement obligatoire"],
-      "cons": ["Plus volumineuse que la concurrence"]
+      "pros": [
+        "Double objectif (visage + vue tête aux pieds)",
+        "Stockage local jusqu'à 128 Go, sans abonnement obligatoire"
+      ],
+      "cons": [
+        "Plus volumineuse que la concurrence"
+      ]
     },
     {
       "name": "SwitchBot Video Doorbell avec écran",
@@ -45,8 +66,13 @@
       "image": "/images/products/switchbot-doorbell.jpg",
       "category": "sonnette",
       "affiliateUrl": "https://www.amazon.fr/dp/B0F672TCXQ?tag=secure012de-21",
-      "pros": ["Sans abonnement obligatoire", "Écran intérieur dédié inclus"],
-      "cons": ["Marque moins implantée en France, moins d'avis clients"]
+      "pros": [
+        "Sans abonnement obligatoire",
+        "Écran intérieur dédié inclus"
+      ],
+      "cons": [
+        "Marque moins implantée en France, moins d'avis clients"
+      ]
     }
   ]
 }
