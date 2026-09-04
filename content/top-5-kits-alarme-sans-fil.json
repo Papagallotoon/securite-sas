@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-kits-alarme-sans-fil",
+  "title": "Top 5 Kits d'Alarme Sans Fil Sans Abonnement pour la Maison",
+  "excerpt": "Des kits d'alarme complets, faciles à poser soi-même, sans engagement mensuel ni frais cachés : notre sélection coup de cœur.",
+  "hookSubject": "les meilleurs kits d'alarme sans fil sans abonnement",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "tiiwee A1 Alarme Maison sans Fil",
+      "price": "39,90 €",
+      "image": "/images/products/tiiwee-a1-alarme.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08MQR67SM?tag=secure012de-21",
+      "pros": [
+        "Prix d'entrée très accessible",
+        "Aucun abonnement, installation en quelques minutes"
+      ],
+      "cons": [
+        "Pas d'alertes sur smartphone, sirène locale uniquement"
+      ]
+    },
+    {
+      "name": "YISEELE Alarme Maison sans Fil 15 Pièces avec Application",
+      "price": "89,00 €",
+      "image": "/images/products/yiseele-alarme-15pcs.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DF2SRPT3?tag=secure012de-21",
+      "pros": [
+        "Kit complet 15 pièces, bon rapport qualité-prix",
+        "Pilotage et alertes via application, sans abonnement"
+      ],
+      "cons": [
+        "Application parfois lente à notifier"
+      ]
+    },
+    {
+      "name": "AGSHOME Alarme Maison sans Fil 15 Pack WiFi",
+      "price": "119,99 €",
+      "image": "/images/products/agshome-alarme-15pack.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09GVQLPTY?tag=secure012de-21",
+      "pros": [
+        "Système extensible à volonté selon les besoins",
+        "Compatible Alexa et Google Assistant, sirène 120dB"
+      ],
+      "cons": [
+        "Dépend entièrement du WiFi, pas de secours 4G"
+      ]
+    },
+    {
+      "name": "XUK Kit Alarme Maison sans Fil 4G + WiFi",
+      "price": "147,99 €",
+      "image": "/images/products/xuk-alarme-4g-gsm-wifi.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GZPLS7FV?tag=secure012de-21",
+      "pros": [
+        "Double connectivité 4G et WiFi, batterie de secours intégrée",
+        "Notifications par appel et SMS en plus de l'application"
+      ],
+      "cons": [
+        "Carte SIM à ajouter pour profiter du 4G"
+      ]
+    },
+    {
+      "name": "Daewoo Security Smart Protect Remote Max",
+      "price": "559,92 €",
+      "image": "/images/products/daewoo-smart-protect-remote-max.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GSRWWD14?tag=secure012de-21",
+      "pros": [
+        "Kit complet avec caméras HD et sirène solaire extérieure",
+        "Marque reconnue en France, compatible Alexa et Google Home"
+      ],
+      "cons": [
+        "Budget élevé, plutôt pensé pour une grande maison"
+      ]
+    }
+  ]
+}

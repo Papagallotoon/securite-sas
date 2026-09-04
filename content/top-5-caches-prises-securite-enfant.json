@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-caches-prises-securite-enfant",
+  "title": "Top 5 Caches-Prises de Sécurité pour Protéger les Enfants des Prises Électriques",
+  "excerpt": "Bébé qui rampe, tout-petit curieux : ces caches-prises simples et efficaces empêchent les enfants d'introduire un objet dans une prise électrique.",
+  "hookSubject": "les meilleurs caches-prises de sécurité pour protéger les enfants",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "Safety 1st Cache Prises avec Clés, 12 Pièces",
+      "price": "2,90 €",
+      "image": "/images/products/cache-prise-safety1st-12pcs.jpg",
+      "category": "cache-prise",
+      "affiliateUrl": "https://www.amazon.fr/dp/B01LRS24E8?tag=secure012de-21",
+      "pros": [
+        "Prix imbattable pour une marque reconnue en puériculture",
+        "Système à clé, difficile à retirer pour un enfant"
+      ],
+      "cons": [
+        "Clé à conserver à portée de main pour un adulte pressé"
+      ]
+    },
+    {
+      "name": "reer 32030, Lot de 10 Cache-Prises à Coller",
+      "price": "6,99 €",
+      "image": "/images/products/cache-prise-reer-32030.jpg",
+      "category": "cache-prise",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08Y9SFZ1P?tag=secure012de-21",
+      "pros": [
+        "Marque allemande spécialiste de la sécurité bébé, testée intensivement",
+        "Pose par collage, ne bouge pas une fois en place"
+      ],
+      "cons": [
+        "Collage définitif, plus difficile à retirer si besoin"
+      ]
+    },
+    {
+      "name": "Dreambaby Cache-Prises avec Clés",
+      "price": "7,31 €",
+      "image": "/images/products/cache-prise-dreambaby-cles.jpg",
+      "category": "cache-prise",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0049GY2R8?tag=secure012de-21",
+      "pros": [
+        "Marque néo-zélandaise très populaire en puériculture",
+        "Retrait facile pour un adulte grâce à la clé fournie"
+      ],
+      "cons": [
+        "Stock limité chez ce vendeur au moment de la vérification"
+      ]
+    },
+    {
+      "name": "Cache Prise Bébé Electrique Universal, Lot de 24 (20+4)",
+      "price": "8,49 €",
+      "image": "/images/products/cache-prise-universal-24pcs.jpg",
+      "category": "cache-prise",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07VPKFTS9?tag=secure012de-21",
+      "pros": [
+        "24 unités, largement de quoi équiper toute la maison",
+        "Compatible prises Schuko 10/16A standards françaises"
+      ],
+      "cons": [
+        "Marque générique, finition moins soignée que Reer ou Safety 1st"
+      ]
+    },
+    {
+      "name": "HOMYBABY Cache Prise Bébé Français, Pack x20 + E-book",
+      "price": "8,99 €",
+      "image": "/images/products/cache-prise-homybaby-20pcs.jpg",
+      "category": "cache-prise",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DWSZK3CR?tag=secure012de-21",
+      "pros": [
+        "Conçu pour les prises françaises type E, sans clé ni adhésif",
+        "Livré avec un e-book de conseils sécurité bébé"
+      ],
+      "cons": [
+        "Amovible facilement par un enfant plus grand et déterminé"
+      ]
+    }
+  ]
+}

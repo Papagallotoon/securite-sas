@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-boites-a-cles-connectees",
+  "title": "Top 5 Boîtes à Clés Connectées pour Sécuriser vos Doubles",
+  "excerpt": "Lockbox extérieures avec ouverture par Bluetooth, application ou code : notre comparatif des meilleures boîtes à clés connectées en 2026.",
+  "hookSubject": "les meilleures boîtes à clés connectées",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "SEPOX Boîte à Clés Connectée Bluetooth IP65",
+      "price": "79,99 €",
+      "image": "/images/products/sepox-boite-cles-bluetooth.jpg",
+      "category": "boite-a-cles",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D86T1G7C?tag=secure012de-21",
+      "pros": [
+        "Prix accessible pour une boîte connectée",
+        "Clavier anti-espionnage, étanche IP65"
+      ],
+      "cons": [
+        "Contrôle en Bluetooth uniquement, pas de WiFi"
+      ]
+    },
+    {
+      "name": "Populife Boîte à Clés avec Empreinte Digitale",
+      "price": "119,99 €",
+      "image": "/images/products/populife-boite-cles-empreinte.jpg",
+      "category": "boite-a-cles",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GD6WH6G4?tag=secure012de-21",
+      "pros": [
+        "Ouverture par empreinte digitale en plus du code",
+        "Fonctionne aussi hors ligne, accès à distance possible"
+      ],
+      "cons": [
+        "Application parfois nécessaire pour la configuration initiale"
+      ]
+    },
+    {
+      "name": "ABUS Boîte à Clés Connectée 787",
+      "price": "140,26 €",
+      "image": "/images/products/abus-boite-cles-787.jpg",
+      "category": "boite-a-cles",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09KNR761L?tag=secure012de-21",
+      "pros": [
+        "Marque allemande reconnue en sécurité",
+        "Grande capacité, jusqu'à 20 clés"
+      ],
+      "cons": [
+        "Design moins discret que les modèles compacts"
+      ]
+    },
+    {
+      "name": "igloohome Smart Keybox 3",
+      "price": "159,00 €",
+      "image": "/images/products/igloohome-smart-keybox-3.jpg",
+      "category": "boite-a-cles",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07G8CVQNK?tag=secure012de-21",
+      "pros": [
+        "Génère des codes PIN et Bluetooth à distance sans internet",
+        "Synchronisation Airbnb native, très fiable pour la location"
+      ],
+      "cons": [
+        "Un peu volumineuse pour un usage résidentiel simple"
+      ]
+    },
+    {
+      "name": "Master Lock Boîte à Clés Connectée Bluetooth",
+      "price": "220,33 €",
+      "image": "/images/products/masterlock-boite-cles-bluetooth.jpg",
+      "category": "boite-a-cles",
+      "affiliateUrl": "https://www.amazon.fr/dp/B072LC6VKP?tag=secure012de-21",
+      "pros": [
+        "Marque historique et très fiable en cadenas/serrures",
+        "Boîtier compact en zinc résistant aux intempéries"
+      ],
+      "cons": [
+        "Tarif élevé comparé aux alternatives génériques"
+      ]
+    }
+  ]
+}

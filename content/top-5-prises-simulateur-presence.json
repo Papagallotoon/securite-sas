@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-prises-simulateur-presence",
+  "title": "Top 5 Prises Connectées avec Simulateur de Présence Anti-Cambriolage",
+  "excerpt": "Absent de chez vous ? Ces prises programmables allument lampes, radios ou téléviseurs à des horaires aléatoires pour simuler une présence et dissuader les cambrioleurs.",
+  "hookSubject": "les meilleures prises connectées simulateur de présence anti-cambriolage",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "TP-Link Tapo P100, Prise Connectée WiFi",
+      "price": "9,99 €",
+      "image": "/images/products/prise-simulateur-tapo-p100.jpg",
+      "category": "prise-connectee",
+      "affiliateUrl": "https://www.amazon.fr/dp/B089B6ZJ22?tag=secure012de-21",
+      "pros": [
+        "Prix imbattable, aucun hub nécessaire",
+        "Programmation par horaires et mode aléatoire via l'appli Tapo"
+      ],
+      "cons": [
+        "WiFi 2,4 GHz uniquement, dépend de votre box internet"
+      ]
+    },
+    {
+      "name": "VIRONE DT-4 Prise Programmable avec Simulateur de Présence",
+      "price": "17,29 €",
+      "image": "/images/products/prise-simulateur-virone-dt4.jpg",
+      "category": "prise-connectee",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BBFL6PXM?tag=secure012de-21",
+      "pros": [
+        "Fonctionne sans WiFi ni smartphone, 16 programmes horaires",
+        "Afficheur LCD, mode simulateur de présence intégré"
+      ],
+      "cons": [
+        "Pas de contrôle à distance depuis l'extérieur"
+      ]
+    },
+    {
+      "name": "SURFOU Prise Connectée WiFi, Lot de 3",
+      "price": "30,40 €",
+      "image": "/images/products/prise-simulateur-surfou-lot3.jpg",
+      "category": "prise-connectee",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CKSZL9DW?tag=secure012de-21",
+      "pros": [
+        "3 prises pour équiper plusieurs pièces d'un coup",
+        "Compatible Alexa et Google Assistant, minuterie et télécommande"
+      ],
+      "cons": [
+        "Application Tuya/Smart Life parfois lente à se connecter"
+      ]
+    },
+    {
+      "name": "Meross Prise Connectée WiFi avec Mesure de Consommation, Lot de 4",
+      "price": "36,99 €",
+      "image": "/images/products/prise-simulateur-meross-4pcs.jpg",
+      "category": "prise-connectee",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GV46P7RB?tag=secure012de-21",
+      "pros": [
+        "Suivi de la consommation électrique en temps réel",
+        "Compatible Apple HomeKit, Alexa et Google Home"
+      ],
+      "cons": [
+        "Configuration initiale via Bluetooth un peu technique"
+      ]
+    },
+    {
+      "name": "Legrand Prise Mobile Connectée 16A (finition Graphite)",
+      "price": "61,18 €",
+      "image": "/images/products/prise-simulateur-legrand-mobile.jpg",
+      "category": "prise-connectee",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0B6CSNRS6?tag=secure012de-21",
+      "pros": [
+        "Marque française reconnue, finition premium",
+        "Notifications d'activité et suivi de consommation détaillé"
+      ],
+      "cons": [
+        "Prix nettement plus élevé qu'une prise WiFi générique"
+      ]
+    }
+  ]
+}

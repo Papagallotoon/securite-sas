@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-detecteurs-bris-vitre-fenetre",
+  "title": "Top 5 Détecteurs de Bris de Vitre et Capteurs de Vibration pour Fenêtres",
+  "excerpt": "Ces capteurs détectent la vibration ou le bris d'une vitre avant même qu'un intrus n'entre chez vous, pour une alerte précoce sur vos fenêtres et baies vitrées.",
+  "hookSubject": "les meilleurs détecteurs de bris de vitre pour sécuriser vos fenêtres",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "Nivian NVS-VIBRATION2, Détecteur sans Fil de Vibration et Bris de Vitre",
+      "price": "12,99 €",
+      "image": "/images/products/detecteur-bris-vitre-nivian.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FWCNQ7HB?tag=secure012de-21",
+      "pros": [
+        "Prix très accessible, installation sans câble",
+        "Portée jusqu'à 100 m"
+      ],
+      "cons": [
+        "Fonctionne surtout en complément d'un système d'alarme Nivian 433 MHz"
+      ]
+    },
+    {
+      "name": "Smartwares SMA-40952, Alarme Capteur Bris de Vitre",
+      "price": "17,97 €",
+      "image": "/images/products/detecteur-bris-vitre-smartwares.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07QBDCJX6?tag=secure012de-21",
+      "pros": [
+        "Marque néerlandaise reconnue en sécurité domestique",
+        "Fonctionne de façon autonome, sans hub ni abonnement"
+      ],
+      "cons": [
+        "Sirène locale uniquement, pas de notification smartphone"
+      ]
+    },
+    {
+      "name": "frient Capteur de Vibration Zigbee",
+      "price": "30,95 €",
+      "image": "/images/products/detecteur-bris-vitre-frient-zigbee.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FNF8VNNK?tag=secure012de-21",
+      "pros": [
+        "Accéléromètre 3 axes, 15 niveaux de sensibilité réglables",
+        "S'intègre à un écosystème domotique Zigbee (SmartThings, Homey)"
+      ],
+      "cons": [
+        "Nécessite un hub Zigbee compatible pour fonctionner"
+      ]
+    },
+    {
+      "name": "Daewoo Security WDV301, Contacteur Ouverture et Vibration 2-en-1",
+      "price": "38,62 €",
+      "image": "/images/products/detecteur-bris-vitre-daewoo-wdv301.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FTFQTTP3?tag=secure012de-21",
+      "pros": [
+        "Combine détection d'ouverture ET de vibration en un seul boîtier",
+        "Alerte avant intrusion, sans abonnement requis"
+      ],
+      "cons": [
+        "Plus cher qu'un simple capteur de vibration seul"
+      ]
+    },
+    {
+      "name": "Cozier Alarme Antivol Vibration Rupture Vitres, Lot de 8",
+      "price": "44,99 €",
+      "image": "/images/products/detecteur-bris-vitre-cozier-8pcs.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08ZJ92T9F?tag=secure012de-21",
+      "pros": [
+        "8 unités pour équiper toutes les fenêtres de la maison",
+        "Sirène puissante 120 dB, idéal pour dissuader avant l'entrée"
+      ],
+      "cons": [
+        "Qualité de fabrication plus basique qu'une marque spécialisée"
+      ]
+    }
+  ]
+}

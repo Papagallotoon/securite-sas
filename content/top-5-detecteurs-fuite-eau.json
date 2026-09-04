@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-detecteurs-fuite-eau",
+  "title": "Top 5 Détecteurs de Fuite d'Eau Connectés pour Éviter les Dégâts",
+  "excerpt": "Une fuite ou un début d'inondation détecté en quelques secondes, avec alerte directe sur smartphone : notre comparatif des meilleurs détecteurs de fuite d'eau connectés.",
+  "hookSubject": "les meilleurs détecteurs de fuite d'eau connectés",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "SwitchBot Capteur d'Eau WiFi",
+      "price": "16,99 €",
+      "image": "/images/products/switchbot-capteur-eau-wifi.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CRRL9DNN?tag=secure012de-21",
+      "pros": [
+        "WiFi natif, aucun hub supplémentaire nécessaire",
+        "Alertes d'application réglables jusqu'à 100dB, étanche IP67"
+      ],
+      "cons": [
+        "Portée du câble de détection limitée"
+      ]
+    },
+    {
+      "name": "Tapo Capteur de Fuite d'Eau WiFi T300",
+      "price": "19,99 €",
+      "image": "/images/products/tapo-t300-capteur-eau.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CB8Q3X4N?tag=secure012de-21",
+      "pros": [
+        "Notification instantanée via l'application Tapo",
+        "Étanche IP67, très compact sous évier ou machine à laver"
+      ],
+      "cons": [
+        "Nécessite le Tapo Hub pour fonctionner"
+      ]
+    },
+    {
+      "name": "Konyks Osafe Détecteur de Fuite d'Eau Connecté",
+      "price": "26,98 €",
+      "image": "/images/products/konyks-osafe-fuite-eau.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F29FQ7XR?tag=secure012de-21",
+      "pros": [
+        "Marque française, connexion WiFi directe sans hub",
+        "Installation simple, application intuitive"
+      ],
+      "cons": [
+        "Moins d'intégrations domotiques que les grandes marques"
+      ]
+    },
+    {
+      "name": "Shelly Flood Gen4",
+      "price": "36,49 €",
+      "image": "/images/products/shelly-flood-gen4.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FPG9SGLJ?tag=secure012de-21",
+      "pros": [
+        "Multi-protocole : WiFi, Zigbee, Bluetooth et Matter",
+        "Compatible Apple HomeKit, Alexa et Google Home"
+      ],
+      "cons": [
+        "Configuration plus technique pour profiter de tous les protocoles"
+      ]
+    },
+    {
+      "name": "X-Sense Kit Détecteurs de Fuite d'Eau avec Base SWS55",
+      "price": "50,53 €",
+      "image": "/images/products/xsense-kit-sws55-fuite-eau.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F42XJBBJ?tag=secure012de-21",
+      "pros": [
+        "Kit multi-capteurs, idéal pour surveiller plusieurs pièces",
+        "Portée radio jusqu'à 500m, sirène 110dB très audible"
+      ],
+      "cons": [
+        "Base SBS50 obligatoire, budget total plus élevé"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-interphones-video-connectes",
+  "title": "Top 5 Interphones Vidéo Connectés pour Sécuriser votre Entrée",
+  "excerpt": "Visiophones avec écran tactile et ouverture à distance via smartphone : notre sélection coup de cœur des meilleurs interphones vidéo connectés.",
+  "hookSubject": "les meilleurs interphones vidéo connectés",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "NIVIAN Interphone Vidéo WiFi Full HD 7\"",
+      "price": "159,99 €",
+      "image": "/images/products/nivian-interphone-wifi.jpg",
+      "category": "interphone",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F1ZBYDQJ?tag=secure012de-21",
+      "pros": [
+        "Grand écran tactile 7 pouces inclus",
+        "Ouverture à distance via l'application Tuya"
+      ],
+      "cons": [
+        "Installation filaire 2 fils à prévoir"
+      ]
+    },
+    {
+      "name": "EZVIZ Visiophone Connecté WiFi CP5",
+      "price": "189,99 €",
+      "image": "/images/products/ezviz-cp5-visiophone.jpg",
+      "category": "interphone",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DHVRDXNX?tag=secure012de-21",
+      "pros": [
+        "Marque reconnue et fiable en vidéosurveillance connectée",
+        "Déverrouillage à distance, audio bidirectionnel"
+      ],
+      "cons": [
+        "Nécessite un compte et l'app EZVIZ pour toutes les fonctions"
+      ]
+    },
+    {
+      "name": "Imou 3K Visiophone Connecté 2 Fils",
+      "price": "209,99 €",
+      "image": "/images/products/imou-3k-visiophone.jpg",
+      "category": "interphone",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GVS83X4G?tag=secure012de-21",
+      "pros": [
+        "Détection intelligente personne/véhicule",
+        "Déverrouillage par code, carte, app ou moniteur intérieur"
+      ],
+      "cons": [
+        "Prix plus élevé que les modèles basiques"
+      ]
+    },
+    {
+      "name": "EZVIZ HP7 2K Visiophone Connecté",
+      "price": "259,90 €",
+      "image": "/images/products/ezviz-hp7-visiophone.jpg",
+      "category": "interphone",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BYSK333C?tag=secure012de-21",
+      "pros": [
+        "Résolution 2K nette de jour comme de nuit",
+        "WiFi double bande, étanche pour usage extérieur"
+      ],
+      "cons": [
+        "Investissement conséquent pour une seule entrée"
+      ]
+    },
+    {
+      "name": "Philips WelcomeEye Connect 3",
+      "price": "299,00 €",
+      "image": "/images/products/philips-welcomeeye-connect3.jpg",
+      "category": "interphone",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DYWZX2LW?tag=secure012de-21",
+      "pros": [
+        "Marque Philips reconnue, compatible Alexa et Google Home",
+        "Image 3K très nette, écran tactile 7 pouces"
+      ],
+      "cons": [
+        "Le plus onéreux de la sélection"
+      ]
+    }
+  ]
+}

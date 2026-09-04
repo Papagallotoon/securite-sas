@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-verrous-securite-enfant-placards",
+  "title": "Top 5 Verrous de Sécurité pour Placards, Tiroirs et Portes",
+  "excerpt": "Produits ménagers, tiroirs à couteaux, portes de placard : ces verrous anti-pincement empêchent les enfants d'ouvrir ce qui doit rester fermé.",
+  "hookSubject": "les meilleurs verrous de sécurité pour placards et tiroirs anti-pincement",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Lot de 10 Bloque-Portes Bébé Adhésif Fort",
+      "price": "13,99 €",
+      "image": "/images/products/verrou-enfant-lot10-adhesif.jpg",
+      "category": "verrou-enfant",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09F656CBN?tag=secure012de-21",
+      "pros": [
+        "Prix accessible pour équiper 10 placards ou tiroirs",
+        "Pose sans perçage, adhésif fort"
+      ],
+      "cons": [
+        "Sangle visible, moins discret qu'un verrou magnétique"
+      ]
+    },
+    {
+      "name": "REDTRON Verrous d'Armoire avec Double Interrupteur de Sécurité, Lot de 4",
+      "price": "15,49 €",
+      "image": "/images/products/verrou-enfant-redtron-4pack.jpg",
+      "category": "verrou-enfant",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CQQGLJ38?tag=secure012de-21",
+      "pros": [
+        "Double interrupteur, quasi impossible à ouvrir pour un enfant",
+        "Non toxique, adhésif 3M solide"
+      ],
+      "cons": [
+        "Manipulation à deux mains parfois peu pratique au quotidien"
+      ]
+    },
+    {
+      "name": "Dioxide Serrure Magnétique Sécurité Enfant (10 Verrous + 2 Clés)",
+      "price": "16,99 €",
+      "image": "/images/products/verrou-enfant-dioxide-magnetique.jpg",
+      "category": "verrou-enfant",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BG2V4QFN?tag=secure012de-21",
+      "pros": [
+        "Verrouillage magnétique invisible, esthétique préservée",
+        "Ouverture rapide pour un adulte grâce à la clé aimantée"
+      ],
+      "cons": [
+        "Ne fonctionne que sur portes/tiroirs alignés côte à côte"
+      ]
+    },
+    {
+      "name": "Dokon Serrure Magnétique Invisible Sécurité Bébé (10 Verrous + 2 Clés)",
+      "price": "18,99 €",
+      "image": "/images/products/verrou-enfant-dokon-magnetique.jpg",
+      "category": "verrou-enfant",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07N18SHYM?tag=secure012de-21",
+      "pros": [
+        "Installation sans perçage avec vidéo d'aide fournie",
+        "Verrou totalement invisible une fois posé"
+      ],
+      "cons": [
+        "Nécessite de bien garder la clé à portée de main"
+      ]
+    },
+    {
+      "name": "Hoffenbach Serrure Magnétique Invisible (12 Verrous + 3 Clés)",
+      "price": "19,99 €",
+      "image": "/images/products/verrou-enfant-hoffenbach-magnetique.jpg",
+      "category": "verrou-enfant",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DMTJXH9W?tag=secure012de-21",
+      "pros": [
+        "Marque allemande spécialiste de la sécurité bébé",
+        "12 verrous et 3 clés, largement de quoi équiper toute la cuisine"
+      ],
+      "cons": [
+        "Investissement plus élevé que les lots adhésifs basiques"
+      ]
+    }
+  ]
+}

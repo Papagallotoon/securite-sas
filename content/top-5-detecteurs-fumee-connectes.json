@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-detecteurs-fumee-connectes",
+  "title": "Top 5 Détecteurs de Fumée Connectés pour Protéger votre Maison",
+  "excerpt": "Alertes en temps réel sur smartphone, même quand vous n'êtes pas chez vous : notre sélection coup de cœur des meilleurs détecteurs de fumée connectés.",
+  "hookSubject": "les meilleurs détecteurs de fumée connectés",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "Konyks Easy Détecteur de Fumée Connecté WiFi + Bluetooth",
+      "price": "28,99 €",
+      "image": "/images/products/konyks-easy-detecteur-fumee.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0B7SP58DM?tag=secure012de-21",
+      "pros": [
+        "Marque française, prix très accessible",
+        "Double connectivité WiFi et Bluetooth"
+      ],
+      "cons": [
+        "Application moins riche que les grandes marques spécialisées"
+      ]
+    },
+    {
+      "name": "X-Sense Détecteur de Fumée Connecté WiFi XS0B-iR",
+      "price": "39,99 €",
+      "image": "/images/products/xsense-xs0b-detecteur-fumee.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FCMG6N93?tag=secure012de-21",
+      "pros": [
+        "Alertes vocales en français, mode nuit",
+        "Marque X-Sense spécialiste reconnue de la détection incendie"
+      ],
+      "cons": [
+        "Vendu à l'unité, kit multi-pièces plus économique par détecteur"
+      ]
+    },
+    {
+      "name": "X-Sense Détecteur de Fumée et de CO Connecté WiFi SC07-WX",
+      "price": "49,99 €",
+      "image": "/images/products/xsense-sc07-fumee-co.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CM3KGFGB?tag=secure012de-21",
+      "pros": [
+        "Détecte à la fois fumée et monoxyde de carbone",
+        "Écran LCD et notifications en temps réel via l'application"
+      ],
+      "cons": [
+        "Plus volumineux qu'un détecteur de fumée simple"
+      ]
+    },
+    {
+      "name": "X-Sense Kit Détecteur de Fumée Connecté avec Base SBS50 FS31",
+      "price": "71,99 €",
+      "image": "/images/products/xsense-kit-fs31-base.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CBTWJP2Y?tag=secure012de-21",
+      "pros": [
+        "Compatible Home Assistant pour les utilisateurs avancés",
+        "Contrôle et notifications à distance via l'application"
+      ],
+      "cons": [
+        "Base SBS50 à acheter en plus pour étendre le réseau"
+      ]
+    },
+    {
+      "name": "Meross Matter Détecteur de Fumée Connecté 6 Pièces avec Hub MSH450",
+      "price": "149,99 €",
+      "image": "/images/products/meross-matter-fumee-6pieces.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0G47LHXTM?tag=secure012de-21",
+      "pros": [
+        "Kit complet pour équiper toute la maison, compatible Matter",
+        "Double capteur optique, compatible Apple Home et Home Assistant"
+      ],
+      "cons": [
+        "Hub MSH450 indispensable au fonctionnement connecté"
+      ]
+    }
+  ]
+}

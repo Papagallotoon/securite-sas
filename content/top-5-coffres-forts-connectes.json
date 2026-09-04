@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-coffres-forts-connectes",
+  "title": "Top 5 Coffres-Forts Connectés pour Protéger vos Objets de Valeur",
+  "excerpt": "Ouverture par code ou application, alertes en cas d'effraction : notre sélection des meilleurs coffres-forts connectés pour la maison en 2026.",
+  "hookSubject": "les meilleurs coffres-forts connectés",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Yale Coffre-Fort Électronique Small YSV/200/DB2",
+      "price": "45,72 €",
+      "image": "/images/products/yale-ysv200-small.jpg",
+      "category": "coffre-fort",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0B4BJ4D63?tag=secure012de-21",
+      "pros": [
+        "Marque reconnue, serrure électronique 100 000 combinaisons",
+        "Format compact facile à fixer au sol ou en armoire"
+      ],
+      "cons": [
+        "Pas de connexion app, code uniquement"
+      ]
+    },
+    {
+      "name": "Amazon Basics Coffre-Fort Électronique 14L",
+      "price": "73,17 €",
+      "image": "/images/products/amazon-basics-coffre-14l.jpg",
+      "category": "coffre-fort",
+      "affiliateUrl": "https://www.amazon.fr/dp/B00UG9HB1Q?tag=secure012de-21",
+      "pros": [
+        "Bon volume de rangement pour documents et bijoux",
+        "Clavier numérique programmable, fixation murale/sol incluse"
+      ],
+      "cons": [
+        "Aucune alerte à distance en cas de tentative d'effraction"
+      ]
+    },
+    {
+      "name": "Xcase Coffre-Fort Connecté avec Lecteur d'Empreinte et Passerelle WiFi",
+      "price": "119,95 €",
+      "image": "/images/products/xcase-coffre-connecte-wifi.jpg",
+      "category": "coffre-fort",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CWQ9X632?tag=secure012de-21",
+      "pros": [
+        "Ouverture par empreinte digitale, code ou passerelle WiFi",
+        "Suivi et notifications d'ouverture à distance"
+      ],
+      "cons": [
+        "Configuration de la passerelle WiFi un peu technique"
+      ]
+    },
+    {
+      "name": "Uplock Evolution Mini Coffre-Fort Portable Connecté",
+      "price": "129,00 €",
+      "image": "/images/products/uplock-evolution.jpg",
+      "category": "coffre-fort",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0C6TZMC4P?tag=secure012de-21",
+      "pros": [
+        "Alarme anti-arrachement intégrée, très portable",
+        "Verrouillage interne robuste, idéal en complément du coffre principal"
+      ],
+      "cons": [
+        "Capacité réduite, pensé pour petits objets de valeur"
+      ]
+    },
+    {
+      "name": "Yale Coffre-Fort Connecté Haute Sécurité 20,5L YSS/250/EB1",
+      "price": "214,98 €",
+      "image": "/images/products/yale-yss250-connecte.jpg",
+      "category": "coffre-fort",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BN33DTT2?tag=secure012de-21",
+      "pros": [
+        "Contrôle d'accès à distance par application, partage de codes",
+        "Notifications d'ouverture en direct, marque premium reconnue"
+      ],
+      "cons": [
+        "Investissement élevé pour un coffre de cette taille"
+      ]
+    }
+  ]
+}

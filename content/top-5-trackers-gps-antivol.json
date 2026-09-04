@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-trackers-gps-antivol",
+  "title": "Top 5 Trackers GPS Anti-Vol pour Vélo, Valise et Objets de Valeur",
+  "excerpt": "Vélo, valise, sac à dos, voiture : ces trackers discrets permettent de localiser vos objets de valeur en cas de vol ou de perte.",
+  "hookSubject": "les meilleurs trackers GPS anti-vol pour vélo, valise et objets de valeur",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Samsung Galaxy SmartTag2, Noir",
+      "price": "17,02 €",
+      "image": "/images/products/gps-tracker-samsung-smarttag2.jpg",
+      "category": "tracker-gps",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CHN2D8KM?tag=secure012de-21",
+      "pros": [
+        "Prix très accessible, résistant IP67",
+        "Portée Bluetooth étendue et mode économie d'énergie longue durée"
+      ],
+      "cons": [
+        "Nécessite un smartphone Samsung/Android avec réseau SmartThings Find"
+      ]
+    },
+    {
+      "name": "ATUVOS Air Tag Traceur Lot de 4 (compatible iOS)",
+      "price": "23,99 €",
+      "image": "/images/products/gps-tracker-atuvos-lot4.jpg",
+      "category": "tracker-gps",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0C3V545KJ?tag=secure012de-21",
+      "pros": [
+        "Excellent rapport qualité-prix pour un lot de 4",
+        "Batterie remplaçable, léger et compact"
+      ],
+      "cons": [
+        "Fonctionne uniquement avec le réseau Localiser d'Apple (iOS)"
+      ]
+    },
+    {
+      "name": "UGREEN FineTrack Duo Tag, Lot de 4",
+      "price": "31,57 €",
+      "image": "/images/products/gps-tracker-ugreen-duo.jpg",
+      "category": "tracker-gps",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FRLWSGPW?tag=secure012de-21",
+      "pros": [
+        "Compatible à la fois avec Localiser (iOS) et Find Hub (Android)",
+        "Recharge USB-C, lot de 4 pour équiper plusieurs objets"
+      ],
+      "cons": [
+        "Moins connu que les grandes marques, réseau de détection plus restreint"
+      ]
+    },
+    {
+      "name": "Apple AirTag (1ère génération), Lot de 4",
+      "price": "99,99 €",
+      "image": "/images/products/gps-tracker-airtag-lot4.jpg",
+      "category": "tracker-gps",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0935JRJ59?tag=secure012de-21",
+      "pros": [
+        "Réseau Localiser Apple immense, précision Ultra Wideband sur iPhone récents",
+        "Configuration en un geste, résistant à l'eau"
+      ],
+      "cons": [
+        "Réservé à l'écosystème iPhone/iPad, pas de vrai GPS temps réel"
+      ]
+    },
+    {
+      "name": "Invoxia Bike Tracker - Traceur GPS Antivol Vélo Connecté",
+      "price": "129,00 €",
+      "image": "/images/products/gps-tracker-invoxia-bike.jpg",
+      "category": "tracker-gps",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F5BXC4XM?tag=secure012de-21",
+      "pros": [
+        "Vrai GPS/4G avec suivi en temps réel, pas besoin d'un téléphone à proximité",
+        "Réflecteur discret intégré, marque française, abonnement 1 an inclus"
+      ],
+      "cons": [
+        "Investissement plus élevé, abonnement à renouveler ensuite"
+      ]
+    }
+  ]
+}

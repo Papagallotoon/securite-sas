@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-protections-angles-meubles-enfant",
+  "title": "Top 5 Protections d'Angles et de Coins de Meubles pour Enfants",
+  "excerpt": "Table basse, buffet, plan de travail : ces protège-coins amortissent les chocs et évitent les bosses quand votre enfant apprend à marcher.",
+  "hookSubject": "les meilleures protections d'angles et de coins de meubles pour enfants",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "FUHOMI Coin de Table Protection Bébé, Lot de 24",
+      "price": "6,94 €",
+      "image": "/images/products/protection-angle-fuhomi-24pcs.jpg",
+      "category": "protection-angle",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0C7Q4SY3L?tag=secure012de-21",
+      "pros": [
+        "24 protège-coins pour équiper toute la maison à petit prix",
+        "Colle renforcée, transparents et discrets"
+      ],
+      "cons": [
+        "Adhésif moins durable sur surfaces laquées ou huilées"
+      ]
+    },
+    {
+      "name": "reer Protection de Coin",
+      "price": "9,99 €",
+      "image": "/images/products/protection-angle-reer.jpg",
+      "category": "protection-angle",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BXDVXSNT?tag=secure012de-21",
+      "pros": [
+        "Marque allemande spécialiste reconnue de la sécurité bébé",
+        "Mousse épaisse, bon amorti pour les chutes de tête"
+      ],
+      "cons": [
+        "Moins d'unités par lot que les packs génériques"
+      ]
+    },
+    {
+      "name": "Protections Coin de Table PVC Transparent avec Bande de Bord 6/4/2 m",
+      "price": "13,99 €",
+      "image": "/images/products/protection-angle-bumper-pvc.jpg",
+      "category": "protection-angle",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BR5TH5L7?tag=secure012de-21",
+      "pros": [
+        "Bande de protection pour toute la longueur du meuble, pas juste les angles",
+        "PVC transparent, discret sur meubles clairs"
+      ],
+      "cons": [
+        "Découpe et pose plus longues qu'un simple coin autocollant"
+      ]
+    },
+    {
+      "name": "Protections de Bords et d'Angles en Mousse, 4,9 m",
+      "price": "16,49 €",
+      "image": "/images/products/protection-angle-mousse-4m9.jpg",
+      "category": "protection-angle",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07DZSTTNT?tag=secure012de-21",
+      "pros": [
+        "Grande longueur de mousse pour couvrir plusieurs meubles",
+        "4 coins adhésifs inclus en complément"
+      ],
+      "cons": [
+        "Mousse plus visible qu'une protection transparente"
+      ]
+    },
+    {
+      "name": "Happy Chlea Kit Protection Bébé Complet (Bords 6,4 m + 8 Coins + Bloque-Tiroirs)",
+      "price": "22,44 €",
+      "image": "/images/products/protection-angle-happychlea-kit.jpg",
+      "category": "protection-angle",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07D81QSG4?tag=secure012de-21",
+      "pros": [
+        "Kit complet : bords, coins, bloque-tiroirs et bloque-porte inclus",
+        "Une seule commande pour sécuriser tout un salon"
+      ],
+      "cons": [
+        "Prix plus élevé qu'un simple lot de protège-coins"
+      ]
+    }
+  ]
+}
