@@ -15,6 +15,14 @@ export const CHIME_PATH = path.join(__dirname, "assets", "chime.mp3");
 // photo each time (no themed image pool for this niche yet, and reusing
 // the same product shot repeatedly looked repetitive).
 export const INTRO_BG_PATH = path.join(__dirname, "assets", "intro-bg.png");
+// Fixed brand bumper shown at the very start of every video, identical
+// every time — the one recognizable element that doesn't vary with the
+// topic (unlike the AI-generated cover, which is per-article on purpose).
+export const TITLE_CARD_PATH = path.join(__dirname, "assets", "title-card.png");
+// Subtle cool/blue push applied to every image in every video, so the
+// channel has a consistent visual signature even though the underlying
+// photos vary a lot from one topic to the next.
+export const COLOR_GRADE = "eq=saturation=1.06:contrast=1.05,colorbalance=bm=0.06:gm=0.01:bh=0.03";
 // Multilingual-generation neural voice — sounds noticeably warmer/more
 // natural than the older single-locale neural voices (e.g. DeniseNeural).
 export const TTS_VOICE = "fr-FR-VivienneMultilingualNeural";
