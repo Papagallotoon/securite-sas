@@ -5,7 +5,7 @@ import { buildScript } from "./build-script.mjs";
 import { synthesizeLines } from "./tts.mjs";
 import { renderVideo } from "./render.mjs";
 import { uploadVideo } from "./upload.mjs";
-import { generateIntroImage } from "./generate-image.mjs";
+import { generateThemedImage } from "./generate-image.mjs";
 import { TMP_DIR, OUT_DIR, INTRO_BG_PATH } from "./config.mjs";
 
 async function main() {
@@ -28,12 +28,19 @@ async function main() {
   fs.rmSync(runTmpDir, { recursive: true, force: true });
   fs.mkdirSync(runTmpDir, { recursive: true });
 
-  const generatedCoverPath = path.join(runTmpDir, "cover-generated.png");
-  const generated = await generateIntroImage(article, generatedCoverPath);
-  const coverImage = generated ? generatedCoverPath : INTRO_BG_PATH;
-  console.log(generated ? "Generated a themed cover image with OpenAI" : "Using the static brand background");
+  const introCoverPath = path.join(runTmpDir, "cover-intro.png");
+  const outroCoverPath = path.join(runTmpDir, "cover-outro.png");
+  const introGenerated = await generateThemedImage(article, "intro", introCoverPath);
+  const outroGenerated = await generateThemedImage(article, "outro", outroCoverPath);
+  const coverImage = introGenerated ? introCoverPath : INTRO_BG_PATH;
+  const outroImage = outroGenerated ? outroCoverPath : coverImage;
+  console.log(
+    introGenerated
+      ? `Generated themed cover images with OpenAI (outro: ${outroGenerated ? "distinct" : "reused intro"})`
+      : "Using the static brand background"
+  );
 
-  const scriptLines = buildScript(article, { coverImage });
+  const scriptLines = buildScript(article, { coverImage, outroImage });
   console.log(`Built script with ${scriptLines.length} lines`);
 
   const linesWithAudio = await synthesizeLines(scriptLines, runTmpDir);
