@@ -38,6 +38,23 @@ function buildHookTitle(article) {
 
 const RANK_EMOJIS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"];
 
+// securite-sas slug -> matching article path on securitemaison-site (the
+// French companion site — see New Aff/securitemaison-site). Every slug
+// here MUST have a real article on that site; add the article there
+// first (and deploy it) before adding its mapping here.
+const SITE_ARTICLE_PATHS = {
+  "top-5-cameras-securite-connectees": "/detection/cameras-de-securite-connectees",
+  "top-5-eclairage-exterieur-connecte": "/perimeter/eclairage-exterieur-connecte",
+  "top-5-detecteurs-alarme-diy": "/detection/detecteurs-pour-alarme-diy",
+  "top-5-serrures-alarmes-connectees": "/perimeter/serrures-et-alarmes-connectees",
+  "top-5-sonnettes-video-connectees": "/detection/sonnettes-video-connectees",
+  "top-5-boites-a-cles-connectees": "/perimeter/boites-a-cles-connectees",
+  "top-5-caches-prises-securite-enfant": "/family/caches-prises-securite-enfant",
+  "top-5-coffres-forts-connectes": "/perimeter/coffres-forts-connectes",
+  "top-5-detecteurs-bris-vitre-fenetre": "/detection/detecteurs-bris-vitre-fenetre",
+};
+const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
+
 function buildDescription(article) {
   // Same cheapest-to-priciest order as the video (see build-script.mjs) so
   // the numbering here actually matches what's on screen.
@@ -47,9 +64,15 @@ function buildDescription(article) {
     .map((p, i) => `${RANK_EMOJIS[i] || `${i + 1}.`} ${p.name} — ${p.price}\n🛒 ${p.affiliateUrl}`)
     .join("\n\n");
 
+  const articlePath = SITE_ARTICLE_PATHS[article.slug];
+  const siteLine = articlePath
+    ? [`📖 Le comparatif complet : ${SITE_DOMAIN}${articlePath}`, ""]
+    : [];
+
   return [
     article.excerpt,
     "",
+    ...siteLine,
     "Les produits de la vidéo, dans l'ordre :",
     "",
     links,

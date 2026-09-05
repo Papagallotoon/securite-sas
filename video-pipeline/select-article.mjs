@@ -34,8 +34,18 @@ export function loadArticleBySlug(slug) {
   return { slug, article };
 }
 
-// Picks the next article that hasn't been turned into a video yet.
-// Returns null once every article has been used at least once.
+// Child-safety topics (bébé-proofing) are outperforming the rest of the
+// catalog — bump them ahead of the regular alphabetical queue instead of
+// waiting for their turn. Remove a slug here once it's been published;
+// anything not listed just falls back to the normal order below.
+const PRIORITY_SLUGS = [
+  "top-5-protections-angles-meubles-enfant",
+  "top-5-verrous-securite-enfant-placards",
+];
+
+// Picks the next article that hasn't been turned into a video yet —
+// priority slugs first (see above), then alphabetical order. Returns null
+// once every article has been used at least once.
 export function selectNextArticle() {
   const state = loadState();
   const files = fs
@@ -43,13 +53,26 @@ export function selectNextArticle() {
     .filter((f) => f.endsWith(".json"))
     .sort();
 
-  for (const file of files) {
-    const slug = file.replace(/\.json$/, "");
-    if (state.usedSlugs.includes(slug)) continue;
+  const bySlug = (slug) => {
+    const file = `${slug}.json`;
+    if (!files.includes(file)) return null;
+    if (state.usedSlugs.includes(slug)) return null;
     const article = JSON.parse(fs.readFileSync(path.join(ARTICLES_DIR, file), "utf8"));
     article.products = (article.products || []).filter(hasRealPrice);
-    if (article.products.length === 0) continue;
+    if (article.products.length === 0) return null;
     return { slug, article };
+  };
+
+  for (const slug of PRIORITY_SLUGS) {
+    const picked = bySlug(slug);
+    if (picked) return picked;
+  }
+
+  for (const file of files) {
+    const slug = file.replace(/\.json$/, "");
+    if (PRIORITY_SLUGS.includes(slug)) continue; // already tried above
+    const picked = bySlug(slug);
+    if (picked) return picked;
   }
   return null;
 }
