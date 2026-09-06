@@ -38,6 +38,32 @@ function buildHookTitle(article) {
 
 const RANK_EMOJIS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"];
 
+// Extra keywords per product category, layered on top of the fixed base
+// tags below — makes each video's tags match what people actually search
+// for that topic, instead of every video carrying the same four generic
+// words regardless of subject.
+const CATEGORY_TAGS = {
+  "camera-interieure": ["camera interieure", "camera surveillance maison"],
+  "camera-exterieure": ["camera exterieure", "camera surveillance maison"],
+  eclairage: ["projecteur solaire", "eclairage exterieur connecte"],
+  detecteur: ["detecteur mouvement", "alarme maison sans fil"],
+  serrure: ["serrure connectee", "serrure intelligente"],
+  alarme: ["alarme maison", "systeme alarme connecte"],
+  sonnette: ["sonnette video", "visiophone connecte"],
+  "boite-a-cles": ["boite a cles connectee", "lockbox"],
+  "cache-prise": ["securite enfant maison", "protection bebe maison"],
+  "protection-angle": ["securite enfant maison", "protection bebe maison"],
+  "verrou-enfant": ["securite enfant maison", "protection bebe maison"],
+  "coffre-fort": ["coffre fort connecte", "coffre fort maison"],
+};
+
+function buildTags(article) {
+  const base = ["securite maison", "maison connectee", "domotique", "shorts"];
+  const fromCategories = [...new Set(article.products.map((p) => p.category))]
+    .flatMap((cat) => CATEGORY_TAGS[cat] || []);
+  return [...new Set([...base, ...fromCategories])];
+}
+
 // securite-sas slug -> matching article path on securitemaison-site (the
 // French companion site — see New Aff/securitemaison-site). Every slug
 // here MUST have a real article on that site; add the article there
@@ -96,7 +122,7 @@ export async function uploadVideo({ videoPath, article }) {
       snippet: {
         title: buildHookTitle(article),
         description: buildDescription(article),
-        tags: ["securite maison", "domotique", "maison connectee", "shorts"],
+        tags: buildTags(article),
         categoryId: "26", // Howto & Style
       },
       status: {
