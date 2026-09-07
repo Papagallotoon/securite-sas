@@ -27,7 +27,7 @@ const HOOK_TEMPLATES = [
   (t) => `${t} 🔒`,
   (t) => `${t} — le n°1 va te surprendre`,
   (t) => `${t} ✅ (notre coup de cœur en dernier)`,
-  (t) => `Stop scroll 🛑 : ${t}`,
+  (t) => `À voir avant d'acheter 👀 : ${t}`,
   (t) => `${t} 🏠 à shopper direct`,
 ];
 
