@@ -78,6 +78,7 @@ const SITE_ARTICLE_PATHS = {
   "top-5-caches-prises-securite-enfant": "/family/caches-prises-securite-enfant",
   "top-5-coffres-forts-connectes": "/perimeter/coffres-forts-connectes",
   "top-5-detecteurs-bris-vitre-fenetre": "/detection/detecteurs-bris-vitre-fenetre",
+  "top-5-interphones-video-connectes": "/detection/interphones-video-connectes",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 
