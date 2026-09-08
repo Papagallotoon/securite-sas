@@ -17,6 +17,9 @@ function toFilterPath(absPath) {
 }
 
 const CAPTION_MAX_CHARS_PER_LINE = 26;
+// Hero title is drawn at fontsize 72 vs 48 for regular captions — wrap
+// proportionally tighter (26 * 48/72) or long titles overflow the frame.
+const HERO_CAPTION_MAX_CHARS_PER_LINE = 18;
 
 // drawtext has no built-in word-wrap, and product names regularly overflow
 // the 1080px frame at a readable font size — wrap manually, word by word,
@@ -80,7 +83,7 @@ function findFontFile() {
   return candidates.find((c) => fs.existsSync(c)) || null;
 }
 
-async function renderSegment({ imagePath, audioPath, captionPath, duration, outPath, fontFile, fullBleed }) {
+async function renderSegment({ imagePath, audioPath, captionPath, duration, outPath, fontFile, fullBleed, hero }) {
   const caption = toFilterPath(captionPath);
   const drawtextFont = fontFile ? `fontfile=${toFilterPath(fontFile)}` : `font=DejaVu Sans Bold`;
 
@@ -89,13 +92,22 @@ async function renderSegment({ imagePath, audioPath, captionPath, duration, outP
     // Plain brand backdrop (solid color / vignette, not a product photo):
     // no blur+darken bg vs. sharp fg split here — on a near-flat image that
     // split left a visible rectangle seam where the two layers met.
+    // The intro ("hero") gets its own bigger, vertically-centered title
+    // treatment — no black box, a border+shadow instead — since there's no
+    // AI-generated photo underneath it anymore to carry visual interest;
+    // every other fullBleed line (outro, conclusion) keeps the compact
+    // bottom-boxed caption style.
+    const textStyle = hero
+      ? `fontcolor=white:fontsize=72:line_spacing=16:` +
+        `borderw=5:bordercolor=black@0.9:shadowcolor=black@0.6:shadowx=0:shadowy=6:` +
+        `x=(w-text_w)/2:y=(h-text_h)/2`
+      : `fontcolor=white:fontsize=48:line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=24:` +
+        `x=(w-text_w)/2:y=h-th-180`;
     filter =
       `[0:v]scale=${VIDEO_WIDTH}:${VIDEO_HEIGHT}:force_original_aspect_ratio=increase,` +
       `crop=${VIDEO_WIDTH}:${VIDEO_HEIGHT},${COLOR_GRADE},` +
       `zoompan=z='min(zoom+0.0012,1.09)':d=1:s=${VIDEO_WIDTH}x${VIDEO_HEIGHT}:fps=${FPS},setsar=1[zoomed];` +
-      `[zoomed]drawtext=${drawtextFont}:textfile=${caption}:fontcolor=white:fontsize=48:` +
-      `line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=24:` +
-      `x=(w-text_w)/2:y=h-th-180[v]`;
+      `[zoomed]drawtext=${drawtextFont}:textfile=${caption}:${textStyle}[v]`;
   } else {
     // Two layers so the product is never cropped: a blurred cover-fill
     // background (fills the vertical frame) behind a "contain"-fit foreground
@@ -199,7 +211,11 @@ export async function renderVideo({ lines, article, tmpDir, outPath }) {
     }
 
     const captionPath = path.join(tmpDir, line.id, "caption.txt");
-    fs.writeFileSync(captionPath, wrapCaption(line.caption));
+    // The hero title is drawn at a much bigger fontsize than regular
+    // captions (72 vs 48) — needs a proportionally tighter wrap or long
+    // titles overflow past the frame edges.
+    const wrapWidth = line.hero ? HERO_CAPTION_MAX_CHARS_PER_LINE : CAPTION_MAX_CHARS_PER_LINE;
+    fs.writeFileSync(captionPath, wrapCaption(line.caption, wrapWidth));
 
     const segmentPath = path.join(tmpDir, `segment-${i}.mp4`);
     await renderSegment({
@@ -210,6 +226,7 @@ export async function renderVideo({ lines, article, tmpDir, outPath }) {
       outPath: segmentPath,
       fontFile,
       fullBleed: line.fullBleed,
+      hero: line.hero,
     });
     segmentPaths.push(segmentPath);
   }

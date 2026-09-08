@@ -166,10 +166,10 @@ function articleIndex(slug) {
   return i === -1 ? 0 : i;
 }
 
-export function buildScript(article, { coverImage, outroImage } = {}) {
+export function buildScript(article) {
   const lines = [];
-  const cover = coverImage || INTRO_BG_PATH;
-  const outroCover = outroImage || cover;
+  const cover = INTRO_BG_PATH;
+  const outroCover = cover;
 
   // "comparatif" articles get a comparison clause per product and a short
   // conclusion; "coup-de-coeur" (the default) stays a punchy favorites list.
@@ -187,6 +187,7 @@ export function buildScript(article, { coverImage, outroImage } = {}) {
     caption: article.title,
     image: cover,
     fullBleed: true,
+    hero: true,
   });
 
   const products = [...article.products].sort((a, b) => priceToNumber(a.price) - priceToNumber(b.price)).slice(0, 5);
