@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-kits-videosurveillance-exterieure",
+  "title": "Top 5 Kits de Vidéosurveillance Extérieure Complets",
+  "excerpt": "Plusieurs caméras, un enregistreur, tout le tour de la maison couvert d'un coup : notre sélection des meilleurs kits de vidéosurveillance extérieure complets.",
+  "hookSubject": "les meilleurs kits de vidéosurveillance extérieure",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "Jennov 5MP Kit Caméra Surveillance WiFi avec Moniteur 10\" (4 Caméras)",
+      "price": "169,98 €",
+      "image": "/images/products/jennov-kit-camera-wifi-moniteur.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DQTX37VJ?tag=secure012de-21",
+      "pros": [
+        "Moniteur 10 pouces inclus, pas besoin de smartphone",
+        "Entrée de gamme la plus accessible du comparatif"
+      ],
+      "cons": [
+        "Résolution correcte sans être la plus fine du lot"
+      ]
+    },
+    {
+      "name": "SANNCE Kit Caméra de Surveillance NVR 5MP 8CH + 4 Caméras",
+      "price": "179,99 €",
+      "image": "/images/products/sannce-kit-camera-nvr.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07PY74V1L?tag=secure012de-21",
+      "pros": [
+        "Enregistreur 8 canaux, extensible à d'autres caméras",
+        "Bon rapport qualité-prix"
+      ],
+      "cons": [
+        "Installation filaire à prévoir pour le NVR"
+      ]
+    },
+    {
+      "name": "Jennov 5MP PTZ Kit Caméra avec Moniteur 10\" et NVR 1To",
+      "price": "309,99 €",
+      "image": "/images/products/jennov-kit-ptz-nvr-1tb.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CWNVMY3J?tag=secure012de-21",
+      "pros": [
+        "Caméras PTZ orientables à distance",
+        "1 To de stockage NVR inclus"
+      ],
+      "cons": [
+        "Configuration plus longue qu'un kit WiFi simple"
+      ]
+    },
+    {
+      "name": "aosu T2 Ultra 4K Caméra Surveillance Solaire Sans Fil 360°",
+      "price": "319,99 €",
+      "image": "/images/products/aosu-t2-ultra-solaire-360.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GCD435G3?tag=secure012de-21",
+      "pros": [
+        "Alimentation solaire, aucun câblage électrique nécessaire",
+        "Vision 360° et image 4K TrueColor"
+      ],
+      "cons": [
+        "Dépend de l'ensoleillement pour une autonomie optimale"
+      ]
+    },
+    {
+      "name": "Reolink 5MP Kit Vidéosurveillance PoE 8CH 2To NVR (4 Caméras)",
+      "price": "549,99 €",
+      "image": "/images/products/reolink-kit-poe-8ch-4cameras.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07CQLB8HS?tag=secure012de-21",
+      "pros": [
+        "Marque reconnue et fiable en vidéosurveillance PoE",
+        "2 To de stockage inclus, pas d'abonnement cloud requis"
+      ],
+      "cons": [
+        "Investissement conséquent, câblage PoE à prévoir"
+      ]
+    }
+  ]
+}

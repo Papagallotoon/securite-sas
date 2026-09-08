@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-barres-securite-anti-effraction",
+  "title": "Top 5 Barres de Sécurité Anti-Effraction pour Portes et Fenêtres",
+  "excerpt": "Pas besoin d'électronique pour freiner un cambrioleur : une barre de sécurité bien posée retarde l'ouverture de plusieurs minutes précieuses, le temps que l'alarme fasse son effet.",
+  "hookSubject": "les meilleures barres de sécurité anti-effraction",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "VECTA Barre de Sécurité Porte Acier Réglable, Testée 250kg",
+      "price": "27,95 €",
+      "image": "/images/products/vecta-barre-securite-porte-250kg.jpg",
+      "category": "barre-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FCY238L6?tag=secure012de-21",
+      "pros": [
+        "Résistance testée à 250kg",
+        "Base antidérapante, s'adapte à tous les sols"
+      ],
+      "cons": [
+        "À retirer et ranger quand on veut ouvrir la porte"
+      ]
+    },
+    {
+      "name": "MIGUBIGU Barre de Sécurité pour Portes et Fenêtres, Réglable 45-128cm",
+      "price": "23,99 €",
+      "image": "/images/products/migubigu-barre-securite-porte-fenetre.jpg",
+      "category": "barre-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GYDY2CJ1?tag=secure012de-21",
+      "pros": [
+        "Note client parfaite",
+        "Convient aussi bien aux baies vitrées qu'aux portes"
+      ],
+      "cons": [
+        "Plage de réglage à vérifier selon la largeur de l'ouverture"
+      ]
+    },
+    {
+      "name": "vidaXL Barres de Sécurité Réglables pour Fenêtres, Lot de 3",
+      "price": "28,90 €",
+      "image": "/images/products/vidaxl-barres-securite-fenetres-3pcs.jpg",
+      "category": "barre-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B085FWV9V5?tag=secure012de-21",
+      "pros": [
+        "Lot de 3, pratique pour équiper plusieurs fenêtres",
+        "Marque reconnue, structure en acier"
+      ],
+      "cons": [
+        "Installation fixe, moins pratique qu'une barre amovible"
+      ]
+    },
+    {
+      "name": "Kamtop Verrous de Fenêtre Anti-Effraction en Alliage de Zinc, Lot de 4",
+      "price": "22,79 €",
+      "image": "/images/products/kamtop-verrou-fenetre-4pcs.jpg",
+      "category": "barre-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07YZ9T5X7?tag=secure012de-21",
+      "pros": [
+        "Lot de 4 verrous, bon rapport quantité-prix",
+        "Fonctionne aussi comme sécurité enfant sur fenêtre coulissante"
+      ],
+      "cons": [
+        "Protection ponctuelle, moins dissuasive qu'une barre pleine longueur"
+      ]
+    },
+    {
+      "name": "Barre de Sécurité pour Porte Coulissante, Réglable 50-127cm",
+      "price": "21,49 €",
+      "image": "/images/products/barre-securite-porte-coulissante.jpg",
+      "category": "barre-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D9NPFRH7?tag=secure012de-21",
+      "pros": [
+        "Conçue spécifiquement pour les portes coulissantes",
+        "Meilleur prix du comparatif"
+      ],
+      "cons": [
+        "Ne remplace pas une serrure sur une porte battante classique"
+      ]
+    }
+  ]
+}

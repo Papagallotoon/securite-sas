@@ -55,6 +55,8 @@ const CATEGORY_TAGS = {
   "protection-angle": ["securite enfant maison", "protection bebe maison"],
   "verrou-enfant": ["securite enfant maison", "protection bebe maison"],
   "coffre-fort": ["coffre fort connecte", "coffre fort maison"],
+  cadenas: ["cadenas connecte", "antivol velo bluetooth"],
+  "barre-securite": ["barre de securite porte", "anti effraction fenetre"],
 };
 
 function buildTags(article) {

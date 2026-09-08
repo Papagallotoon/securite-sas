@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-detecteurs-co-connectes",
+  "title": "Top 5 Détecteurs de Monoxyde de Carbone Connectés",
+  "excerpt": "Un gaz invisible et inodore qui tue en silence : voici les meilleurs détecteurs de monoxyde de carbone connectés pour être alerté sur votre smartphone, même absent de chez vous.",
+  "hookSubject": "les meilleurs détecteurs de monoxyde de carbone connectés",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "X-Sense Détecteur de Monoxyde de Carbone Connecté Wi-Fi XC0C-iR",
+      "price": "31,99 €",
+      "image": "/images/products/xsense-co-xc0c-ir.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DCNR4FH3?tag=secure012de-21",
+      "pros": [
+        "Notifications instantanées via l'application",
+        "Placement flexible, pile longue durée"
+      ],
+      "cons": [
+        "Détecte uniquement le CO, pas la fumée"
+      ]
+    },
+    {
+      "name": "X-Sense Détecteur de Fumée et de CO Connecté Wi-Fi SC07-WX",
+      "price": "42,49 €",
+      "image": "/images/products/xsense-fumee-co-sc07-wx.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CM3KGFGB?tag=secure012de-21",
+      "pros": [
+        "2-en-1 : détecte fumée et monoxyde de carbone",
+        "Écran LCD et voyant lumineux intégrés"
+      ],
+      "cons": [
+        "Plus volumineux qu'un détecteur CO seul"
+      ]
+    },
+    {
+      "name": "Heiman Détecteur de Monoxyde de Carbone Intelligent Matter",
+      "price": "39,59 €",
+      "image": "/images/products/heiman-co-matter.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FW4N9V42?tag=secure012de-21",
+      "pros": [
+        "Compatible standard Matter, s'intègre à tout écosystème récent",
+        "Excellente note client"
+      ],
+      "cons": [
+        "Nécessite un hub Matter/Thread compatible"
+      ]
+    },
+    {
+      "name": "MOES Détecteur Intelligent de Fumée et Monoxyde de Carbone Zigbee",
+      "price": "39,99 €",
+      "image": "/images/products/moes-fumee-co-zigbee.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GGQRBRWB?tag=secure012de-21",
+      "pros": [
+        "2-en-1 fumée et CO sur écosystème Zigbee",
+        "Durée de vie de la pile annoncée longue"
+      ],
+      "cons": [
+        "Passerelle Zigbee requise, non vendue avec"
+      ]
+    },
+    {
+      "name": "Kit d'Avertisseurs de Fumée, Chaleur et CO Interconnectés Sans Fil",
+      "price": "73,59 €",
+      "image": "/images/products/kit-avertisseurs-fumee-co-interconnectes.jpg",
+      "category": "detecteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CNCFT2TF?tag=secure012de-21",
+      "pros": [
+        "Kit pré-configuré pour équiper plusieurs pièces d'un coup",
+        "Les détecteurs communiquent entre eux sans fil"
+      ],
+      "cons": [
+        "Investissement plus élevé pour équiper toute la maison"
+      ]
+    }
+  ]
+}

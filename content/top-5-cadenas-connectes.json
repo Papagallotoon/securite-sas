@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-cadenas-connectes",
+  "title": "Top 5 Cadenas Connectés pour Vélo, Garage et Abri",
+  "excerpt": "Fini les clés perdues : ouverture par empreinte digitale ou application, pour sécuriser vélo, garage ou abri de jardin sans jamais chercher un trousseau.",
+  "hookSubject": "les meilleurs cadenas connectés",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "Eseesmart Cadenas de Vélo Haute Sécurité Empreintes Digitales Bluetooth",
+      "price": "57,88 €",
+      "image": "/images/products/eseesmart-cadenas-velo-empreinte-bluetooth.jpg",
+      "category": "cadenas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0G8JHRJ9Q?tag=secure012de-21",
+      "pros": [
+        "Ouverture par empreinte digitale en moins d'une seconde",
+        "Excellente note client, robuste"
+      ],
+      "cons": [
+        "Recharge USB à prévoir régulièrement"
+      ]
+    },
+    {
+      "name": "ROCKBROS Antivol à Empreinte Digitale Étanche IP6 Bluetooth",
+      "price": "98,00 €",
+      "image": "/images/products/rockbros-cadenas-empreinte-ip6-bluetooth.jpg",
+      "category": "cadenas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DWMYCYMQ?tag=secure012de-21",
+      "pros": [
+        "Étanchéité IP6, résiste aux intempéries",
+        "Compatible vélo, scooter et gravel"
+      ],
+      "cons": [
+        "Le plus onéreux de la sélection"
+      ]
+    },
+    {
+      "name": "Eseesmart Smart Lock Empreintes Digitales Bluetooth Compatible iWatch",
+      "price": "40,33 €",
+      "image": "/images/products/eseesmart-cadenas-empreinte-iwatch.jpg",
+      "category": "cadenas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CYZCSN7T?tag=secure012de-21",
+      "pros": [
+        "Compatible ouverture depuis l'Apple Watch",
+        "Câble renforcé anti-coupe"
+      ],
+      "cons": [
+        "L'application demande un compte pour toutes les fonctions"
+      ]
+    },
+    {
+      "name": "AICase Cadenas à Empreintes Digitales Bluetooth avec Application",
+      "price": "29,99 €",
+      "image": "/images/products/aicase-cadenas-empreinte-bluetooth.jpg",
+      "category": "cadenas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BLHCTKH2?tag=secure012de-21",
+      "pros": [
+        "Prix le plus accessible du comparatif",
+        "Sans clé, ouverture par empreinte ou app"
+      ],
+      "cons": [
+        "Notes clients plus mitigées que le reste de la sélection"
+      ]
+    },
+    {
+      "name": "Eseesmart Verrou d'Empreintes Digitales avec Clavier à Code",
+      "price": "53,47 €",
+      "image": "/images/products/eseesmart-cadenas-empreinte-code-portail.jpg",
+      "category": "cadenas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FVX78TX5?tag=secure012de-21",
+      "pros": [
+        "Double déverrouillage : empreinte ou code",
+        "Polyvalent, adapté portail, abri ou grille"
+      ],
+      "cons": [
+        "Plus volumineux qu'un cadenas de vélo classique"
+      ]
+    }
+  ]
+}

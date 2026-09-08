@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-alarmes-piscine-connectees",
+  "title": "Top 5 Alarmes de Piscine Connectées pour la Sécurité des Enfants",
+  "excerpt": "La noyade est silencieuse et rapide : une alarme de piscine qui détecte l'immersion peut faire toute la différence quand un enfant s'approche du bassin sans surveillance.",
+  "hookSubject": "les meilleures alarmes de piscine connectées",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "ELEKTROBOCK Alarme de Piscine ELBO-073 Flottante avec Sirène 95dB",
+      "price": "87,46 €",
+      "image": "/images/products/elektrobock-alarme-piscine-flottante.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B01HMI8ZPY?tag=secure012de-21",
+      "pros": [
+        "Sirène puissante de 95dB, récepteur radio déporté inclus",
+        "Prix accessible pour une première protection"
+      ],
+      "cons": [
+        "Pas d'application, alerte sonore uniquement"
+      ]
+    },
+    {
+      "name": "BCone Alarme de Sécurité Piscine Flottante Connectée avec App",
+      "price": "502,48 €",
+      "image": "/images/products/bcone-alarme-piscine-connectee-app.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08T863DNT?tag=secure012de-21",
+      "pros": [
+        "Notification sur smartphone en cas de détection de chute",
+        "Sirène puissante en complément de l'alerte app"
+      ],
+      "cons": [
+        "Investissement important pour ce type d'équipement"
+      ]
+    },
+    {
+      "name": "Alarme de Piscine Solo avec Application Bluetooth",
+      "price": "247,13 €",
+      "image": "/images/products/alarme-piscine-solo-bluetooth-app.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09LVGHL83?tag=secure012de-21",
+      "pros": [
+        "Compatible piscines hors sol et creusées",
+        "Pilotage et alertes via l'application Bluetooth"
+      ],
+      "cons": [
+        "Portée Bluetooth limitée selon la configuration du jardin"
+      ]
+    },
+    {
+      "name": "Smartpool Pe23 Pooleye Alarme d'Immersion Conforme ASTM",
+      "price": "176,68 €",
+      "image": "/images/products/smartpool-pooleye-astm.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0050FGV1M?tag=secure012de-21",
+      "pros": [
+        "Conforme à la norme de sécurité ASTM",
+        "Récepteur distant inclus"
+      ],
+      "cons": [
+        "Design plus daté que les modèles connectés récents"
+      ]
+    },
+    {
+      "name": "Alarme Piscine avec Sirène Déportée et Clé Magnétique",
+      "price": "329,00 €",
+      "image": "/images/products/alarme-piscine-sirene-cle-magnetique.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08D9V3NN7?tag=secure012de-21",
+      "pros": [
+        "Clé magnétique pour désactiver facilement lors de la baignade surveillée",
+        "Couverture annoncée jusqu'à 32 m² de bassin"
+      ],
+      "cons": [
+        "Nécessite de bien réactiver l'alarme après chaque usage"
+      ]
+    }
+  ]
+}
