@@ -5,6 +5,7 @@ import { buildScript } from "./build-script.mjs";
 import { synthesizeLines } from "./tts.mjs";
 import { renderVideo } from "./render.mjs";
 import { uploadVideo } from "./upload.mjs";
+import { sendPostedEmail } from "./notify.mjs";
 import { TMP_DIR, OUT_DIR } from "./config.mjs";
 
 async function main() {
@@ -41,7 +42,9 @@ async function main() {
     console.log("SKIP_UPLOAD=1 set — skipping YouTube upload (local test run).");
   } else {
     const result = await uploadVideo({ videoPath: outPath, article });
-    console.log(`Uploaded: https://youtube.com/watch?v=${result.id} (privacy: ${result.status?.privacyStatus})`);
+    const videoUrl = `https://youtube.com/watch?v=${result.id}`;
+    console.log(`Uploaded: ${videoUrl} (privacy: ${result.status?.privacyStatus})`);
+    await sendPostedEmail({ article, videoUrl });
   }
 
   markUsed(slug);
