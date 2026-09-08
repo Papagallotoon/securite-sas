@@ -81,6 +81,7 @@ const SITE_ARTICLE_PATHS = {
   "top-5-coffres-forts-connectes": "/perimeter/coffres-forts-connectes",
   "top-5-detecteurs-bris-vitre-fenetre": "/detection/detecteurs-bris-vitre-fenetre",
   "top-5-interphones-video-connectes": "/detection/interphones-video-connectes",
+  "top-5-alarmes-piscine-connectees": "/family/alarmes-piscine-connectees",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 
