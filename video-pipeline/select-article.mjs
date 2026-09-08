@@ -11,9 +11,15 @@ export function saveState(state) {
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2) + "\n");
 }
 
+// Always moves the slug to the *end* of usedSlugs, even on a repeat — this
+// is what makes the rotation fallback in selectNextArticle() work: the
+// least-recently-published topic is always usedSlugs[0], so cycling back
+// through the catalog never repeats a topic until every other one has had
+// its turn again.
 export function markUsed(slug) {
   const state = loadState();
-  if (!state.usedSlugs.includes(slug)) state.usedSlugs.push(slug);
+  state.usedSlugs = state.usedSlugs.filter((s) => s !== slug);
+  state.usedSlugs.push(slug);
   saveState(state);
 }
 
@@ -74,5 +80,17 @@ export function selectNextArticle() {
     const picked = bySlug(slug);
     if (picked) return picked;
   }
-  return null;
+
+  // Every topic has been published at least once — per the "3 videos/day,
+  // no matter what" standing rule, skipping the day is no longer an
+  // acceptable outcome here. Rotate back through already-published topics
+  // instead, oldest-first (usedSlugs[0]). markUsed() always moves a slug to
+  // the end of usedSlugs, so this naturally cycles the whole catalog before
+  // any single topic repeats twice.
+  for (const slug of state.usedSlugs) {
+    const picked = loadArticleBySlug(slug);
+    if (picked) return picked;
+  }
+
+  return null; // truly no article anywhere has a real-priced product
 }
