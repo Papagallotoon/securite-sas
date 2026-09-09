@@ -43,6 +43,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           FORCE_ARTICLE_SLUG: ${{ inputs.force_article_slug }}
+          YT_PRIVACY: public
         run: node video-pipeline/run.mjs
 
       - name: Commit updated state
