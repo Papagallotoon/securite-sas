@@ -19,6 +19,16 @@ on:
 permissions:
   contents: write
 
+# Le cron GitHub natif et le declenchement redondant cron-job.org peuvent
+# tirer au meme instant (les deux ciblent 7h/12h/17h UTC) ; sans ce verrou,
+# les deux runs lisent state.json avant que l'un des deux ne l'ait commite
+# et selectionnent/publient le meme article en double. cancel-in-progress:
+# false fait attendre le second run plutot que de l'annuler, pour ne pas
+# risquer d'interrompre un upload deja lance.
+concurrency:
+  group: video-pipeline
+  cancel-in-progress: false
+
 jobs:
   make-and-publish-short:
     runs-on: ubuntu-latest
