@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { selectNextArticle, loadArticleBySlug, markUsed } from "./select-article.mjs";
+import { selectNextArticle, loadArticleBySlug, markUsed, recentlyPublished } from "./select-article.mjs";
 import { buildScript } from "./build-script.mjs";
 import { synthesizeLines } from "./tts.mjs";
 import { renderVideo } from "./render.mjs";
@@ -12,6 +12,16 @@ async function main() {
   // FORCE_ARTICLE_SLUG lets you redo one specific video instead of
   // advancing to the next unused article in the queue.
   const forcedSlug = process.env.FORCE_ARTICLE_SLUG;
+
+  // cron-job.org's redundant trigger and GitHub's own native schedule can
+  // both fire for the same 7h/12h/17h slot — bail out early (before any
+  // TTS/render/upload work) if we already published recently, instead of
+  // producing a real extra video every time an automated trigger overlaps.
+  if (!forcedSlug && recentlyPublished()) {
+    console.log("A video was already published recently — skipping this run to avoid a duplicate/extra publish.");
+    return;
+  }
+
   const picked = forcedSlug ? loadArticleBySlug(forcedSlug) : selectNextArticle();
   if (!picked) {
     console.log(

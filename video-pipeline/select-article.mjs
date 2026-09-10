@@ -20,7 +20,24 @@ export function markUsed(slug) {
   const state = loadState();
   state.usedSlugs = state.usedSlugs.filter((s) => s !== slug);
   state.usedSlugs.push(slug);
+  state.lastRunAt = new Date().toISOString();
   saveState(state);
+}
+
+// The 3 intended daily slots (7h/12h/17h UTC) are 5h apart. cron-job.org's
+// redundant trigger and GitHub's own native schedule can both fire for the
+// same slot (near-simultaneously, or one delayed by hours behind the
+// other) — without a real time-based guard, each extra fire still produces
+// a full extra video. 3h is short enough to never block a legitimate next
+// slot, long enough to absorb any duplicate/delayed re-fire of the current
+// one. Bypassed by FORCE_ARTICLE_SLUG, which is always a deliberate ask.
+const MIN_HOURS_BETWEEN_RUNS = 3;
+
+export function recentlyPublished() {
+  const state = loadState();
+  if (!state.lastRunAt) return false;
+  const hoursSince = (Date.now() - new Date(state.lastRunAt).getTime()) / 3_600_000;
+  return hoursSince < MIN_HOURS_BETWEEN_RUNS;
 }
 
 // Some catalog entries carry a placeholder price instead of a real one —
