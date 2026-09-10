@@ -57,6 +57,8 @@ const CATEGORY_TAGS = {
   "coffre-fort": ["coffre fort connecte", "coffre fort maison"],
   cadenas: ["cadenas connecte", "antivol velo bluetooth"],
   "barre-securite": ["barre de securite porte", "anti effraction fenetre"],
+  "barriere-piscine": ["securite piscine", "protection noyade enfant"],
+  "barriere-escalier": ["securite enfant maison", "barriere escalier bebe"],
 };
 
 function buildTags(article) {
@@ -82,6 +84,8 @@ const SITE_ARTICLE_PATHS = {
   "top-5-detecteurs-bris-vitre-fenetre": "/detection/detecteurs-bris-vitre-fenetre",
   "top-5-interphones-video-connectes": "/detection/interphones-video-connectes",
   "top-5-alarmes-piscine-connectees": "/family/alarmes-piscine-connectees",
+  "top-5-barrieres-securite-piscine": "/family/barrieres-securite-piscine",
+  "top-5-barrieres-securite-escalier-enfant": "/family/barrieres-securite-escalier-enfant",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 

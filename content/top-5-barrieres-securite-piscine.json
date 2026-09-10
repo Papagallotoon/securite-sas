@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-barrieres-securite-piscine",
+  "title": "Top 5 Barrières de Sécurité pour Piscine",
+  "excerpt": "Contrairement à l'alarme qui prévient après coup, la barrière empêche physiquement l'accès au bassin : la protection recommandée en premier pour une piscine avec de jeunes enfants dans le jardin.",
+  "hookSubject": "les meilleures barrières de sécurité pour piscine",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "DREAMADE Barrière de Piscine 360 x 125 cm Noir",
+      "price": "74,99 €",
+      "image": "/images/products/dreamade-barriere-piscine.jpg",
+      "category": "barriere-piscine",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07Y41FH2P?tag=secure012de-21",
+      "pros": [
+        "Tube aluminium et pieds inox, résistant à l'humidité",
+        "Mailles assez fines pour empêcher les doigts de passer"
+      ],
+      "cons": [
+        "Peu d'avis clients pour l'instant"
+      ]
+    },
+    {
+      "name": "GOPLUS Barrière de Piscine Pliable en Tissu Textilène",
+      "price": "74,99 €",
+      "image": "/images/products/goplus-barriere-piscine-pliable.jpg",
+      "category": "barriere-piscine",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07S36YV3Z?tag=secure012de-21",
+      "pros": [
+        "Meilleure note du comparatif, 4,8 étoiles",
+        "S'adapte aux piscines de formes différentes"
+      ],
+      "cons": [
+        "Stock limité selon les périodes"
+      ]
+    },
+    {
+      "name": "GIANTEX Barrière Piscine 4 Panneaux 360 x 125 cm",
+      "price": "74,99 €",
+      "image": "/images/products/giantex-barriere-piscine-4-panneaux.jpg",
+      "category": "barriere-piscine",
+      "affiliateUrl": "https://www.amazon.fr/dp/B096TRHYQL?tag=secure012de-21",
+      "pros": [
+        "Kit de montage fourni, cadre aluminium",
+        "Bon volume d'avis pour ce type de produit"
+      ],
+      "cons": [
+        "Installation à deux personnes recommandée"
+      ]
+    },
+    {
+      "name": "EDG by Aqualux Module Complet 3,2 m Conforme NF P 90-306",
+      "price": "92,80 €",
+      "image": "/images/products/edg-aqualux-barriere-piscine-nf.jpg",
+      "category": "barriere-piscine",
+      "affiliateUrl": "https://www.amazon.fr/dp/B00GWEQD4U?tag=secure012de-21",
+      "pros": [
+        "Conforme à la norme française NF P 90-306 sur les barrières de piscine",
+        "Marque spécialisée, près de 80 avis avec bonne note"
+      ],
+      "cons": [
+        "Plus cher que les modèles génériques"
+      ]
+    },
+    {
+      "name": "Outsunny Clôture Barrière de Sécurité Lot de 4, 365 x 126 cm",
+      "price": "86,90 €",
+      "image": "/images/products/outsunny-barriere-piscine-lot-4.jpg",
+      "category": "barriere-piscine",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FB3Y7JYW?tag=secure012de-21",
+      "pros": [
+        "Lot de 4 panneaux, bonne longueur totale",
+        "Pieds en acier inoxydable"
+      ],
+      "cons": [
+        "Encore peu d'avis clients"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-barrieres-securite-escalier-enfant",
+  "title": "Top 5 Barrières de Sécurité Escalier pour Enfant",
+  "excerpt": "Après les prises et les angles de meubles, l'escalier reste l'un des points les plus dangereux de la maison pour un enfant qui commence à marcher : voici les barrières les mieux notées pour le sécuriser.",
+  "hookSubject": "les meilleures barrières de sécurité escalier pour protéger les enfants",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Safety 1st Easy Close Metal Gate 73-80 cm Effet Bois",
+      "price": "43,90 €",
+      "image": "/images/products/safety1st-easyclose-barriere-escalier.jpg",
+      "category": "barriere-escalier",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DSCBBTPD?tag=secure012de-21",
+      "pros": [
+        "Badge Choix d'Amazon, plus de 17 000 avis clients",
+        "Fermeture d'une main, double verrouillage, sans vis"
+      ],
+      "cons": [
+        "Hauteur max 108 cm, à vérifier selon l'ouverture"
+      ]
+    },
+    {
+      "name": "KIDIZ Barrière de Sécurité d'Escalier Sans Perçage 88-94 cm",
+      "price": "43,80 €",
+      "image": "/images/products/kidiz-barriere-escalier-sans-percage.jpg",
+      "category": "barriere-escalier",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GL8WSB9W?tag=secure012de-21",
+      "pros": [
+        "Près de 3 000 avis clients",
+        "Système à pression, aucun perçage nécessaire"
+      ],
+      "cons": [
+        "Largeur réglable plus limitée que les modèles rétractables"
+      ]
+    },
+    {
+      "name": "VOUNOT Barrière de Sécurité Pliable 3 m, 5 Panneaux",
+      "price": "64,99 €",
+      "image": "/images/products/vounot-barriere-securite-pliable-3m.jpg",
+      "category": "barriere-escalier",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07F8K4Q2V?tag=secure012de-21",
+      "pros": [
+        "Plus de 2 300 avis clients",
+        "Idéale pour les grandes ouvertures type cheminée ou palier"
+      ],
+      "cons": [
+        "Encombrement plus important une fois dépliée"
+      ]
+    },
+    {
+      "name": "ib style Barrière de Sécurité Berrin 58-185 cm Sans Perçage",
+      "price": "64,95 €",
+      "image": "/images/products/ibstyle-barriere-escalier-berrin.jpg",
+      "category": "barriere-escalier",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0C9HZDVQ6?tag=secure012de-21",
+      "pros": [
+        "Très bonne note, 4,6 étoiles",
+        "Grande plage de largeurs couverte, 58 à 185 cm"
+      ],
+      "cons": [
+        "Moins d'avis que les modèles les plus vendus"
+      ]
+    },
+    {
+      "name": "Barrière de Sécurité Rétractable 5 m",
+      "price": "60,36 €",
+      "image": "/images/products/barriere-securite-retractable-5m.jpg",
+      "category": "barriere-escalier",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0C88Y1RLF?tag=secure012de-21",
+      "pros": [
+        "Plus de 2 600 avis clients",
+        "S'enroule, pratique pour un passage large et irrégulier"
+      ],
+      "cons": [
+        "Moins rigide qu'une barrière à panneaux fixes"
+      ]
+    }
+  ]
+}
