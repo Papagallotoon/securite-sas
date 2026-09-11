@@ -59,6 +59,7 @@ const CATEGORY_TAGS = {
   "barre-securite": ["barre de securite porte", "anti effraction fenetre"],
   "barriere-piscine": ["securite piscine", "protection noyade enfant"],
   "barriere-escalier": ["securite enfant maison", "barriere escalier bebe"],
+  livre: ["livre cybersecurite", "livre securite informatique"],
 };
 
 function buildTags(article) {
@@ -87,6 +88,7 @@ const SITE_ARTICLE_PATHS = {
   "top-5-barrieres-securite-piscine": "/family/barrieres-securite-piscine",
   "top-5-barrieres-securite-escalier-enfant": "/family/barrieres-securite-escalier-enfant",
   "top-5-serrures-connectees-nuki-alternatives": "/perimeter/serrures-connectees-nuki-alternatives",
+  "top-5-livres-cybersecurite": "/guides/livres-cybersecurite",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 

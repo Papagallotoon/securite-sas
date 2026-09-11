@@ -1,0 +1,59 @@
+{
+  "slug": "top-5-livres-cybersecurite",
+  "title": "Top 5 Livres sur la Cybersécurité",
+  "excerpt": "Protéger sa maison, c'est aussi protéger ses données : voici 5 livres pour comprendre les menaces numériques et apprendre à s'en protéger, du débutant à l'expert.",
+  "hookSubject": "les meilleurs livres sur la cybersécurité",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "Cybersécurité : Protégez Votre Vie Numérique, Guide Débutant à Expert",
+      "speechName": "ce guide complet pour débutant",
+      "price": "7,95 €",
+      "image": "/images/products/livre-cybersecurite-protegez-vie-numerique.jpg",
+      "category": "livre",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GSMYQPF7?tag=secure012de-21",
+      "pros": ["Meilleure note, 5 étoiles", "Accessible même sans bagage technique"],
+      "cons": ["Format numérique uniquement"]
+    },
+    {
+      "name": "Cybersécurité Nouvelle Génération, Défendre Contre les Attaques Intelligentes",
+      "speechName": "ce livre sur les attaques par intelligence artificielle",
+      "price": "24,98 €",
+      "image": "/images/products/livre-cybersecurite-nouvelle-generation.jpg",
+      "category": "livre",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F5M9MYTB?tag=secure012de-21",
+      "pros": ["Aborde les menaces liées à l'IA, très actuel", "Bien noté, 4,2 étoiles"],
+      "cons": ["Plus technique que le guide débutant"]
+    },
+    {
+      "name": "Cybersécurité, Sécurité Informatique et Réseaux, 5e édition",
+      "speechName": "ce livre de référence sur la sécurité réseau",
+      "price": "30,99 €",
+      "image": "/images/products/livre-cybersecurite-securite-informatique-reseaux.jpg",
+      "category": "livre",
+      "affiliateUrl": "https://www.amazon.fr/dp/B01M330IBT?tag=secure012de-21",
+      "pros": ["Référence académique, 5e édition", "Très bien noté, 4,4 étoiles"],
+      "cons": ["Plus dense, orienté formation"]
+    },
+    {
+      "name": "Cybersécurité, Principes Fondamentaux",
+      "speechName": "ce livre sur les principes fondamentaux",
+      "price": "49,99 €",
+      "image": "/images/products/livre-cybersecurite-principes-fondamentaux.jpg",
+      "category": "livre",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09F5QQ1NX?tag=secure012de-21",
+      "pros": ["Ouvrage collectif signé par plusieurs experts", "Bien noté, 4,4 étoiles"],
+      "cons": ["Le plus dense des cinq"]
+    },
+    {
+      "name": "Cybersécurité et Malwares, Détection, Analyse et Threat Intelligence",
+      "speechName": "ce livre sur l'analyse des malwares, le plus avancé du comparatif",
+      "price": "44,50 €",
+      "image": "/images/products/livre-cybersecurite-malwares-threat-intelligence.jpg",
+      "category": "livre",
+      "affiliateUrl": "https://www.amazon.fr/dp/2409038107?tag=secure012de-21",
+      "pros": ["Note parfaite, 5 étoiles", "4e édition, très à jour sur les malwares actuels"],
+      "cons": ["Le plus avancé, pour un public déjà initié"]
+    }
+  ]
+}
