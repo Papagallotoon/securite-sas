@@ -263,13 +263,18 @@ export function buildScript(article) {
   const hookSubject = article.hookSubject || "les meilleurs produits pour sécuriser sa maison";
   const hookPool = HOOK_TEMPLATES[format];
   const hookTemplate = hookPool[articleIndex(article.slug) % hookPool.length];
+  // The intro used to be a flat gradient behind big hero text — replaced by
+  // the first product's own photo so the intro shows something relevant to
+  // the topic instead of a plain color card. Goes through the normal
+  // (non-fullBleed) render path, same treatment as every product line:
+  // blurred cover-fill background behind a contain-fit photo, with the
+  // regular boxed caption for guaranteed legibility over a busy photo.
+  const introImage = article.products[0]?.image || cover;
   lines.push({
     id: "intro",
     spoken: clean(hookTemplate(hookSubject)),
     caption: article.title,
-    image: cover,
-    fullBleed: true,
-    hero: true,
+    image: introImage,
   });
 
   const products = [...article.products].sort((a, b) => priceToNumber(a.price) - priceToNumber(b.price)).slice(0, 5);
