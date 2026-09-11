@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-serrures-connectees-nuki-alternatives",
+  "title": "Top 5 Serrures Connectées Nuki et Alternatives",
+  "excerpt": "Nuki est la marque la plus recherchée sur les serrures connectées, mais pas la seule à s'installer sans changer son cylindre : voici sa gamme complète face à deux vraies alternatives.",
+  "hookSubject": "les meilleures serrures connectées Nuki et leurs alternatives",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Nuki Smart Lock Go (2025) avec Clavier",
+      "price": "209,00 €",
+      "image": "/images/products/nuki-smart-lock-go-2025.jpg",
+      "category": "serrure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FPX9YMYV?tag=secure012de-21",
+      "pros": [
+        "Entrée de gamme Nuki, installation sans changer le cylindre",
+        "Livré avec clavier à code"
+      ],
+      "cons": [
+        "Bluetooth uniquement, pas de WiFi intégré"
+      ]
+    },
+    {
+      "name": "Aqara Serrure Connectée U200",
+      "price": "189,99 €",
+      "image": "/images/products/aqara-serrure-connectee-u200.jpg",
+      "category": "serrure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D1C75J4F?tag=secure012de-21",
+      "pros": [
+        "Moins cher que l'entrée de gamme Nuki",
+        "Matter sur Thread, compatible clé Apple Home"
+      ],
+      "cons": [
+        "Note un peu plus basse que la gamme Nuki"
+      ]
+    },
+    {
+      "name": "Nuki Smart Lock Pro",
+      "price": "269,00 €",
+      "image": "/images/products/nuki-smart-lock-pro-v5.jpg",
+      "category": "serrure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DX2FPQFQ?tag=secure012de-21",
+      "pros": [
+        "WiFi intégré, pas besoin de pont supplémentaire",
+        "Compatible Matter pour l'intégration domotique"
+      ],
+      "cons": [
+        "Note en retrait par rapport au modèle Ultra"
+      ]
+    },
+    {
+      "name": "SwitchBot Serrure Ultra WiFi avec Keypad Vision",
+      "price": "299,99 €",
+      "image": "/images/products/switchbot-serrure-ultra-wifi.jpg",
+      "category": "serrure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F2HM2P6F?tag=secure012de-21",
+      "pros": [
+        "Reconnaissance faciale 3D en plus de l'empreinte digitale",
+        "Triple système d'alimentation, moins de risque de panne"
+      ],
+      "cons": [
+        "Écosystème différent de Nuki, moins répandu en France"
+      ]
+    },
+    {
+      "name": "Nuki Smart Lock Ultra",
+      "price": "349,00 €",
+      "image": "/images/products/nuki-smart-lock-ultra.jpg",
+      "category": "serrure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DN1SZCTL?tag=secure012de-21",
+      "pros": [
+        "Meilleure note de toute la gamme Nuki",
+        "WiFi et Bluetooth intégrés, 3 modes de verrouillage"
+      ],
+      "cons": [
+        "Le plus cher du comparatif"
+      ]
+    }
+  ]
+}

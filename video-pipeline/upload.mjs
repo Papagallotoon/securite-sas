@@ -86,6 +86,7 @@ const SITE_ARTICLE_PATHS = {
   "top-5-alarmes-piscine-connectees": "/family/alarmes-piscine-connectees",
   "top-5-barrieres-securite-piscine": "/family/barrieres-securite-piscine",
   "top-5-barrieres-securite-escalier-enfant": "/family/barrieres-securite-escalier-enfant",
+  "top-5-serrures-connectees-nuki-alternatives": "/perimeter/serrures-connectees-nuki-alternatives",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 
