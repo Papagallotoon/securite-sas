@@ -29,7 +29,77 @@ function stripDimensionsForSpeech(text) {
 // they're capitalized (glued English or invented compounds) — spell them
 // out explicitly rather than hoping the generic camelCase split below is
 // enough.
-const PRONUNCIATION_FIXES = [[/\bIntelliTAG\b/gi, "Intelli Tag"], [/\bSwitchBot\b/gi, "Switch Bot"]];
+// A plain \b treats accented letters (é, à...) as non-word characters, so
+// `\bCam\b` wrongly matches the "Cam" inside "Caméra" too (word boundary
+// right before the "é"). These lookaround-based boundaries only stop at an
+// actual non-letter, so replacements never re-trigger on their own output.
+const NOT_LETTER_BEFORE = "(?<![A-Za-zÀ-ÿ])";
+const NOT_LETTER_AFTER = "(?![A-Za-zÀ-ÿ])";
+function wordFix(word, replacement) {
+  return [new RegExp(`${NOT_LETTER_BEFORE}${word}${NOT_LETTER_AFTER}`, "gi"), replacement];
+}
+
+const PRONUNCIATION_FIXES = [
+  wordFix("IntelliTAG", "Intelli Tag"),
+  wordFix("SwitchBot", "Switch Bot"),
+  // Past the brand itself, product names are full of plain English marketing
+  // words (Smart Lock, Home Alarm, Indoor/Outdoor Cam...) that a French
+  // multilingual voice can read as a cue to switch language mid-sentence —
+  // translate the recurring ones instead of leaving them in English. Order
+  // matters: multi-word phrases must run before their single-word parts.
+  wordFix("Smart Lock", "Serrure Connectée"),
+  wordFix("Home Alarm", "Alarme Maison"),
+  wordFix("Kit Alarm", "Kit Alarme"),
+  wordFix("Indoor Cam(?:era|éra)?", "Caméra Intérieure"),
+  wordFix("Outdoor Cam(?:era|éra)?", "Caméra Extérieure"),
+  wordFix("Solo Cam", "Caméra Solo"),
+  wordFix("Security", "Sécurité"),
+  wordFix("Wireless", "Sans Fil"),
+  wordFix("Indoor", "Intérieur"),
+  wordFix("Outdoor", "Extérieur"),
+  wordFix("Smart", "Connecté"),
+  wordFix("Lock", "Serrure"),
+  wordFix("Alarm", "Alarme"),
+  wordFix("Cam", "Caméra"),
+  wordFix("Video Doorbell", "Sonnette Vidéo"),
+  wordFix("Bike Tracker", ""),
+  wordFix("Solar Wall Light", "Lumière Solaire Murale"),
+  wordFix("Flood", "Inondation"),
+  wordFix("Easy Close", "Fermeture Facile"),
+  wordFix("Connect", "Connecté"),
+  wordFix("Home", "Maison"),
+];
+
+// The catalog is full of marketplace brand names — real ones (Xiaomi, Ring,
+// TP-Link...) and invented Amazon-only ones (AICase, ATUVOS, FUHOMI...) —
+// that a French TTS voice either mispronounces or, worse, can read as a cue
+// to switch its spoken language mid-sentence (this is what caused "la
+// langue qui change" — see [[three-videos-per-day-policy]]). The existing
+// leading-ALLCAPS stripper below only catches brands written in all caps;
+// this list catches the rest regardless of case or position in the name.
+const BRAND_STRIP = [
+  "ABUS", "AGSHOME", "AICase", "ATUVOS", "Aqara", "Arlo", "BCone", "Cozier",
+  "DREAMADE", "Daewoo", "Dokon", "Dreambaby", "EDG", "ELEKTROBOCK", "EZVIZ",
+  "Eseesmart", "FUHOMI", "GIANTEX", "GOPLUS", "Govee", "HOMYBABY", "Heiman",
+  "Hoffenbach", "Imou", "Invoxia", "Jennov", "KIDIZ", "Kamtop", "Konyks",
+  "Legrand", "MEIKEE", "MIGUBIGU", "MOES", "Master Lock", "Meross", "NIVIAN",
+  "Nivian", "Nuki", "OREiN", "Outsunny", "Philips", "Populife", "REDTRON",
+  "ROCKBROS", "Reolink", "Ring", "SANNCE", "SEPOX", "SURFOU", "Safety 1st",
+  "Samsung", "Shelly", "Smartpool", "Smartwares", "Somfy", "Steinel",
+  "SwitchBot", "TP-Link", "Tapo", "UGREEN", "Uplock", "VECTA", "VIRONE",
+  "VOUNOT", "X-Sense", "XUK", "Xcase", "Xiaomi", "YISEELE", "Yale", "aosu",
+  "eufy", "frient", "ib style", "igloohome", "reer", "tiiwee", "vidaXL",
+  "Apple", "Dioxide", "Basics",
+];
+
+function stripBrandNames(text) {
+  let result = text;
+  for (const brand of BRAND_STRIP) {
+    const escaped = brand.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    result = result.replace(new RegExp(`(?<![A-Za-zÀ-ÿ])${escaped}(?![A-Za-zÀ-ÿ])`, "gi"), "");
+  }
+  return clean(result);
+}
 
 // Glued CamelCase compounds ("SwitchBot", "IntelliTAG") get read as one
 // mangled word — split on the lowercase→uppercase boundary so TTS treats
@@ -39,11 +109,16 @@ function splitCamelCase(text) {
 }
 
 function fixPronunciation(text) {
-  let result = text;
+  // Split glued CamelCase ("SmartTag2" -> "Smart Tag2") *before* applying
+  // the word-list fixes below, so a word like "Smart" is still a standalone
+  // token they can match instead of being buried inside a compound.
+  let result = splitCamelCase(text);
   for (const [pattern, replacement] of PRONUNCIATION_FIXES) {
     result = result.replace(pattern, replacement);
   }
-  return splitCamelCase(result);
+  // A fix can empty out a whole word (e.g. "Bike Tracker" -> ""), leaving a
+  // dangling " - " separator behind — strip it rather than reading it aloud.
+  return clean(result.replace(/^[\s-–]+|[\s-–]+$/g, "").replace(/\s+[-–]\s+/g, " "));
 }
 
 const MAX_SPOKEN_NAME_WORDS = 8;
@@ -52,7 +127,7 @@ const MAX_SPOKEN_NAME_WORDS = 8;
 // strip invented/foreign brand suffixes, fix known mispronunciations, and
 // cap the length. Captions keep the full original name.
 function simplifyNameForSpeech(name) {
-  let cleaned = name
+  let cleaned = stripBrandNames(name)
     .replace(/\s*[-–]\s*[A-Za-z][\w'.]*$/, "")
     .replace(/^(?:[A-Z]{2,}[A-Z0-9]*\s+)+/, "");
 
@@ -95,8 +170,15 @@ const MIDDLE_TEMPLATES = [
   (name, price) => `Et voici ${name}, à ${price} !`,
 ];
 
+// Lets a specific product override the automatic brand-stripping/cleanup
+// with hand-written narration text (see the barrières articles) when the
+// generic pipeline still isn't enough — same escape hatch as spdb.
+function spokenProductName(product) {
+  return product.speechName || simplifyNameForSpeech(stripDimensionsForSpeech(product.name));
+}
+
 function productSentence(product, i, total, isComparatif) {
-  const name = simplifyNameForSpeech(stripDimensionsForSpeech(product.name));
+  const name = spokenProductName(product);
   const price = product.price;
   let sentence;
   if (i === 0) sentence = `On commence petit budget, avec ${name}, à seulement ${price}`;
@@ -116,8 +198,8 @@ function productSentence(product, i, total, isComparatif) {
 function comparatifConclusion(products) {
   const cheapest = products[0];
   const priciest = products[products.length - 1];
-  const cheapName = simplifyNameForSpeech(stripDimensionsForSpeech(cheapest.name));
-  const premiumName = simplifyNameForSpeech(stripDimensionsForSpeech(priciest.name));
+  const cheapName = spokenProductName(cheapest);
+  const premiumName = spokenProductName(priciest);
   return `En résumé : ${cheapName} pour un premier prix malin, ${premiumName} si tu veux le haut de gamme !`;
 }
 
