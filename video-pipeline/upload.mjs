@@ -94,6 +94,7 @@ const SITE_ARTICLE_PATHS = {
   "top-5-cameras-solaires-exterieures": "/detection/cameras-solaires-exterieures",
   "top-5-capteurs-ouverture-porte-fenetre-connectes": "/perimeter/capteurs-ouverture-porte-fenetre-connectes",
   "top-5-sirenes-alarme-exterieures-connectees": "/response/sirenes-alarme-exterieures-connectees",
+  "top-5-securite-maison-luxe": "/luxury/securite-maison-luxe",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 

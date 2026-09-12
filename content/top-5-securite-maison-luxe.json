@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-securite-maison-luxe",
+  "title": "Top 5 Produits de Sécurité Haut de Gamme pour Maison de Luxe",
+  "excerpt": "Une maison de luxe attire plus de convoitises et mérite du matériel à la hauteur : voici 5 produits de sécurité premium, du coffre-fort double paroi à la centrale d'alarme certifiée utilisée par les installateurs professionnels.",
+  "hookSubject": "les meilleurs produits de sécurité haut de gamme pour une maison de luxe",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Netatmo Caméra Extérieure Intelligente avec Sirène 105 dB",
+      "price": "235,99 €",
+      "image": "/images/products/netatmo-camera-exterieure-sirene-105db.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0B8DW39TZ?tag=secure012de-21",
+      "pros": [
+        "Boîtier aluminium au design soigné, sans abonnement requis",
+        "Sirène 105 dB et éclairage intégrés pour dissuader à distance"
+      ],
+      "cons": [
+        "Nécessite une bonne portée WiFi jusqu'à l'extérieur de la maison"
+      ]
+    },
+    {
+      "name": "EZVIZ CP7 Interphone Vidéo 2K WiFi",
+      "price": "259,99 €",
+      "image": "/images/products/ezviz-cp7-visiophone.jpg",
+      "category": "interphone",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CLV9ZG9M?tag=secure012de-21",
+      "pros": [
+        "Image 2K, nettement plus détaillée qu'un visiophone classique en 1080p",
+        "WiFi bi-bande 2,4/5 GHz pour une connexion plus stable"
+      ],
+      "cons": [
+        "Installation filaire à 2 fils, moins simple qu'un modèle tout sans-fil"
+      ]
+    },
+    {
+      "name": "tedee GO2 Alu Serrure Biométrique Classe 6",
+      "price": "269,20 €",
+      "image": "/images/products/tedee-go2-serrure-biometrique-alu.jpg",
+      "category": "serrure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GNN1T453?tag=secure012de-21",
+      "pros": [
+        "Carter aluminium et clavier à empreinte digitale Keypad PRO inclus",
+        "Certifiée Classe 6, le niveau de résistance le plus élevé de la gamme"
+      ],
+      "cons": [
+        "Le bridge WiFi pour le contrôle à distance se vend séparément"
+      ]
+    },
+    {
+      "name": "Lifebox Coffre-Fort Double Parois 40L",
+      "price": "499,00 €",
+      "image": "/images/products/lifebox-coffre-fort-double-parois-40l.jpg",
+      "category": "coffre-fort",
+      "affiliateUrl": "https://www.amazon.fr/dp/B00ITRSOCM?tag=secure012de-21",
+      "pros": [
+        "Double paroi et ignifuge 1h, la meilleure protection incendie du comparatif",
+        "LIFEBOX, marque française leader de la sécurité domestique"
+      ],
+      "cons": [
+        "30 kg à vide, prévoir un scellement au mur ou au sol"
+      ]
+    },
+    {
+      "name": "Ajax Hub 2 Plus Centrale d'Alarme Professionnelle 4G",
+      "price": "514,78 €",
+      "image": "/images/products/ajax-hub-2-plus-alarme-professionnelle.jpg",
+      "category": "alarme",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GFDDX3JX?tag=secure012de-21",
+      "pros": [
+        "Certifiée EN 50131 Degré 2, le niveau utilisé par les installateurs professionnels",
+        "Double SIM 4G et Ethernet : reste connectée même si la ligne est coupée"
+      ],
+      "cons": [
+        "Centrale seule : détecteurs et sirènes s'achètent séparément"
+      ]
+    }
+  ]
+}
