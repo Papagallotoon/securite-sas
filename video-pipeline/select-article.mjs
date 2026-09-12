@@ -123,13 +123,16 @@ const PRIORITY_SLUGS = [
   "top-5-verrous-securite-enfant-placards",
 ];
 
-// Picks the next article of a given format type that hasn't been turned
-// into a video yet (priority slugs first for "comparatif", then
-// alphabetical order), falling back to rotating through already-published
-// topics of that same type, oldest-first, once every one has had a turn.
-// Returns null only if the catalog has *no* article of this type at all
-// (e.g. no audiobook content authored yet for this channel) — run.mjs
-// falls back to "comparatif" in that case.
+// Picks the next UNUSED article of a given format type (priority slugs
+// first for "comparatif", then alphabetical order). Returns null once every
+// article of this type has already been published — never republishes an
+// already-used topic as if it were new; run.mjs is responsible for trying
+// another type or a solo spotlight instead of calling this again with the
+// same type. (Previously this rotated back through already-published topics
+// of the same type as a "never skip a slot" fallback — that produced literal
+// duplicate re-uploads on channels whose catalog is smaller than the daily
+// slot count, e.g. spdb republishing the same top-5 video 2 days apart. Fixed
+// 2026-09-12.)
 export function selectNextArticleForType(type) {
   const state = loadState();
   const files = fs
@@ -161,33 +164,7 @@ export function selectNextArticleForType(type) {
     if (picked) return { ...picked, actualType: type };
   }
 
-  // Every topic of this type has been published at least once — per the
-  // "videos every day, no matter what" standing rule, skipping is not an
-  // acceptable outcome. Rotate back through already-published topics of
-  // this type instead, oldest-first (earliest in usedSlugs). markUsed()
-  // always moves a slug to the end, so this naturally cycles the whole
-  // type-specific catalog before any single topic repeats twice.
-  let anyOfType = false;
-  for (const slug of state.usedSlugs) {
-    const file = `${slug}.json`;
-    if (!files.includes(file)) continue; // e.g. a synthetic "solo-*" slug
-    const article = readArticle(file);
-    if (articleType(article) !== type) continue;
-    anyOfType = true;
-    if (article.products.length === 0) continue;
-    return { slug, article, actualType: type };
-  }
-
-  // Catch articles of this type that were never even marked used (only
-  // reachable if the two loops above somehow missed one — defensive).
-  for (const file of files) {
-    const article = readArticle(file);
-    if (articleType(article) === type && article.products.length > 0) {
-      anyOfType = true;
-    }
-  }
-
-  return anyOfType ? null : null; // no usable article of this type exists
+  return null; // every article of this type has already been published
 }
 
 // "Solo" videos spotlight a single product instead of a top-5 — rather

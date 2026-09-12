@@ -38,19 +38,27 @@ async function main() {
     // rule — nextFormatType() says which slot today's run should fill.
     const targetType = nextFormatType();
     picked = targetType === "solo" ? buildSoloArticle() : selectNextArticleForType(targetType);
-    // The target type may simply have no content yet on this channel (e.g.
-    // audible topics haven't been authored here) — comparatif always has
-    // content, so fall back to it rather than skip the run.
-    if (!picked && targetType !== "comparatif") {
-      console.log(`No "${targetType}" article available — falling back to comparatif.`);
-      picked = selectNextArticleForType("comparatif");
+    // The target type may be out of fresh content (nothing authored yet, or
+    // its catalog is fully used up for now) — try the other comparatif/
+    // audible type fresh, then a solo spotlight, rather than ever calling
+    // selectNextArticleForType again for the same type: that would either
+    // return null again, or — before 2026-09-12 — silently re-upload an
+    // already-published topic as if it were new.
+    if (!picked && targetType !== "solo") {
+      const altType = targetType === "comparatif" ? "audible" : "comparatif";
+      console.log(`No fresh "${targetType}" article available — trying "${altType}" instead.`);
+      picked = selectNextArticleForType(altType);
+    }
+    if (!picked) {
+      console.log("No fresh comparatif/audible article left — falling back to a solo spotlight.");
+      picked = buildSoloArticle();
     }
   }
   if (!picked) {
     console.log(
       forcedSlug
         ? `Article "${forcedSlug}" not found or has no product with a real price.`
-        : "No usable article left anywhere in content/ — nothing to do this run."
+        : "No fresh content available anywhere (comparatif, audible, solo) — skipping this run rather than republishing a duplicate."
     );
     return;
   }
