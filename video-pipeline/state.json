@@ -26,12 +26,13 @@
     "top-5-coffres-forts-connectes",
     "top-5-detecteurs-bris-vitre-fenetre",
     "top-5-livres-cybersecurite",
-    "top-5-cameras-solaires-exterieures"
+    "top-5-cameras-solaires-exterieures",
+    "top-5-capteurs-ouverture-porte-fenetre-connectes"
   ],
-  "lastRunAt": "2026-09-12T16:12:30.103Z",
+  "lastRunAt": "2026-09-12T22:07:56.476Z",
   "dailyCounts": {
     "date": "2026-09-12",
-    "comparatif": 2,
+    "comparatif": 3,
     "audible": 1,
     "solo": 0
   }
