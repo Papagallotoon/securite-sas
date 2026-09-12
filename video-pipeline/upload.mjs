@@ -60,6 +60,8 @@ const CATEGORY_TAGS = {
   "barriere-piscine": ["securite piscine", "protection noyade enfant"],
   "barriere-escalier": ["securite enfant maison", "barriere escalier bebe"],
   livre: ["livre cybersecurite", "livre securite informatique"],
+  "capteur-ouverture": ["capteur porte fenetre connecte", "detecteur ouverture porte"],
+  sirene: ["sirene alarme exterieure", "sirene connectee maison"],
 };
 
 function buildTags(article) {
@@ -89,6 +91,9 @@ const SITE_ARTICLE_PATHS = {
   "top-5-barrieres-securite-escalier-enfant": "/family/barrieres-securite-escalier-enfant",
   "top-5-serrures-connectees-nuki-alternatives": "/perimeter/serrures-connectees-nuki-alternatives",
   "top-5-livres-cybersecurite": "/guides/livres-cybersecurite",
+  "top-5-cameras-solaires-exterieures": "/detection/cameras-solaires-exterieures",
+  "top-5-capteurs-ouverture-porte-fenetre-connectes": "/perimeter/capteurs-ouverture-porte-fenetre-connectes",
+  "top-5-sirenes-alarme-exterieures-connectees": "/response/sirenes-alarme-exterieures-connectees",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 

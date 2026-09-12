@@ -78,18 +78,18 @@ const PRONUNCIATION_FIXES = [
 // leading-ALLCAPS stripper below only catches brands written in all caps;
 // this list catches the rest regardless of case or position in the name.
 const BRAND_STRIP = [
-  "ABUS", "AGSHOME", "AICase", "ATUVOS", "Aqara", "Arlo", "BCone", "Cozier",
+  "ABUS", "AGSHOME", "AICase", "ATUVOS", "Ajax", "Aqara", "Arlo", "BCone", "Cozier",
   "DREAMADE", "Daewoo", "Dokon", "Dreambaby", "EDG", "ELEKTROBOCK", "EZVIZ",
   "Eseesmart", "FUHOMI", "GIANTEX", "GOPLUS", "Govee", "HOMYBABY", "Heiman",
   "Hoffenbach", "Imou", "Invoxia", "Jennov", "KIDIZ", "Kamtop", "Konyks",
   "Legrand", "MEIKEE", "MIGUBIGU", "MOES", "Master Lock", "Meross", "NIVIAN",
   "Nivian", "Nuki", "OREiN", "Outsunny", "Philips", "Populife", "REDTRON",
   "ROCKBROS", "Reolink", "Ring", "SANNCE", "SEPOX", "SURFOU", "Safety 1st",
-  "Samsung", "Shelly", "Smartpool", "Smartwares", "Somfy", "Steinel",
-  "SwitchBot", "TP-Link", "Tapo", "UGREEN", "Uplock", "VECTA", "VIRONE",
-  "VOUNOT", "X-Sense", "XUK", "Xcase", "Xiaomi", "YISEELE", "Yale", "aosu",
-  "eufy", "frient", "ib style", "igloohome", "reer", "tiiwee", "vidaXL",
-  "Apple", "Dioxide", "Basics",
+  "Samsung", "Shelly", "Smartpool", "Smartwares", "Somfy", "Sone", "Steinel",
+  "SwitchBot", "TP-Link", "Tapo", "Tuya", "UGREEN", "Uplock", "VECTA", "VIRONE",
+  "VOUNOT", "Vosker", "X-Sense", "XUK", "Xcase", "Xiaomi", "YISEELE", "Yale",
+  "aosu", "eufy", "frient", "ib style", "ieGeek", "igloohome", "reer", "tiiwee",
+  "vidaXL", "Apple", "Dioxide", "Basics",
 ];
 
 function stripBrandNames(text) {

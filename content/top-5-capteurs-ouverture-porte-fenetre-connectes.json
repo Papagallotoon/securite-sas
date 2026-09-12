@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-capteurs-ouverture-porte-fenetre-connectes",
+  "title": "Top 5 Capteurs d'Ouverture Porte et Fenêtre Connectés",
+  "excerpt": "Un petit aimant, une notification sur le téléphone dès qu'une porte ou une fenêtre s'ouvre : voici 5 capteurs connectés, du WiFi autonome au Zigbee le plus répandu, pour surveiller les accès sans grand chantier.",
+  "hookSubject": "les meilleurs capteurs d'ouverture connectés pour porte et fenêtre",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Sone Détecteur Connecté Ouverture Porte WiFi",
+      "price": "12,99 €",
+      "image": "/images/products/sone-detecteur-ouverture-porte-wifi.jpg",
+      "category": "capteur-ouverture",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CQ56T4M4?tag=secure012de-21",
+      "pros": [
+        "Le moins cher du comparatif",
+        "Fonctionne en WiFi direct, sans hub à acheter en plus"
+      ],
+      "cons": [
+        "Portée WiFi à tester selon l'épaisseur des murs"
+      ]
+    },
+    {
+      "name": "Tapo T110 Détecteur Ouverture Porte Fenêtre",
+      "price": "12,31 €",
+      "image": "/images/products/tapo-t110-detecteur-ouverture-porte.jpg",
+      "category": "capteur-ouverture",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BF5MC9QX?tag=secure012de-21",
+      "pros": [
+        "Marque TP-Link, très bien noté par les clients",
+        "Autonomie de plus d'un an annoncée sur une seule pile"
+      ],
+      "cons": [
+        "Nécessite un hub Tapo pour recevoir les alertes à distance"
+      ]
+    },
+    {
+      "name": "Aqara Détecteur Ouverture Porte Fenêtre Zigbee",
+      "price": "19,99 €",
+      "image": "/images/products/aqara-detecteur-ouverture-zigbee.jpg",
+      "category": "capteur-ouverture",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07D37VDM3?tag=secure012de-21",
+      "pros": [
+        "Détecteur Zigbee le plus répandu de ce type sur le marché",
+        "Compatible avec la plupart des hubs domotiques"
+      ],
+      "cons": [
+        "Nécessite un hub Aqara, vendu séparément"
+      ]
+    },
+    {
+      "name": "SONOFF Détecteur Fenêtre Zigbee Lot de 4",
+      "price": "30,30 €",
+      "image": "/images/products/sonoff-senseguard-detecteur-fenetre-lot4.jpg",
+      "category": "capteur-ouverture",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GKFB66JZ?tag=secure012de-21",
+      "pros": [
+        "Lot de 4 capteurs, économique pour équiper plusieurs fenêtres",
+        "Alarme de sabotage en cas de démontage du capteur"
+      ],
+      "cons": [
+        "Nécessite un hub Zigbee compatible"
+      ]
+    },
+    {
+      "name": "Aqara Détecteur Ouverture P2 Matter sur Thread",
+      "price": "32,99 €",
+      "image": "/images/products/aqara-detecteur-ouverture-p2-matter.jpg",
+      "category": "capteur-ouverture",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BTL8B72D?tag=secure012de-21",
+      "pros": [
+        "Matter sur Thread, le standard domotique le plus récent",
+        "Automatisations locales, sans dépendre d'un serveur distant"
+      ],
+      "cons": [
+        "Le plus cher du comparatif, nécessite un routeur de bordure Thread"
+      ]
+    }
+  ]
+}

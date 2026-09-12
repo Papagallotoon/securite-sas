@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-cameras-solaires-exterieures",
+  "title": "Top 5 Caméras de Surveillance Solaires Extérieures",
+  "excerpt": "Sans câble d'alimentation ni prise à proximité, la caméra solaire s'installe n'importe où dans le jardin : voici 5 modèles qui tiennent la promesse, du premier prix au kit multi-caméras.",
+  "hookSubject": "les meilleures caméras de surveillance solaires extérieures",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Cinnado Caméra Solaire 2K WiFi Extérieure IP65",
+      "price": "39,99 €",
+      "image": "/images/products/cinnado-camera-solaire-2k-ip65.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GXVNM9K2?tag=secure012de-21",
+      "pros": [
+        "Le moins cher du comparatif",
+        "Vision nocturne couleur et audio bidirectionnel"
+      ],
+      "cons": [
+        "Résolution 2K seulement, pas de 4K"
+      ]
+    },
+    {
+      "name": "COOAU Caméra Solaire 2K WiFi 360°",
+      "price": "48,99 €",
+      "image": "/images/products/cooau-camera-solaire-2k-360-ptz.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F1MT6QBY?tag=secure012de-21",
+      "pros": [
+        "Rotation à 360° pour couvrir tout le jardin",
+        "Wi-Fi 6 et alarme anti-intrusion intégrée"
+      ],
+      "cons": [
+        "Panneau solaire à orienter soi-même pour une charge optimale"
+      ]
+    },
+    {
+      "name": "ieGeek Caméra Solaire 2K WiFi 360°",
+      "price": "49,88 €",
+      "image": "/images/products/iegeek-camera-solaire-2k-ia.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CNCRQW9F?tag=secure012de-21",
+      "pros": [
+        "Détection humaine par intelligence artificielle, moins de fausses alertes",
+        "Compatible Alexa"
+      ],
+      "cons": [
+        "Marque moins connue que les grands noms de la vidéosurveillance"
+      ]
+    },
+    {
+      "name": "Vosker VKX Caméra 4G Solaire sans WiFi",
+      "price": "249,90 €",
+      "image": "/images/products/vosker-vkx-camera-4g-solaire.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FDXKV6CN?tag=secure012de-21",
+      "pros": [
+        "Fonctionne sans box internet ni WiFi grâce à la carte SIM incluse",
+        "Idéale pour un terrain isolé ou une résidence secondaire"
+      ],
+      "cons": [
+        "Abonnement data à prévoir après l'essai inclus"
+      ]
+    },
+    {
+      "name": "aosu T2 Ultra Kit 2 Caméras 4K Solaires 360°",
+      "price": "319,99 €",
+      "image": "/images/products/aosu-t2-ultra-kit-2-cameras-4k.jpg",
+      "category": "camera-exterieure",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GCD435G3?tag=secure012de-21",
+      "pros": [
+        "Kit de 2 caméras 4K livré avec une station de base",
+        "Suivi automatique et détection humain, véhicule ou animal"
+      ],
+      "cons": [
+        "Le plus cher du comparatif"
+      ]
+    }
+  ]
+}

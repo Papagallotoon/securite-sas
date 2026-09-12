@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-sirenes-alarme-exterieures-connectees",
+  "title": "Top 5 Sirènes d'Alarme Extérieures Connectées",
+  "excerpt": "Une sirène extérieure bien visible dissuade souvent mieux qu'un simple capteur discret : voici 5 sirènes connectées, du modèle WiFi autonome au matériel professionnel utilisé par les installateurs.",
+  "hookSubject": "les meilleures sirènes d'alarme extérieures connectées",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Sirène Extérieure WiFi Tuya 120 dB",
+      "price": "39,99 €",
+      "image": "/images/products/sirene-exterieure-wifi-tuya-pst.jpg",
+      "category": "sirene",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FP9G1FGP?tag=secure012de-21",
+      "pros": [
+        "Le moins cher du comparatif",
+        "Batterie rechargeable intégrée, fonctionne aussi en coupure de courant"
+      ],
+      "cons": [
+        "Compatible uniquement avec des capteurs 433 MHz existants"
+      ]
+    },
+    {
+      "name": "VIGIO Sirène Alarme Extérieure Solaire Connectée",
+      "price": "59,00 €",
+      "image": "/images/products/vigio-sirene-exterieure-solaire.jpg",
+      "category": "sirene",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0HCNSMYBL?tag=secure012de-21",
+      "pros": [
+        "Alimentation solaire, aucun câblage nécessaire",
+        "Se déclenche automatiquement avec le système d'alarme associé"
+      ],
+      "cons": [
+        "Fonctionne uniquement avec le système d'alarme VIGIO"
+      ]
+    },
+    {
+      "name": "Sirène Extérieure 120 dB Batterie de Secours",
+      "price": "79,99 €",
+      "image": "/images/products/huxgo-sirene-exterieure-batterie-secours.jpg",
+      "category": "sirene",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GRW7B4H9?tag=secure012de-21",
+      "pros": [
+        "Meilleure note du comparatif",
+        "Batterie de secours 5000 mAh, résistante aux intempéries"
+      ],
+      "cons": [
+        "Pas de panneau solaire, batterie à recharger manuellement"
+      ]
+    },
+    {
+      "name": "tiiwee A3 Sirène d'Extérieur",
+      "price": "79,90 €",
+      "image": "/images/products/tiiwee-a3-sirene-exterieure.jpg",
+      "category": "sirene",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07GXX89V3?tag=secure012de-21",
+      "pros": [
+        "Marque spécialisée dans les systèmes d'alarme sans abonnement",
+        "Bien notée, avec un bon volume d'avis clients"
+      ],
+      "cons": [
+        "Fonctionne uniquement avec l'écosystème d'alarme tiiwee"
+      ]
+    },
+    {
+      "name": "Ajax Sirène Extérieure Deux Niveaux",
+      "price": "231,97 €",
+      "image": "/images/products/ajax-street-siren-double-deck.jpg",
+      "category": "sirene",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08M5QGR2S?tag=secure012de-21",
+      "pros": [
+        "Marque professionnelle utilisée par les installateurs d'alarme",
+        "Flash lumineux et sirène combinés, très résistante"
+      ],
+      "cons": [
+        "Le plus cher du comparatif, nécessite l'écosystème Ajax"
+      ]
+    }
+  ]
+}
