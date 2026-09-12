@@ -181,7 +181,11 @@ function productSentence(product, i, total, isComparatif) {
   const name = spokenProductName(product);
   const price = product.price;
   let sentence;
-  if (i === 0) sentence = `On commence petit budget, avec ${name}, à seulement ${price}`;
+  // A "solo" spotlight video (one product, no ranking) shouldn't say
+  // "on commence petit budget" — that framing only makes sense against
+  // other picks in the same list.
+  if (total === 1) sentence = `Notre coup de cœur du jour, ${name}, à ${price}`;
+  else if (i === 0) sentence = `On commence petit budget, avec ${name}, à seulement ${price}`;
   else if (i === total - 1) sentence = `Et si tu veux mettre le prix, ${name}, à ${price}`;
   else sentence = MIDDLE_TEMPLATES[(i - 1) % MIDDLE_TEMPLATES.length](name, price).replace(/\s*!$/, "");
 

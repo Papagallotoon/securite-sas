@@ -1,6 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
-import { selectNextArticle, loadArticleBySlug, markUsed, recentlyPublished } from "./select-article.mjs";
+import {
+  selectNextArticleForType,
+  buildSoloArticle,
+  loadArticleBySlug,
+  markUsed,
+  recentlyPublished,
+  nextFormatType,
+  recordPublishedType,
+} from "./select-article.mjs";
 import { buildScript } from "./build-script.mjs";
 import { synthesizeLines } from "./tts.mjs";
 import { renderVideo } from "./render.mjs";
@@ -22,17 +30,32 @@ async function main() {
     return;
   }
 
-  const picked = forcedSlug ? loadArticleBySlug(forcedSlug) : selectNextArticle();
+  let picked;
+  if (forcedSlug) {
+    picked = loadArticleBySlug(forcedSlug);
+  } else {
+    // Daily format mix: 2 comparatif / 2 audible / 1 solo, per the standing
+    // rule — nextFormatType() says which slot today's run should fill.
+    const targetType = nextFormatType();
+    picked = targetType === "solo" ? buildSoloArticle() : selectNextArticleForType(targetType);
+    // The target type may simply have no content yet on this channel (e.g.
+    // audible topics haven't been authored here) — comparatif always has
+    // content, so fall back to it rather than skip the run.
+    if (!picked && targetType !== "comparatif") {
+      console.log(`No "${targetType}" article available — falling back to comparatif.`);
+      picked = selectNextArticleForType("comparatif");
+    }
+  }
   if (!picked) {
     console.log(
       forcedSlug
         ? `Article "${forcedSlug}" not found or has no product with a real price.`
-        : "No unused article left in content/ — nothing to do this run."
+        : "No usable article left anywhere in content/ — nothing to do this run."
     );
     return;
   }
-  const { slug, article } = picked;
-  console.log(`Selected article: ${slug}`);
+  const { slug, article, actualType } = picked;
+  console.log(`Selected article: ${slug}${actualType ? ` (type: ${actualType})` : ""}`);
 
   const runTmpDir = path.join(TMP_DIR, slug);
   fs.rmSync(runTmpDir, { recursive: true, force: true });
@@ -58,6 +81,7 @@ async function main() {
   }
 
   markUsed(slug);
+  if (actualType) recordPublishedType(actualType);
   console.log(`Marked "${slug}" as used.`);
 
   if (process.env.KEEP_TMP !== "1") {
