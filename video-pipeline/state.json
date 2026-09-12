@@ -24,14 +24,14 @@
     "top-5-caches-prises-securite-enfant",
     "top-5-serrures-connectees-nuki-alternatives",
     "top-5-coffres-forts-connectes",
-    "top-5-livres-cybersecurite",
-    "top-5-detecteurs-bris-vitre-fenetre"
+    "top-5-detecteurs-bris-vitre-fenetre",
+    "top-5-livres-cybersecurite"
   ],
-  "lastRunAt": "2026-09-12T07:03:39.206Z",
+  "lastRunAt": "2026-09-12T10:18:34.697Z",
   "dailyCounts": {
     "date": "2026-09-12",
     "comparatif": 1,
-    "audible": 0,
+    "audible": 1,
     "solo": 0
   }
 }
