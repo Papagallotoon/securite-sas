@@ -27,13 +27,14 @@
     "top-5-detecteurs-bris-vitre-fenetre",
     "top-5-livres-cybersecurite",
     "top-5-cameras-solaires-exterieures",
-    "top-5-capteurs-ouverture-porte-fenetre-connectes"
+    "top-5-capteurs-ouverture-porte-fenetre-connectes",
+    "top-5-securite-maison-luxe"
   ],
-  "lastRunAt": "2026-09-12T22:07:56.476Z",
+  "lastRunAt": "2026-09-13T07:04:59.722Z",
   "dailyCounts": {
-    "date": "2026-09-12",
-    "comparatif": 3,
-    "audible": 1,
+    "date": "2026-09-13",
+    "comparatif": 1,
+    "audible": 0,
     "solo": 0
   }
 }
