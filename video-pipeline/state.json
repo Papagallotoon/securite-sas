@@ -28,12 +28,13 @@
     "top-5-livres-cybersecurite",
     "top-5-cameras-solaires-exterieures",
     "top-5-capteurs-ouverture-porte-fenetre-connectes",
-    "top-5-securite-maison-luxe"
+    "top-5-securite-maison-luxe",
+    "top-5-sirenes-alarme-exterieures-connectees"
   ],
-  "lastRunAt": "2026-09-13T07:04:59.722Z",
+  "lastRunAt": "2026-09-13T11:19:28.244Z",
   "dailyCounts": {
     "date": "2026-09-13",
-    "comparatif": 1,
+    "comparatif": 2,
     "audible": 0,
     "solo": 0
   }
