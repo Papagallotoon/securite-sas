@@ -196,8 +196,16 @@ export function buildSoloArticle() {
   state.soloIndex = soloIndex + 1;
   saveState(state);
 
+  // upload.mjs's buildHookTitle() needs article.slug — hashString(article.slug)
+  // throws mid-upload otherwise (a real bug hit in production on 2026-09-13
+  // on the sibling deco-site repo: the video rendered fine but the upload
+  // crashed, so nothing got published). Point at the source article's real
+  // slug so SITE_ARTICLE_PATHS[article.slug] also resolves to a real,
+  // relevant page (the full comparison this product came from) instead of
+  // silently omitting the site link.
   const article = {
     title: pick.product.name,
+    slug: pick.sourceSlug,
     excerpt: pick.sourceArticle.excerpt,
     hookSubject: pick.product.name,
     format: "coup-de-coeur",
