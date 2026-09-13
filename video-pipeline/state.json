@@ -30,14 +30,15 @@
     "top-5-capteurs-ouverture-porte-fenetre-connectes",
     "top-5-securite-maison-luxe",
     "top-5-sirenes-alarme-exterieures-connectees",
-    "solo-top-5-alarmes-piscine-connectees-B01HMI8ZPY"
+    "solo-top-5-alarmes-piscine-connectees-B01HMI8ZPY",
+    "solo-top-5-alarmes-piscine-connectees-B08T863DNT"
   ],
-  "lastRunAt": "2026-09-13T16:56:27.567Z",
+  "lastRunAt": "2026-09-13T22:17:10.899Z",
   "dailyCounts": {
     "date": "2026-09-13",
     "comparatif": 2,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 1
+  "soloIndex": 2
 }
