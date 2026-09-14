@@ -32,14 +32,15 @@
     "top-5-sirenes-alarme-exterieures-connectees",
     "solo-top-5-alarmes-piscine-connectees-B01HMI8ZPY",
     "solo-top-5-alarmes-piscine-connectees-B08T863DNT",
-    "solo-top-5-alarmes-piscine-connectees-B09LVGHL83"
+    "solo-top-5-alarmes-piscine-connectees-B09LVGHL83",
+    "solo-top-5-alarmes-piscine-connectees-B0050FGV1M"
   ],
-  "lastRunAt": "2026-09-14T07:02:35.826Z",
+  "lastRunAt": "2026-09-14T12:02:41.463Z",
   "dailyCounts": {
     "date": "2026-09-14",
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 3
+  "soloIndex": 4
 }
