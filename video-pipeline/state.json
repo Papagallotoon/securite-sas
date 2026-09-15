@@ -35,14 +35,15 @@
     "solo-top-5-alarmes-piscine-connectees-B09LVGHL83",
     "solo-top-5-alarmes-piscine-connectees-B0050FGV1M",
     "solo-top-5-alarmes-piscine-connectees-B08D9V3NN7",
-    "solo-top-5-barres-securite-anti-effraction-B0FCY238L6"
+    "solo-top-5-barres-securite-anti-effraction-B0FCY238L6",
+    "solo-top-5-barres-securite-anti-effraction-B0GYDY2CJ1"
   ],
-  "lastRunAt": "2026-09-14T20:26:49.659Z",
+  "lastRunAt": "2026-09-15T07:02:28.051Z",
   "dailyCounts": {
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "comparatif": 0,
     "audible": 0,
-    "solo": 4
+    "solo": 1
   },
-  "soloIndex": 6
+  "soloIndex": 7
 }
