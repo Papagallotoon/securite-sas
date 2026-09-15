@@ -6,7 +6,11 @@ import crypto from "node:crypto";
 import readline from "node:readline/promises";
 
 const REDIRECT_URI = "https://securitemaison-site.vercel.app/tiktok-callback";
-const { TIKTOK_CLIENT_KEY: clientKey, TIKTOK_CLIENT_SECRET: clientSecret } = process.env;
+// Keys pasted from the portal often carry stray spaces or quotes, which
+// TikTok rejects with a bare "client_key" error.
+const clean = (v) => (v || "").trim().replace(/^["']|["']$/g, "");
+const clientKey = clean(process.env.TIKTOK_CLIENT_KEY);
+const clientSecret = clean(process.env.TIKTOK_CLIENT_SECRET);
 
 if (!clientKey || !clientSecret) {
   console.error(
@@ -14,6 +18,12 @@ if (!clientKey || !clientSecret) {
       "Example (PowerShell):\n" +
       '  $env:TIKTOK_CLIENT_KEY="..."; $env:TIKTOK_CLIENT_SECRET="..."; node video-pipeline/get-tiktok-token.mjs'
   );
+  process.exit(1);
+}
+
+console.log(`Client key utilisée : ${clientKey.slice(0, 4)}…${clientKey.slice(-3)} (${clientKey.length} caractères)`);
+if (!/^[A-Za-z0-9]+$/.test(clientKey)) {
+  console.error("La Client key contient des caractères inattendus (espace, guillemet...) — recopiez-la depuis le portail.");
   process.exit(1);
 }
 
