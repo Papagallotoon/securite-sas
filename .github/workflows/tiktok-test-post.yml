@@ -1,0 +1,32 @@
+name: TikTok test post
+
+# Manual one-off: posts the demo short to TikTok to test the integration and
+# record the end-to-end demo video TikTok's app review requires. Sandbox
+# uses its own credentials (TIKTOK_SANDBOX_* secrets) until the app is approved.
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "TikTok credentials to use"
+        required: true
+        default: sandbox
+        type: choice
+        options: [sandbox, production]
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Post demo video to TikTok
+        env:
+          TIKTOK_CLIENT_KEY: ${{ inputs.environment == 'sandbox' && secrets.TIKTOK_SANDBOX_CLIENT_KEY || secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ inputs.environment == 'sandbox' && secrets.TIKTOK_SANDBOX_CLIENT_SECRET || secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ inputs.environment == 'sandbox' && secrets.TIKTOK_SANDBOX_REFRESH_TOKEN || secrets.TIKTOK_REFRESH_TOKEN }}
+          TIKTOK_PRIVACY: SELF_ONLY
+        run: node video-pipeline/tiktok-test-post.mjs video-pipeline/assets/tiktok-demo.mp4 "Top 5 Produits de Sécurité Haut de Gamme pour Maison de Luxe"
