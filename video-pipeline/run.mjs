@@ -13,6 +13,7 @@ import { buildScript } from "./build-script.mjs";
 import { synthesizeLines } from "./tts.mjs";
 import { renderVideo } from "./render.mjs";
 import { uploadVideo } from "./upload.mjs";
+import { uploadToTikTok } from "./tiktok-upload.mjs";
 import { sendPostedEmail } from "./notify.mjs";
 import { TMP_DIR, OUT_DIR } from "./config.mjs";
 
@@ -86,6 +87,17 @@ async function main() {
     const videoUrl = `https://youtube.com/watch?v=${result.id}`;
     console.log(`Uploaded: ${videoUrl} (privacy: ${result.status?.privacyStatus})`);
     await sendPostedEmail({ article, videoUrl });
+
+    // TikTok is a secondary channel: a failure there must not fail the run,
+    // or the YouTube video already published would never get marked as used.
+    if (process.env.TIKTOK_REFRESH_TOKEN) {
+      try {
+        const tt = await uploadToTikTok({ videoPath: outPath, article });
+        console.log(`TikTok published: publish_id ${tt.publishId} (privacy: ${tt.privacy})`);
+      } catch (err) {
+        console.error("TikTok upload failed (YouTube publish unaffected):", err.message);
+      }
+    }
   }
 
   markUsed(slug);
