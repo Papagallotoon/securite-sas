@@ -38,14 +38,15 @@
     "solo-top-5-barres-securite-anti-effraction-B0FCY238L6",
     "solo-top-5-barres-securite-anti-effraction-B0GYDY2CJ1",
     "solo-top-5-barres-securite-anti-effraction-B085FWV9V5",
-    "solo-top-5-barres-securite-anti-effraction-B07YZ9T5X7"
+    "solo-top-5-barres-securite-anti-effraction-B07YZ9T5X7",
+    "solo-top-5-barres-securite-anti-effraction-B0D9NPFRH7"
   ],
-  "lastRunAt": "2026-09-15T14:25:26.507Z",
+  "lastRunAt": "2026-09-15T17:36:21.309Z",
   "dailyCounts": {
     "date": "2026-09-15",
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 9
+  "soloIndex": 10
 }
