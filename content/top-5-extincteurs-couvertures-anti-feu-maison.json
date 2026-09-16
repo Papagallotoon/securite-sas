@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-extincteurs-couvertures-anti-feu-maison",
+  "title": "Top 5 Extincteurs et Couvertures Anti-Feu pour la Maison",
+  "excerpt": "Un début d'incendie se maîtrise dans les premières secondes, ou pas du tout : voici 5 équipements anti-feu pour la maison, de la couverture pour la cuisine au lot de deux extincteurs 6 kg.",
+  "hookSubject": "les meilleurs extincteurs et couvertures anti-feu pour ta maison",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "FLASLD Couverture Anti-Feu Grand Format en Fibre de Verre",
+      "price": "12,00 €",
+      "image": "/images/products/flasld-couverture-anti-feu-120cm.jpg",
+      "category": "extincteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09RX1ZJHJ?tag=secure012de-21",
+      "pros": [
+        "Idéale contre les feux de poêle",
+        "Le moins cher du comparatif, format 120 x 120 cm"
+      ],
+      "cons": [
+        "Adaptée aux petits feux localisés, pas à un départ d'incendie étendu"
+      ]
+    },
+    {
+      "name": "Smartwares Extincteur en Spray pour Feux de Cuisine",
+      "price": "19,57 €",
+      "image": "/images/products/smartwares-extincteur-spray-750ml.jpg",
+      "category": "extincteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DMTH57J3?tag=secure012de-21",
+      "pros": [
+        "Aussi simple qu'une bombe de peinture",
+        "Aérosol de 750 ml adapté aux feux de graisse"
+      ],
+      "cons": [
+        "Usage unique et capacité limitée"
+      ]
+    },
+    {
+      "name": "Lifebox Extincteur à Poudre 2 kg avec Manomètre",
+      "price": "32,90 €",
+      "image": "/images/products/lifebox-extincteur-poudre-2kg.jpg",
+      "category": "extincteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B007C1S9FS?tag=secure012de-21",
+      "pros": [
+        "Manomètre pour vérifier la pression",
+        "Poudre ABC : feux de solides, de liquides et de gaz"
+      ],
+      "cons": [
+        "Capacité de 2 kg, à doubler pour une grande maison"
+      ]
+    },
+    {
+      "name": "Smartwares Grand Extincteur à Poudre 6 kg avec Support Mural",
+      "price": "54,99 €",
+      "image": "/images/products/smartwares-extincteur-poudre-6kg.jpg",
+      "category": "extincteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DW429QVS?tag=secure012de-21",
+      "pros": [
+        "Taille de référence pour une maison",
+        "6 kg de poudre ABC et support mural inclus"
+      ],
+      "cons": [
+        "Plus lourd à manier qu'un modèle de 2 kg"
+      ]
+    },
+    {
+      "name": "Gloria Lot de 2 Extincteurs à Poudre 6 kg avec Supports Muraux",
+      "price": "89,99 €",
+      "image": "/images/products/gloria-pde6-lot-2-extincteurs-6kg.jpg",
+      "category": "extincteur",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09VCH72HP?tag=secure012de-21",
+      "pros": [
+        "Lot de deux extincteurs 6 kg pour couvrir deux zones",
+        "Supports muraux fournis"
+      ],
+      "cons": [
+        "Le plus cher du comparatif"
+      ]
+    }
+  ]
+}

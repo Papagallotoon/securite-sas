@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-judas-numeriques-porte",
+  "title": "Top 5 Judas Numériques pour Porte d'Entrée",
+  "excerpt": "Voir qui sonne sans coller l'œil à la porte, et même depuis son téléphone : voici 5 judas numériques qui remplacent l'ancien judas optique, du modèle à écran simple au judas 4K connecté.",
+  "hookSubject": "les meilleurs judas numériques pour ta porte d'entrée",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Yale Judas Électronique Numérique 105°",
+      "price": "44,99 €",
+      "image": "/images/products/yale-judas-electronique-numerique-blanc.jpg",
+      "category": "judas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B014LC93QO?tag=secure012de-21",
+      "pros": [
+        "Remplace directement le judas mécanique existant",
+        "Le moins cher du comparatif, d'une marque reconnue de la serrurerie"
+      ],
+      "cons": [
+        "Pas de WiFi : l'image ne se consulte que devant la porte"
+      ]
+    },
+    {
+      "name": "EZVIZ CP2 Judas sans Fil Écran 4,3 Pouces",
+      "price": "69,99 €",
+      "image": "/images/products/ezviz-cp2-judas-sans-fil-ecran-4-3.jpg",
+      "category": "judas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D92GJRFX?tag=secure012de-21",
+      "pros": [
+        "Vue en direct depuis le téléphone grâce au WiFi",
+        "Grand écran couleur de 4,3 pouces, facile à lire"
+      ],
+      "cons": [
+        "Pas de détection de mouvement"
+      ]
+    },
+    {
+      "name": "Imou VD1 Judas Numérique 3K avec Écran 4,3 Pouces",
+      "price": "79,99 €",
+      "image": "/images/products/imou-vd1-judas-numerique-3k.jpg",
+      "category": "judas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0G6CYZTVG?tag=secure012de-21",
+      "pros": [
+        "Image 3K et vision à 149° pour couvrir tout le palier",
+        "Détection humaine et grosse batterie de 4800 mAh"
+      ],
+      "cons": [
+        "Pas de vision nocturne selon le fabricant"
+      ]
+    },
+    {
+      "name": "DoorCAM DC2 PLUS Judas Numérique Écran 4,3 Pouces",
+      "price": "119,90 €",
+      "image": "/images/products/doorcam-dc2-plus-judas-numerique.jpg",
+      "category": "judas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07DW9ZYFL?tag=secure012de-21",
+      "pros": [
+        "Un seul bouton, aucune application requise",
+        "Compatible avec les portes épaisses, jusqu'à 110 mm"
+      ],
+      "cons": [
+        "Fonctionne avec 4 piles AAA non incluses, sans accès à distance"
+      ]
+    },
+    {
+      "name": "EZVIZ EP4 Judas 4K Écran Tactile 5,5 Pouces",
+      "price": "199,99 €",
+      "image": "/images/products/ezviz-ep4-judas-4k-ecran-tactile.jpg",
+      "category": "judas",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0G5113DT4?tag=secure012de-21",
+      "pros": [
+        "Image 4K et reconnaissance faciale intégrée",
+        "Écran tactile de 5,5 pouces et angle ultra-large de 155°"
+      ],
+      "cons": [
+        "Le plus cher du comparatif"
+      ]
+    }
+  ]
+}

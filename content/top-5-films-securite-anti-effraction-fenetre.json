@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-films-securite-anti-effraction-fenetre",
+  "title": "Top 5 Films de Sécurité Anti-Effraction pour Fenêtre",
+  "excerpt": "Une vitre brisée reste le point d'entrée le plus rapide pour un cambrioleur : voici 5 films de sécurité transparents qui retiennent les éclats et ralentissent l'intrusion, du film anti-éclats au film certifié P2A.",
+  "hookSubject": "les meilleurs films de sécurité anti-effraction pour tes fenêtres",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "DARUITE Film de Sécurité Anti-Éclats Transparent",
+      "price": "15,34 €",
+      "image": "/images/products/daruite-film-securite-anti-eclats.jpg",
+      "category": "film-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F8NTS3V7?tag=secure012de-21",
+      "pros": [
+        "Le moins cher du comparatif",
+        "Film PET de 4 mil qui maintient les éclats de verre ensemble"
+      ],
+      "cons": [
+        "Épaisseur anti-éclats : ne remplace pas un film anti-effraction certifié"
+      ]
+    },
+    {
+      "name": "DIMEXACT Film Anti-Effraction Incolore 120 Microns",
+      "price": "18,99 €",
+      "image": "/images/products/dimexact-film-anti-effraction-120-microns.jpg",
+      "category": "film-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B088RL1919?tag=secure012de-21",
+      "pros": [
+        "Expédié depuis la France, plusieurs longueurs disponibles",
+        "Film incolore de 120 microns contre les chocs venant de l'extérieur"
+      ],
+      "cons": [
+        "Petite surface pour le prix sur ce format de 75 cm x 1 m"
+      ]
+    },
+    {
+      "name": "AWKAQUN Grand Rouleau Film de Sécurité Transparent Anti-Éclats",
+      "price": "37,99 €",
+      "image": "/images/products/awkaqun-film-securite-transparent-5m.jpg",
+      "category": "film-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07S6QP9KS?tag=secure012de-21",
+      "pros": [
+        "Un rouleau pour plusieurs fenêtres",
+        "Rouleau de 76 cm x 5 m qui filtre aussi les UV"
+      ],
+      "cons": [
+        "Film anti-éclats, pas de certification anti-effraction"
+      ]
+    },
+    {
+      "name": "Solar Systems Film Anti-Effraction 350 Microns Classe P2A",
+      "price": "74,90 €",
+      "image": "/images/products/solar-systems-film-anti-effraction-p2a.jpg",
+      "category": "film-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0G3PCL63R?tag=secure012de-21",
+      "pros": [
+        "Seul film certifié P2A du comparatif",
+        "Épaisseur de 350 microns, bien au-delà des films anti-éclats"
+      ],
+      "cons": [
+        "Film épais plus délicat à poser proprement sur une grande vitre"
+      ]
+    },
+    {
+      "name": "BDF S4MC Rouleau XXL Film de Sécurité Transparent",
+      "price": "121,03 €",
+      "image": "/images/products/bdf-s4mc-film-securite-rouleau.jpg",
+      "category": "film-securite",
+      "affiliateUrl": "https://www.amazon.fr/dp/B00PR2JMA0?tag=secure012de-21",
+      "pros": [
+        "De quoi équiper toute la maison",
+        "Rouleau de 61 cm x 14,9 m qui bloque 99 % des UV"
+      ],
+      "cons": [
+        "Le plus cher, et seulement 4 mil d'épaisseur"
+      ]
+    }
+  ]
+}

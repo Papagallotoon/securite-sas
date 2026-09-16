@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-motorisations-portail-battant",
+  "title": "Top 5 Motorisations pour Portail Battant",
+  "excerpt": "Un portail motorisé se referme tout seul derrière vous au lieu de rester ouvert : voici 5 kits de motorisation pour portail battant, du modèle à télécommande au moteur connecté piloté depuis le téléphone.",
+  "hookSubject": "les meilleures motorisations pour portail battant",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Avidsen Styrka 310 Motorisation pour Portail Battant",
+      "price": "199,90 €",
+      "image": "/images/products/avidsen-styrka-310-motorisation-portail.jpg",
+      "category": "motorisation-portail",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BFHLFV56?tag=secure012de-21",
+      "pros": [
+        "Mode piéton et deux télécommandes incluses",
+        "Le moins cher du comparatif, pour un portail jusqu'à 5 m et 300 kg"
+      ],
+      "cons": [
+        "Pas de pilotage depuis le téléphone"
+      ]
+    },
+    {
+      "name": "Avidsen Teha Connect Motorisation à Vérins pour Portail Battant",
+      "price": "249,90 €",
+      "image": "/images/products/avidsen-teha-connect-motorisation-verins.jpg",
+      "category": "motorisation-portail",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BFHV5XS7?tag=secure012de-21",
+      "pros": [
+        "Se pilote au téléphone ou vocalement",
+        "Sécurité en cas d'obstacle pendant la fermeture"
+      ],
+      "cons": [
+        "Limitée aux battants de 1,75 m et 150 kg"
+      ]
+    },
+    {
+      "name": "SCS Sentinel Motorisation à Bras Articulés pour Portail Lourd",
+      "price": "374,90 €",
+      "image": "/images/products/scs-sentinel-mba0103-motorisation-bras.jpg",
+      "category": "motorisation-portail",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BX3PSL7J?tag=secure012de-21",
+      "pros": [
+        "Pour les portails larges et lourds",
+        "Jusqu'à 5 m et 500 kg, garantie 5 ans et feu clignotant LED"
+      ],
+      "cons": [
+        "Pas de pilotage depuis le téléphone d'origine"
+      ]
+    },
+    {
+      "name": "Somfy Exavia Star Connecté Motorisation à Vérins",
+      "price": "573,90 €",
+      "image": "/images/products/somfy-exavia-star-connecte-portail.jpg",
+      "category": "motorisation-portail",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09NKZ1L5V?tag=secure012de-21",
+      "pros": [
+        "Batterie de secours et cellules photoélectriques incluses",
+        "Compatible Alexa et Google Home, pilotable à distance"
+      ],
+      "cons": [
+        "Battants limités à 2,50 m de large et 2 m de haut"
+      ]
+    },
+    {
+      "name": "Somfy Evolvia Star Connecté Motorisation à Bras",
+      "price": "899,00 €",
+      "image": "/images/products/somfy-evolvia-star-connecte-portail.jpg",
+      "category": "motorisation-portail",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D47MLLQK?tag=secure012de-21",
+      "pros": [
+        "Ouverture complète en seulement 8 secondes",
+        "Compatible TaHoma, Alexa et Google Home"
+      ],
+      "cons": [
+        "Le plus cher du comparatif"
+      ]
+    }
+  ]
+}

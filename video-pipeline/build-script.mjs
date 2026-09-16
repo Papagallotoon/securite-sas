@@ -68,6 +68,14 @@ const PRONUNCIATION_FIXES = [
   wordFix("Easy Close", "Fermeture Facile"),
   wordFix("Connect", "Connecté"),
   wordFix("Home", "Maison"),
+  // Judas, antivols, films, extincteurs and gate motors (Sept. 2026 batch).
+  wordFix("K-Traz U17", ""),
+  wordFix("Sold Secure Diamond", "Diamant"),
+  wordFix("Mason", ""),
+  wordFix("XPlus", "X Plus"),
+  wordFix("Exavia Star", "Exavia"),
+  wordFix("Evolvia Star", "Evolvia"),
+  wordFix("Spray", "Aérosol"),
 ];
 
 // The catalog is full of marketplace brand names — real ones (Xiaomi, Ring,
@@ -89,7 +97,9 @@ const BRAND_STRIP = [
   "SwitchBot", "TP-Link", "Tapo", "Tuya", "UGREEN", "Uplock", "VECTA", "VIRONE",
   "VOUNOT", "Vosker", "X-Sense", "XUK", "Xcase", "Xiaomi", "YISEELE", "Yale",
   "aosu", "eufy", "frient", "ib style", "ieGeek", "igloohome", "reer", "tiiwee",
-  "vidaXL", "Apple", "Dioxide", "Basics",
+  "vidaXL", "Apple", "Dioxide", "Basics", "DoorCAM", "Zéfal", "Kryptonite",
+  "Seatylock", "DARUITE", "DIMEXACT", "AWKAQUN", "Solar Systems", "BDF", "FLASLD",
+  "Lifebox", "Gloria", "Avidsen", "SCS Sentinel",
 ];
 
 function stripBrandNames(text) {

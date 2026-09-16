@@ -1,0 +1,79 @@
+{
+  "slug": "top-5-antivols-velo-u",
+  "title": "Top 5 Antivols Vélo en U Haute Sécurité",
+  "excerpt": "Le vol de vélo se joue souvent en quelques secondes avec une pince coupante : voici 5 antivols en U en acier trempé, du premier prix à l'antivol classé Sold Secure Diamond.",
+  "hookSubject": "les meilleurs antivols vélo en U pour ne plus te faire voler ton vélo",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Yale Antivol en U Vélo Acier Trempé avec Support",
+      "price": "15,79 €",
+      "image": "/images/products/yale-antivol-u-velo-yul0-18.jpg",
+      "category": "antivol-velo",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D76TF1GH?tag=secure012de-21",
+      "pros": [
+        "Acier trempé résistant à la coupe",
+        "Le moins cher du comparatif, avec anse de 18 mm et support inclus"
+      ],
+      "cons": [
+        "Niveau de protection pensé pour un usage quotidien, pas pour une nuit dehors"
+      ]
+    },
+    {
+      "name": "Zéfal K-Traz U17 Antivol en U Haute Résistance",
+      "price": "36,99 €",
+      "image": "/images/products/zefal-k-traz-u17-antivol-u.jpg",
+      "category": "antivol-velo",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0778VBSD6?tag=secure012de-21",
+      "pros": [
+        "Quadruple verrouillage contre traction et torsion",
+        "Arceau massif en acier de 14 mm"
+      ],
+      "cons": [
+        "Câble de 120 cm proposé en option selon la version"
+      ]
+    },
+    {
+      "name": "Kryptonite Evolution Mini-7 Antivol en U avec Câble",
+      "price": "43,99 €",
+      "image": "/images/products/kryptonite-evolution-mini-7-flex.jpg",
+      "category": "antivol-velo",
+      "affiliateUrl": "https://www.amazon.fr/dp/B06XZT8KZ1?tag=secure012de-21",
+      "pros": [
+        "Câble inclus pour la roue avant",
+        "Plus de 14 000 avis clients sur Amazon.fr"
+      ],
+      "cons": [
+        "Format mini : moins facile à passer autour d'un gros poteau"
+      ]
+    },
+    {
+      "name": "Seatylock Mason Antivol en U Certifié Sold Secure Diamond",
+      "price": "69,98 €",
+      "image": "/images/products/seatylock-mason-antivol-u-diamond.jpg",
+      "category": "antivol-velo",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D3RGPXWN?tag=secure012de-21",
+      "pros": [
+        "Certifié Sold Secure Diamond, niveau maximal",
+        "Barres transversales triangulaires brevetées"
+      ],
+      "cons": [
+        "Format compact de 14 cm, moins polyvalent pour attacher le cadre"
+      ]
+    },
+    {
+      "name": "ABUS Granit XPlus 540 Antivol en U avec Support",
+      "price": "99,99 €",
+      "image": "/images/products/abus-granit-xplus-540-antivol-u.jpg",
+      "category": "antivol-velo",
+      "affiliateUrl": "https://www.amazon.fr/dp/B00H3T773O?tag=secure012de-21",
+      "pros": [
+        "Cylindre XPlus conçu contre le crochetage et la manipulation",
+        "Grand arceau de 300 mm, livré avec son support"
+      ],
+      "cons": [
+        "Le plus cher et le plus lourd du comparatif"
+      ]
+    }
+  ]
+}

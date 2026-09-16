@@ -62,6 +62,11 @@ const CATEGORY_TAGS = {
   livre: ["livre cybersecurite", "livre securite informatique"],
   "capteur-ouverture": ["capteur porte fenetre connecte", "detecteur ouverture porte"],
   sirene: ["sirene alarme exterieure", "sirene connectee maison"],
+  judas: ["judas numerique", "camera judas porte"],
+  "antivol-velo": ["antivol velo", "antivol en u"],
+  "film-securite": ["film anti effraction", "film securite fenetre"],
+  extincteur: ["extincteur maison", "couverture anti feu"],
+  "motorisation-portail": ["motorisation portail", "portail battant connecte"],
 };
 
 function buildTags(article) {
@@ -95,6 +100,11 @@ const SITE_ARTICLE_PATHS = {
   "top-5-capteurs-ouverture-porte-fenetre-connectes": "/perimeter/capteurs-ouverture-porte-fenetre-connectes",
   "top-5-sirenes-alarme-exterieures-connectees": "/response/sirenes-alarme-exterieures-connectees",
   "top-5-securite-maison-luxe": "/luxury/securite-maison-luxe",
+  "top-5-judas-numeriques-porte": "/detection/judas-numeriques-porte",
+  "top-5-antivols-velo-u": "/perimeter/antivols-velo-u",
+  "top-5-films-securite-anti-effraction-fenetre": "/perimeter/films-securite-anti-effraction-fenetre",
+  "top-5-extincteurs-couvertures-anti-feu-maison": "/response/extincteurs-couvertures-anti-feu-maison",
+  "top-5-motorisations-portail-battant": "/perimeter/motorisations-portail-battant",
 };
 const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 
