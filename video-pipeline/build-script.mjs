@@ -316,7 +316,11 @@ export function buildScript(article) {
 
   lines.push({
     id: "outro",
-    spoken: "Alors, lequel est ton coup de cœur ? Tous les liens sont juste en dessous. Abonne-toi pour la suite !",
+    // A single-product spotlight has nothing to choose between.
+    spoken:
+      products.length === 1
+        ? "Le lien est juste en dessous. Si la vidéo t'a plu, mets un j'aime et abonne-toi, ça nous aide énormément !"
+        : "Alors, lequel est ton coup de cœur ? Tous les liens sont juste en dessous. Abonne-toi pour la suite !",
     caption: "Liens en description",
     image: outroCover,
     fullBleed: true,
