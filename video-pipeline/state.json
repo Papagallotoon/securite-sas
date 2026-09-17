@@ -45,12 +45,13 @@
     "solo-top-5-barrieres-securite-escalier-enfant-B0C9HZDVQ6",
     "top-5-antivols-velo-u",
     "solo-top-5-barres-securite-anti-effraction-B0D9NPFRH7",
-    "top-5-extincteurs-couvertures-anti-feu-maison"
+    "top-5-extincteurs-couvertures-anti-feu-maison",
+    "top-5-films-securite-anti-effraction-fenetre"
   ],
-  "lastRunAt": "2026-09-17T07:04:12.553Z",
+  "lastRunAt": "2026-09-17T11:14:47.180Z",
   "dailyCounts": {
     "date": "2026-09-17",
-    "comparatif": 1,
+    "comparatif": 2,
     "audible": 0,
     "solo": 0
   },
