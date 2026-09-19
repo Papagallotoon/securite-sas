@@ -1,0 +1,112 @@
+{
+  "slug": "proteger-maison-cambriolage-2026",
+  "title": "Protéger sa maison des cambriolages : 48 conseils simples et efficaces (guide 2026)",
+  "introLogo": "video-pipeline/assets/logo-securite-maison.jpg",
+  "introSeconds": 4.5,
+  "introColor": "0x070B14",
+  "introCrop": 0.66,
+  "introText": "SÉCURITÉ MAISON",
+  "introTextColor": "0x3CC8F5",
+  "ctaColor": "0x0E5A8A",
+  "cta": {
+    "image": "04-alarme-cameras/Alarme et caméras 01",
+    "text": "Abonnez-vous  •  Likez la vidéo"
+  },
+  "intro": "Un cambriolage a lieu toutes les deux minutes environ en France, et la plupart se jouent en quelques minutes seulement. Bonne nouvelle : quelques gestes simples suffisent souvent à décourager un voleur. Porte d'entrée, fenêtres, jardin, alarme, vacances et bons réflexes : voici 48 conseils concrets pour protéger votre maison.",
+  "imageSeconds": 7,
+  "sections": [
+    {
+      "title": "Porte d'entrée",
+      "dir": "01-porte-entree",
+      "prompt": "Photorealistic photograph of the front door of a modern French house at dusk, solid dark grey armored door, warm porch light on, clean entrance steps, potted olive tree, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names"
+    },
+    {
+      "title": "Fenêtres et baies vitrées",
+      "dir": "02-fenetres",
+      "prompt": "Photorealistic photograph of a ground-floor window of a French house at dusk with solid wooden shutters closed, stone wall, lavender in front, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names"
+    },
+    {
+      "title": "Jardin, clôture et éclairage",
+      "dir": "03-exterieur",
+      "prompt": "Photorealistic photograph of a detached French house with a low trimmed hedge and an open front yard, clear view of the facade from the street, sunny day, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names"
+    },
+    {
+      "title": "Alarme et caméras",
+      "dir": "04-alarme-cameras",
+      "prompt": "Photorealistic photograph of a white outdoor security camera mounted high under the roof eaves of a house, pointing at the driveway, blue sky, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names"
+    },
+    {
+      "title": "Partir en vacances serein",
+      "dir": "05-vacances",
+      "prompt": "Photorealistic photograph of a packed suitcase and a straw hat next to the front door inside a tidy bright hallway, summer morning light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names"
+    },
+    {
+      "title": "Les bons réflexes au quotidien",
+      "dir": "06-quotidien",
+      "prompt": "Photorealistic photograph of a calm bedroom at night with a white smoke detector on the ceiling, bedside lamp glowing softly, neutral tones, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names"
+    }
+  ],
+  "shop": [
+    "top-5-judas-numeriques-porte",
+    "top-5-serrures-alarmes-connectees",
+    "top-5-films-securite-anti-effraction-fenetre",
+    "top-5-capteurs-ouverture-porte-fenetre-connectes",
+    "top-5-eclairage-exterieur-connecte",
+    "top-5-cameras-securite-connectees",
+    "top-5-sirenes-alarme-exterieures-connectees",
+    "top-5-coffres-forts-connectes"
+  ],
+  "hashtags": [
+    "securitemaison",
+    "cambriolage",
+    "antivol",
+    "protectionmaison",
+    "alarmemaison",
+    "camerasurveillance",
+    "maisonconnectee",
+    "sécuritédomicile",
+    "conseilssécurité",
+    "videosurveillance",
+    "serrureconnectee",
+    "portedentree",
+    "vacances",
+    "astucesmaison",
+    "maison",
+    "bricolage",
+    "domotique",
+    "prévention",
+    "sécurité",
+    "guide2026"
+  ],
+  "tags": [
+    "protéger sa maison des cambriolages",
+    "sécurité maison",
+    "éviter un cambriolage",
+    "alarme maison",
+    "caméra de surveillance",
+    "conseils anti cambriolage",
+    "sécuriser porte d'entrée",
+    "sécuriser fenêtres",
+    "éclairage extérieur détecteur",
+    "partir en vacances cambriolage",
+    "serrure multipoints",
+    "maison connectée sécurité",
+    "détecteur de fumée",
+    "coffre fort maison",
+    "sécurité domicile 2026"
+  ],
+  "seo": {
+    "headline": "Comment protéger sa maison des cambriolages en 2026 | Conseils anti-cambriolage | Alarme, caméras, serrures | Sécurité maison",
+    "covers": [
+      "Porte d'entrée : serrure multipoints, cylindre haute sécurité, judas numérique, sonnette vidéo",
+      "Fenêtres et baies vitrées : volets, vitrage feuilleté, barre anti-soulèvement, détecteurs d'ouverture",
+      "Jardin : haie basse, éclairage à détection, gravier, portail, abri de jardin fermé",
+      "Alarme et caméras : où les placer, sirène extérieure, détecteurs de mouvement, suivi sur smartphone",
+      "Vacances : simulation de présence, courrier, coffre-fort, discrétion sur les réseaux sociaux",
+      "Les bons réflexes : détecteur de fumée, extincteur, boîte à clés, sécurité des enfants, wifi"
+    ],
+    "shopTitle": "🛒 LES ÉQUIPEMENTS DE LA VIDÉO, NOS COMPARATIFS :",
+    "keywords": "Comment protéger sa maison des cambriolages, conseils anti-cambriolage, sécuriser sa maison, sécuriser porte d'entrée, serrure multipoints, sécuriser fenêtre, volet roulant sécurité, alarme maison sans fil, caméra de surveillance extérieure, éclairage extérieur à détection, simulateur de présence, partir en vacances sans cambriolage, coffre-fort maison, détecteur d'ouverture, sirène extérieure, maison connectée, sécurité domicile 2026, prévention cambriolage.",
+    "subscribe": "🔔 Abonnez-vous et likez la vidéo pour plus de conseils sécurité, de comparatifs et d'astuces pour protéger votre maison !"
+  }
+}

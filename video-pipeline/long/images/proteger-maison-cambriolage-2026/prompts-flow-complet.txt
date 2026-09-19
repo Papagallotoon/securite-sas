@@ -1,0 +1,187 @@
+﻿PROMPTS GOOGLE FLOW — « Protéger sa maison des cambriolages » — Sécurité Maison (48 images)
+===========================================================================
+
+RÉGLAGES FLOW : format 16:9 (paysage). 1 prompt = 1 image.
+
+OÙ LES METTRE : toutes dans le même dossier, sans les ranger :
+  securite-sas\video-pipeline\long\images\proteger-maison-cambriolage-2026\
+
+NOM DU FICHIER : renommez chaque image avec le nom indiqué (ex. « Porte d'entrée 01.jpg »).
+Le début du nom range l'image dans la bonne section, le numéro fixe l'ordre de passage.
+
+Si une image a un défaut (texte ou fausse marque sur une caméra, objet déformé), régénérez-la.
+
+
+###########################################################################
+SECTION 01 — Porte d'entrée
+###########################################################################
+
+Nom : Porte d'entrée 01
+Photorealistic photograph of the front door of a modern French house at dusk, solid dark grey armored door, warm porch light on, clean entrance steps, potted olive tree, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Porte d'entrée 02
+Photorealistic close-up photograph of the edge of an open front door showing a long multipoint lock with three steel bolts, high-security lock cylinder, neutral hallway in the background, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Porte d'entrée 03
+Photorealistic photograph of a front door seen from inside the hallway, a small digital door viewer screen mounted on the door at eye level, wooden console with a key bowl far from the door, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Porte d'entrée 04
+Photorealistic photograph of a modern video doorbell mounted beside a front door, stone facade, daylight, small garden path leading to the door, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Porte d'entrée 05
+Photorealistic photograph of an entrance hallway, front door with a sturdy steel security bar across it, coat rack, clean tiled floor, soft evening light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Porte d'entrée 06
+Photorealistic photograph of a modern smart lock with a numeric keypad on a front door, evening, keypad softly backlit, wall light next to the door, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Porte d'entrée 07
+Photorealistic photograph of a side service door of a house leading to the garage, reinforced steel door with a heavy lock, concrete step, afternoon light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Porte d'entrée 08
+Photorealistic photograph of a house entrance at night brightly lit by a motion-sensor wall light, front door and steps clearly visible, dark garden around, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+
+###########################################################################
+SECTION 02 — Fenêtres et baies vitrées
+###########################################################################
+
+Nom : Fenêtres et baies vitrées 01
+Photorealistic photograph of a ground-floor window of a French house at dusk with solid wooden shutters closed, stone wall, lavender in front, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Fenêtres et baies vitrées 02
+Photorealistic close-up photograph of a white window handle with a small key lock, thick laminated glass pane, garden blurred outside, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Fenêtres et baies vitrées 03
+Photorealistic photograph of a large sliding patio door seen from inside, a wooden bar placed in the bottom rail to block it, living room with sofa, garden view, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Fenêtres et baies vitrées 04
+Photorealistic close-up photograph of a small white wireless door and window contact sensor fixed on a window frame, bright room, soft focus background, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Fenêtres et baies vitrées 05
+Photorealistic photograph of a small basement window at ground level protected by a black steel grille, gravel and plants around, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Fenêtres et baies vitrées 06
+Photorealistic photograph of a garden with an aluminium ladder lying on the ground next to a shed, locked to the shed wall with a thick chain and padlock, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Fenêtres et baies vitrées 07
+Photorealistic photograph of a modern house facade with motorised roller shutters half closed on every window, late afternoon light, lawn in front, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Fenêtres et baies vitrées 08
+Photorealistic photograph of a large bay window of a house at night seen from the garden, sheer curtains drawn, a single lamp glowing warmly inside, house looks lived in, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+
+###########################################################################
+SECTION 03 — Jardin, clôture et éclairage
+###########################################################################
+
+Nom : Jardin, clôture et éclairage 01
+Photorealistic photograph of a detached French house with a low trimmed hedge and an open front yard, clear view of the facade from the street, sunny day, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Jardin, clôture et éclairage 02
+Photorealistic photograph of a garden path at night lit by a row of small solar ground lights, lawn and shrubs, house softly lit in the background, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Jardin, clôture et éclairage 03
+Photorealistic photograph of a powerful LED floodlight on a house facade at night lighting up a driveway, crisp shadows, dark sky, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Jardin, clôture et éclairage 04
+Photorealistic photograph of a white gravel driveway leading to a house, close to the ground perspective showing the gravel texture, morning light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Jardin, clôture et éclairage 05
+Photorealistic photograph of a modern grey aluminium motorised swing gate closed in front of a house, matching fence, trimmed hedge, daylight, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Jardin, clôture et éclairage 06
+Photorealistic photograph of a wooden garden shed with a solid steel hasp and heavy padlock, two bicycles locked inside visible through the open window, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Jardin, clôture et éclairage 07
+Photorealistic photograph of dense thorny pyracantha bushes with orange berries planted under the ground-floor windows of a house, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Jardin, clôture et éclairage 08
+Photorealistic photograph of a clean modern letterbox at the entrance of a property with a clearly visible house number plaque, tidy entrance, daylight, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+
+###########################################################################
+SECTION 04 — Alarme et caméras
+###########################################################################
+
+Nom : Alarme et caméras 01
+Photorealistic photograph of a white outdoor security camera mounted high under the roof eaves of a house, pointing at the driveway, blue sky, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Alarme et caméras 02
+Photorealistic photograph of a small indoor security camera on a bookshelf in the corner of a living room, overlooking the room and the front door, soft daylight, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Alarme et caméras 03
+Photorealistic photograph of a modern alarm control keypad mounted on the wall of an entrance hallway next to the front door, white wall, soft light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Alarme et caméras 04
+Photorealistic photograph of an outdoor alarm siren with a flashing light box mounted high on a house facade, dusk sky, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Alarme et caméras 05
+Photorealistic photograph of a small white motion detector mounted in the upper corner of a hallway, staircase in the background, soft light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Alarme et caméras 06
+Photorealistic photograph of a smartphone lying on a kitchen counter, its screen showing a live security camera view of a garden, coffee cup nearby, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Alarme et caméras 07
+Photorealistic photograph of a wireless outdoor security camera with a small solar panel mounted on a wooden garden post, garden and house behind, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Alarme et caméras 08
+Photorealistic photograph of the back terrace of a house at night, a security camera on the wall with a faint infrared glow, garden furniture, moonlight, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+
+###########################################################################
+SECTION 05 — Partir en vacances serein
+###########################################################################
+
+Nom : Partir en vacances serein 01
+Photorealistic photograph of a packed suitcase and a straw hat next to the front door inside a tidy bright hallway, summer morning light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Partir en vacances serein 02
+Photorealistic photograph of an empty living room in the evening with a table lamp switched on by a timer plug, curtains open, house looks occupied, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Partir en vacances serein 03
+Photorealistic photograph of a tidy empty mailbox at a garden gate with a well kept path behind it, summer day, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Partir en vacances serein 04
+Photorealistic close-up photograph of a white smart plug in a wall socket with a lamp cable plugged in, living room background softly blurred, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Partir en vacances serein 05
+Photorealistic photograph of an open wardrobe with a compact steel safe bolted inside at floor level, folded clothes above, soft light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Partir en vacances serein 06
+Photorealistic photograph of a car parked in the driveway of a house in summer, shutters partly open, flowers, the house looks lived in, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Partir en vacances serein 07
+Photorealistic photograph of a freshly mowed lawn and trimmed garden in front of a house, garden hose rolled up, sunny day, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Partir en vacances serein 08
+Photorealistic photograph of a smartphone on a beach towel next to sunglasses, the phone screen showing a home security app with camera views, sea in the background, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+
+###########################################################################
+SECTION 06 — Les bons réflexes au quotidien
+###########################################################################
+
+Nom : Les bons réflexes au quotidien 01
+Photorealistic photograph of a calm bedroom at night with a white smoke detector on the ceiling, bedside lamp glowing softly, neutral tones, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Les bons réflexes au quotidien 02
+Photorealistic photograph of a modern kitchen with a red fire extinguisher and a fire blanket pouch mounted on the wall near the door, daylight, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Les bons réflexes au quotidien 03
+Photorealistic photograph of a small wall-mounted key safe with a combination dial next to a front door, brick wall, daylight, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Les bons réflexes au quotidien 04
+Photorealistic photograph of a hallway at night with small motion-activated night lights along the floor lighting the way to the stairs, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Les bons réflexes au quotidien 05
+Photorealistic photograph of a white safety gate at the top of a wooden staircase in a family home, soft daylight, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Les bons réflexes au quotidien 06
+Photorealistic photograph of a home office desk with a closed laptop, a wifi router and a notebook, window with garden view, calm morning light, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Les bons réflexes au quotidien 07
+Photorealistic photograph of a luxury contemporary villa at dusk with perimeter lighting, discreet cameras on the corners, pool and manicured garden, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+
+Nom : Les bons réflexes au quotidien 08
+Photorealistic photograph of a cosy living room in the evening, sofa with blankets, warm lamps, shutters closed, a peaceful and safe home atmosphere, realistic French suburban home, natural colors, sharp focus, wide 16:9 composition, architectural photography style, no people, no text, no logos, no brand names
+

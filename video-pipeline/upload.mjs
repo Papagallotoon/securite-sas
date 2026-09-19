@@ -80,7 +80,7 @@ function buildTags(article) {
 // French companion site — see New Aff/securitemaison-site). Every slug
 // here MUST have a real article on that site; add the article there
 // first (and deploy it) before adding its mapping here.
-const SITE_ARTICLE_PATHS = {
+export const SITE_ARTICLE_PATHS = {
   "top-5-cameras-securite-connectees": "/detection/cameras-de-securite-connectees",
   "top-5-eclairage-exterieur-connecte": "/perimeter/eclairage-exterieur-connecte",
   "top-5-detecteurs-alarme-diy": "/detection/detecteurs-pour-alarme-diy",
@@ -106,7 +106,7 @@ const SITE_ARTICLE_PATHS = {
   "top-5-extincteurs-couvertures-anti-feu-maison": "/response/extincteurs-couvertures-anti-feu-maison",
   "top-5-motorisations-portail-battant": "/perimeter/motorisations-portail-battant",
 };
-const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
+export const SITE_DOMAIN = "https://securitemaison-site.vercel.app";
 
 function buildDescription(article) {
   // Same cheapest-to-priciest order as the video (see build-script.mjs) so

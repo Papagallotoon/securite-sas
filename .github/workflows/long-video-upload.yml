@@ -1,0 +1,54 @@
+name: Long video upload
+
+# Publishes a long-form video rendered locally. The MP4 (too big for git) is
+# attached to a temporary GitHub release; this job downloads it and uploads
+# it to YouTube with the channel secrets, then deletes the release.
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Release holding video.mp4, description.txt (and optional thumbnail.jpg)"
+        required: true
+      theme:
+        description: "Theme file"
+        required: true
+        default: video-pipeline/long/themes/proteger-maison-cambriolage-2026.json
+      privacy:
+        description: "public, unlisted or private"
+        required: true
+        default: public
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Download release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download "${{ inputs.release_tag }}" --dir upload
+
+      - name: Upload to YouTube
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ inputs.privacy }}
+        run: node video-pipeline/long/upload-long.mjs upload/video.mp4 "${{ inputs.theme }}" upload/description.txt upload/thumbnail.jpg
+
+      - name: Delete the temporary release
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release delete "${{ inputs.release_tag }}" --yes --cleanup-tag

@@ -3,3 +3,7 @@ video-pipeline/tmp/
 video-pipeline/out/
 *.log
 api.txt
+video-pipeline/long/images/**/*.jpg
+video-pipeline/long/images/**/*.jpeg
+video-pipeline/long/images/**/*.png
+video-pipeline/long/images/**/*.webp

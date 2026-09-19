@@ -1,0 +1,17 @@
+﻿PROMPT MINIATURE YOUTUBE — « Protéger sa maison des cambriolages » (Sécurité Maison)
+=====================================================================================
+
+Réglages Flow : format 16:9. Générez 3 ou 4 variantes et gardez la plus frappante.
+
+PROMPT :
+
+Photorealistic dramatic photograph of a modern French house at night, deep blue-hour sky, a bright security floodlight on the facade lighting up the front door, a white security camera under the roof clearly visible, the long dark shadow of a hooded burglar stretched across the lit driveway, high contrast, cinematic cold blue and warm orange light, the right two thirds of the image full of details, the left third darker and calmer with plain night sky, sharp focus, no person visible, only the shadow, no text, no logos
+
+POURQUOI CE PROMPT :
+- Le tiers gauche reste sombre et calme : c'est là que j'ajoute le texte « STOP CAMBRIOLAGE ».
+- L'ombre du voleur et la lumière qui se déclenche racontent l'histoire en un coup d'œil.
+- Pas de texte généré par l'IA (souvent déformé) : je pose un vrai texte net par-dessus.
+
+ENSUITE :
+Déposez l'image dans ce dossier sous le nom « miniature.jpg » (ou dites-moi laquelle des 48 images vous préférez) :
+j'ajoute le titre et le liseré, puis je la mets en ligne avec la vidéo.

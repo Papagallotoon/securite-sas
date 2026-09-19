@@ -41,6 +41,8 @@ export const SITUATION_IMAGES = {
   serrure: path.join(__dirname, "assets", "situations", "serrure.jpg"),
   alarme: path.join(__dirname, "assets", "situations", "alarme.jpg"),
 };
+// Watermark on long-form videos.
+export const SITE_BRAND_CAPTION = "Sécurité Maison";
 export const VIDEO_WIDTH = 1080;
 export const VIDEO_HEIGHT = 1920;
 export const FPS = 30;
