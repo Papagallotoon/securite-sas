@@ -49,14 +49,15 @@
     "solo-top-5-barrieres-securite-escalier-enfant-B0GL8WSB9W",
     "solo-top-5-barrieres-securite-escalier-enfant-B07F8K4Q2V",
     "solo-top-5-barrieres-securite-escalier-enfant-B0C9HZDVQ6",
-    "solo-top-5-barrieres-securite-escalier-enfant-B0C88Y1RLF"
+    "solo-top-5-barrieres-securite-escalier-enfant-B0C88Y1RLF",
+    "solo-top-5-barrieres-securite-piscine-B07Y41FH2P"
   ],
-  "lastRunAt": "2026-09-18T22:26:53.730Z",
+  "lastRunAt": "2026-09-19T07:02:26.297Z",
   "dailyCounts": {
-    "date": "2026-09-18",
+    "date": "2026-09-19",
     "comparatif": 0,
     "audible": 0,
-    "solo": 4
+    "solo": 1
   },
-  "soloIndex": 20
+  "soloIndex": 21
 }
