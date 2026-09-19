@@ -1,6 +1,6 @@
 {
   "slug": "proteger-maison-cambriolage-2026",
-  "title": "Protéger sa maison des cambriolages : 48 conseils simples et efficaces (guide 2026)",
+  "title": "Protéger sa maison des cambriolages : 44 conseils simples et efficaces (guide 2026)",
   "introLogo": "video-pipeline/assets/logo-securite-maison.jpg",
   "introSeconds": 4.5,
   "introColor": "0x070B14",
@@ -12,7 +12,7 @@
     "image": "04-alarme-cameras/Alarme et caméras 01",
     "text": "Abonnez-vous  •  Likez la vidéo"
   },
-  "intro": "Un cambriolage a lieu toutes les deux minutes environ en France, et la plupart se jouent en quelques minutes seulement. Bonne nouvelle : quelques gestes simples suffisent souvent à décourager un voleur. Porte d'entrée, fenêtres, jardin, alarme, vacances et bons réflexes : voici 48 conseils concrets pour protéger votre maison.",
+  "intro": "Un cambriolage a lieu toutes les deux minutes environ en France, et la plupart se jouent en quelques minutes seulement. Bonne nouvelle : quelques gestes simples suffisent souvent à décourager un voleur. Porte d'entrée, fenêtres, jardin, alarme, vacances et bons réflexes : voici 44 conseils concrets pour protéger votre maison.",
   "imageSeconds": 7,
   "sections": [
     {
@@ -102,11 +102,12 @@
       "Fenêtres et baies vitrées : volets, vitrage feuilleté, barre anti-soulèvement, détecteurs d'ouverture",
       "Jardin : haie basse, éclairage à détection, gravier, portail, abri de jardin fermé",
       "Alarme et caméras : où les placer, sirène extérieure, détecteurs de mouvement, suivi sur smartphone",
-      "Vacances : simulation de présence, courrier, coffre-fort, discrétion sur les réseaux sociaux",
-      "Les bons réflexes : détecteur de fumée, extincteur, boîte à clés, sécurité des enfants, wifi"
+      "Vacances : simulation de présence, courrier, opération tranquillité vacances, coffre-fort, discrétion sur les réseaux sociaux",
+      "Les bons réflexes : détecteur de fumée, extincteur, boîte à clés, veilleuses, sécurité des enfants, mots de passe"
     ],
     "shopTitle": "🛒 LES ÉQUIPEMENTS DE LA VIDÉO, NOS COMPARATIFS :",
-    "keywords": "Comment protéger sa maison des cambriolages, conseils anti-cambriolage, sécuriser sa maison, sécuriser porte d'entrée, serrure multipoints, sécuriser fenêtre, volet roulant sécurité, alarme maison sans fil, caméra de surveillance extérieure, éclairage extérieur à détection, simulateur de présence, partir en vacances sans cambriolage, coffre-fort maison, détecteur d'ouverture, sirène extérieure, maison connectée, sécurité domicile 2026, prévention cambriolage.",
+    "keywords": "Comment protéger sa maison des cambriolages, conseils anti-cambriolage, sécuriser porte d'entrée et fenêtres, alarme maison sans fil, caméra de surveillance extérieure, éclairage à détection, simulateur de présence, partir en vacances sans cambriolage, sécurité domicile 2026.",
     "subscribe": "🔔 Abonnez-vous et likez la vidéo pour plus de conseils sécurité, de comparatifs et d'astuces pour protéger votre maison !"
-  }
+  },
+  "shopProductsPerArticle": 1
 }

@@ -95,7 +95,7 @@ function resolveSectionImages(theme, section) {
     .map((f) => path.join(dir, f));
 }
 
-function shopTheLook(slugs) {
+function shopTheLook(slugs, perArticle = 2) {
   const blocks = [];
   for (const slug of slugs || []) {
     const file = path.join(ARTICLES_DIR, `${slug}.json`);
@@ -104,7 +104,7 @@ function shopTheLook(slugs) {
     const url = `${SITE_DOMAIN}${SITE_ARTICLE_PATHS[slug]}?utm_source=youtube&utm_medium=video_longue`;
     const products = (a.products || [])
       .filter((p) => p.affiliateUrl && /\d/.test(p.price || ""))
-      .slice(0, 2)
+      .slice(0, perArticle)
       .map((p) => `   • ${p.name} (${p.price}) : ${p.affiliateUrl}`);
     blocks.push([`▶ ${a.title} : ${url}`, ...products].join("\n"));
   }
@@ -123,7 +123,7 @@ export function buildDescription(theme, chapters) {
   if (seo.headline) lines.push(seo.headline, tags.slice(0, 4).join(" "), "");
   lines.push(theme.intro, "", "⏱ CHAPITRES", ...chapters.map((c) => `${formatTimestamp(c.time)} ${c.title}`));
   if (seo.covers?.length) lines.push("", "📌 DANS CETTE VIDÉO :", ...seo.covers.map((c) => `• ${c}`));
-  const shop = shopTheLook(theme.shop);
+  const shop = shopTheLook(theme.shop, theme.shopProductsPerArticle);
   if (shop) lines.push("", seo.shopTitle || "🛒 NOS SÉLECTIONS :", "", shop);
   if (seo.keywords) lines.push("", seo.keywords);
   lines.push(
