@@ -54,7 +54,7 @@ async function renderIntroCard({ logo, color, duration, outPath, crop, text, tex
   }
   const logoHeight = Math.round(H * 2 * (text ? 0.6 : 0.9));
   let graph =
-    `color=c=${color}:s=${W * 2}x${H * 2}:d=${duration}[bg];` +
+    `color=c=${color}:s=${W * 2}x${H * 2}:r=${FPS}:d=${duration}[bg];` +
     `[0:v]scale=-2:${logoHeight}[lg];` +
     `[bg][lg]overlay=(W-w)/2:(H-h)/2-${text ? Math.round(H * 0.12) : 0}:shortest=1`;
   if (text) {
@@ -67,7 +67,7 @@ async function renderIntroCard({ logo, color, duration, outPath, crop, text, tex
     `,zoompan=z='1+0.05*on/${frames}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=${FPS},` +
     `fade=t=in:st=0:d=1,format=yuv420p[v]`;
   await ffmpeg([
-    "-loop", "1", "-t", String(duration), "-i", rel(source),
+    "-framerate", String(FPS), "-loop", "1", "-t", String(duration), "-i", rel(source),
     "-filter_complex", graph,
     "-map", "[v]", "-t", String(duration), "-r", String(FPS),
     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
@@ -159,7 +159,7 @@ async function renderProductClip({ image, duration, outPath, tmpDir, index, font
   const S = 2;
   const box = 820 * S;
   const graph =
-    `color=c=${color}:s=${W * S}x${H * S}:d=${duration}[bg];` +
+    `color=c=${color}:s=${W * S}x${H * S}:r=${FPS}:d=${duration}[bg];` +
     `[0:v]scale=${(box - 80 * S)}:${(box - 80 * S)}:force_original_aspect_ratio=decrease,pad=${box}:${box}:(ow-iw)/2:(oh-ih)/2:color=white[pk];` +
     `[bg][pk]overlay=${110 * S}:${(H * S - box) / 2}:shortest=1,` +
     `drawbox=x=${1010 * S}:y=${300 * S}:w=${8 * S}:h=${470 * S}:color=${accent}:t=fill,` +
@@ -169,7 +169,7 @@ async function renderProductClip({ image, duration, outPath, tmpDir, index, font
     `drawtext=${fontOpt}:textfile=${rel(brandFile)}:fontsize=${26 * S}:fontcolor=white@0.6:x=w-tw-${40 * S}:y=h-th-${34 * S},` +
     `zoompan=z='1+0.035*on/${frames}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=${FPS},format=yuv420p[v]`;
   await ffmpeg([
-    "-loop", "1", "-t", String(duration), "-i", rel(image),
+    "-framerate", String(FPS), "-loop", "1", "-t", String(duration), "-i", rel(image),
     "-filter_complex", graph,
     "-map", "[v]", "-t", String(duration), "-r", String(FPS),
     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
