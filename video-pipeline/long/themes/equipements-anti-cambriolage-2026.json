@@ -14,7 +14,7 @@
     "image": "05-alarme/Alarme et caméras 03",
     "text": "Abonnez-vous  •  Likez la vidéo"
   },
-  "intro": "Barres de sécurité, films anti-effraction, serrures connectées, alarmes sans fil, caméras solaires et simulateurs de présence : on fait le point sur les équipements qui ralentissent vraiment un cambrioleur, avec les critères de choix concrets (classe P2A, cylindre A2P, secours 4G, détection IA) et les produits les plus appréciés de notre communauté.",
+  "intro": "Barres de sécurité, films anti-effraction, serrures connectées, alarmes sans fil, sirènes, caméras solaires et simulateurs de présence : on fait le point sur les équipements qui ralentissent vraiment un cambrioleur, avec les critères de choix concrets (classe P2A, cylindre A2P, secours 4G, détection IA) et, pour chaque catégorie, deux références : le meilleur rapport qualité-prix et le haut de gamme.",
   "imageSeconds": 6,
   "sections": [
     {
@@ -34,38 +34,19 @@
         "video-pipeline/long/images/proteger-maison-cambriolage-2026/01-porte-entree/Porte d'entrée 05.jpg",
         "video-pipeline/long/images/libres/verrou-coulissant.jpg",
         {
-          "path": "public/images/products/barre-securite-porte-coulissante.jpg",
-          "card": {
-            "name": "Barre de sécurité pour porte coulissante 50-127 cm",
-            "price": "21,49 €"
-          }
-        },
-        {
-          "path": "public/images/products/kamtop-verrou-fenetre-4pcs.jpg",
-          "card": {
-            "name": "Verrous de fenêtre anti-effraction, lot de 4",
-            "price": "22,79 €"
-          }
-        },
-        {
           "path": "public/images/products/migubigu-barre-securite-porte-fenetre.jpg",
           "card": {
             "name": "Barre de sécurité réglable 45-128 cm",
-            "price": "23,99 €"
-          }
-        },
-        {
-          "path": "public/images/products/vidaxl-barres-securite-fenetres-3pcs.jpg",
-          "card": {
-            "name": "Barres de sécurité pour fenêtres, lot de 3",
-            "price": "28,90 €"
+            "price": "23,99 €",
+            "hint": "MEILLEUR RAPPORT QUALITÉ-PRIX"
           }
         },
         {
           "path": "public/images/products/vecta-barre-securite-porte-250kg.jpg",
           "card": {
             "name": "Barre de sécurité porte acier, testée 250 kg",
-            "price": "27,95 €"
+            "price": "27,95 €",
+            "hint": "LE HAUT DE GAMME"
           }
         }
       ]
@@ -77,38 +58,19 @@
         "video-pipeline/long/images/proteger-maison-cambriolage-2026/02-fenetres/Fenêtres et baies vitrées 02.jpg",
         "video-pipeline/long/images/proteger-maison-cambriolage-2026/02-fenetres/Fenêtres et baies vitrées 08.jpg",
         {
-          "path": "public/images/products/daruite-film-securite-anti-eclats.jpg",
-          "card": {
-            "name": "Film de sécurité anti-éclats transparent",
-            "price": "15,34 €"
-          }
-        },
-        {
-          "path": "public/images/products/dimexact-film-anti-effraction-120-microns.jpg",
-          "card": {
-            "name": "Film anti-effraction incolore 120 microns",
-            "price": "18,99 €"
-          }
-        },
-        {
           "path": "public/images/products/awkaqun-film-securite-transparent-5m.jpg",
           "card": {
             "name": "Grand rouleau film de sécurité 76 cm x 5 m",
-            "price": "37,99 €"
-          }
-        },
-        {
-          "path": "public/images/products/bdf-s4mc-film-securite-rouleau.jpg",
-          "card": {
-            "name": "Rouleau XXL film de sécurité 61 cm x 14,9 m",
-            "price": "121,03 €"
+            "price": "37,99 €",
+            "hint": "MEILLEUR RAPPORT QUALITÉ-PRIX"
           }
         },
         {
           "path": "public/images/products/solar-systems-film-anti-effraction-p2a.jpg",
           "card": {
             "name": "Film anti-effraction 350 microns classe P2A",
-            "price": "74,90 €"
+            "price": "74,90 €",
+            "hint": "LE HAUT DE GAMME"
           }
         }
       ]
@@ -124,35 +86,16 @@
           "path": "public/images/products/aqara-serrure-connectee-u200.jpg",
           "card": {
             "name": "Serrure connectée U200",
-            "price": "189,99 €"
-          }
-        },
-        {
-          "path": "public/images/products/nuki-smart-lock-go-2025.jpg",
-          "card": {
-            "name": "Serrure connectée Smart Lock Go avec clavier",
-            "price": "209,00 €"
-          }
-        },
-        {
-          "path": "public/images/products/nuki-smart-lock-pro-v5.jpg",
-          "card": {
-            "name": "Serrure connectée Smart Lock Pro wifi",
-            "price": "269,00 €"
-          }
-        },
-        {
-          "path": "public/images/products/switchbot-serrure-ultra-wifi.jpg",
-          "card": {
-            "name": "Serrure Ultra wifi avec clavier à reconnaissance faciale",
-            "price": "299,99 €"
+            "price": "189,99 €",
+            "hint": "MEILLEUR RAPPORT QUALITÉ-PRIX"
           }
         },
         {
           "path": "public/images/products/nuki-smart-lock-ultra.jpg",
           "card": {
             "name": "Serrure connectée Smart Lock Ultra",
-            "price": "349,00 €"
+            "price": "349,00 €",
+            "hint": "LE HAUT DE GAMME"
           }
         }
       ]
@@ -167,28 +110,16 @@
           "path": "public/images/products/yiseele-alarme-15pcs.jpg",
           "card": {
             "name": "Alarme maison sans fil 15 pièces avec application",
-            "price": "89,00 €"
-          }
-        },
-        {
-          "path": "public/images/products/agshome-alarme-15pack.jpg",
-          "card": {
-            "name": "Alarme maison sans fil 15 pièces wifi",
-            "price": "119,99 €"
+            "price": "89,00 €",
+            "hint": "MEILLEUR RAPPORT QUALITÉ-PRIX"
           }
         },
         {
           "path": "public/images/products/xuk-alarme-4g-gsm-wifi.jpg",
           "card": {
             "name": "Kit alarme maison sans fil 4G et wifi",
-            "price": "147,99 €"
-          }
-        },
-        {
-          "path": "public/images/products/tapo-t110-detecteur-ouverture-porte.jpg",
-          "card": {
-            "name": "Détecteur d'ouverture porte et fenêtre T110",
-            "price": "12,31 €"
+            "price": "147,99 €",
+            "hint": "LE HAUT DE GAMME"
           }
         },
         "video-pipeline/long/images/proteger-maison-cambriolage-2026/04-alarme-cameras/Alarme et caméras 02.jpg",
@@ -196,7 +127,16 @@
           "path": "public/images/products/huxgo-sirene-exterieure-batterie-secours.jpg",
           "card": {
             "name": "Sirène extérieure 120 dB avec batterie de secours",
-            "price": "79,99 €"
+            "price": "79,99 €",
+            "hint": "MEILLEUR RAPPORT QUALITÉ-PRIX"
+          }
+        },
+        {
+          "path": "public/images/products/ajax-street-siren-double-deck.jpg",
+          "card": {
+            "name": "Sirène extérieure professionnelle à deux niveaux",
+            "price": "231,97 €",
+            "hint": "LE HAUT DE GAMME"
           }
         }
       ]
@@ -209,38 +149,19 @@
         "video-pipeline/long/images/libres/camera-cctv.jpg",
         "video-pipeline/long/images/proteger-maison-cambriolage-2026/04-alarme-cameras/Alarme et caméras 06.jpg",
         {
-          "path": "public/images/products/cinnado-camera-solaire-2k-ip65.jpg",
-          "card": {
-            "name": "Caméra solaire 2K wifi extérieure IP65",
-            "price": "39,99 €"
-          }
-        },
-        {
-          "path": "public/images/products/cooau-camera-solaire-2k-360-ptz.jpg",
-          "card": {
-            "name": "Caméra solaire 2K wifi rotative 360°",
-            "price": "48,99 €"
-          }
-        },
-        {
           "path": "public/images/products/iegeek-camera-solaire-2k-ia.jpg",
           "card": {
             "name": "Caméra solaire 2K à détection humaine IA",
-            "price": "49,88 €"
-          }
-        },
-        {
-          "path": "public/images/products/vosker-vkx-camera-4g-solaire.jpg",
-          "card": {
-            "name": "Caméra solaire 4G sans wifi",
-            "price": "249,90 €"
+            "price": "49,88 €",
+            "hint": "MEILLEUR RAPPORT QUALITÉ-PRIX"
           }
         },
         {
           "path": "public/images/products/aosu-t2-ultra-kit-2-cameras-4k.jpg",
           "card": {
             "name": "Kit 2 caméras solaires 4K 360° avec station",
-            "price": "319,99 €"
+            "price": "319,99 €",
+            "hint": "LE HAUT DE GAMME"
           }
         },
         "video-pipeline/long/images/proteger-maison-cambriolage-2026/04-alarme-cameras/Alarme et caméras 04.jpg"
@@ -255,21 +176,16 @@
           "path": "public/images/products/prise-simulateur-tapo-p100.jpg",
           "card": {
             "name": "Prise connectée wifi P100",
-            "price": "9,99 €"
-          }
-        },
-        {
-          "path": "public/images/products/prise-simulateur-virone-dt4.jpg",
-          "card": {
-            "name": "Prise programmable avec simulateur de présence",
-            "price": "17,29 €"
+            "price": "9,99 €",
+            "hint": "MEILLEUR RAPPORT QUALITÉ-PRIX"
           }
         },
         {
           "path": "public/images/products/prise-simulateur-meross-4pcs.jpg",
           "card": {
             "name": "Prises connectées wifi, lot de 4",
-            "price": "36,99 €"
+            "price": "36,99 €",
+            "hint": "LE HAUT DE GAMME"
           }
         },
         "video-pipeline/long/images/proteger-maison-cambriolage-2026/05-vacances/Partir en vacances serein 04.jpg",
@@ -288,7 +204,7 @@
     },
     {
       "slug": "top-5-serrures-connectees-nuki-alternatives",
-      "asin": "B0DX2FPQFQ"
+      "asin": "B0D1C75J4F"
     },
     {
       "slug": "top-5-kits-alarme-sans-fil",
@@ -357,7 +273,8 @@
       "Porte d'entrée : serrure multipoints, cylindre A2P, serrure connectée",
       "Alarme sans fil : 868 MHz, secours 4G, sirène 110 dB, NF et A2P",
       "Caméras solaires : 2K, détection IA, IP65, stockage local, ce que dit la loi",
-      "Vacances : simulateur de présence, opération tranquillité vacances"
+      "Vacances : simulateur de présence, opération tranquillité vacances",
+      "Pour chaque catégorie : le meilleur rapport qualité-prix et le haut de gamme"
     ],
     "shopTitle": "🛒 NOS COMPARATIFS COMPLETS :",
     "keywords": "Meilleur équipement anti-cambriolage, barre de sécurité porte, film anti-effraction P2A, serrure connectée, cylindre A2P, alarme maison sans fil 4G, sirène extérieure, caméra solaire extérieure, simulateur de présence, sécurité maison 2026.",

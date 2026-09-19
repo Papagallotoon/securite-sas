@@ -152,7 +152,9 @@ async function renderProductClip({ image, duration, outPath, tmpDir, index, font
   const hintFile = path.join(tmpDir, `card-hint-${index}.txt`);
   fs.writeFileSync(nameFile, wrapText(card.name, 26));
   fs.writeFileSync(priceFile, card.price || "");
-  fs.writeFileSync(hintFile, card.hint || "Lien dans la description");
+  fs.writeFileSync(hintFile, "Lien dans la description");
+  const tagFile = path.join(tmpDir, `card-tag-${index}.txt`);
+  fs.writeFileSync(tagFile, card.hint || "");
   const brandFile = path.join(tmpDir, "brand.txt");
   fs.writeFileSync(brandFile, SITE_BRAND_CAPTION);
   // Built at 2x then zoompanned down, like the photo clips, for a smooth zoom.
@@ -162,7 +164,8 @@ async function renderProductClip({ image, duration, outPath, tmpDir, index, font
     `color=c=${color}:s=${W * S}x${H * S}:r=${FPS}:d=${duration}[bg];` +
     `[0:v]scale=${(box - 80 * S)}:${(box - 80 * S)}:force_original_aspect_ratio=decrease,pad=${box}:${box}:(ow-iw)/2:(oh-ih)/2:color=white[pk];` +
     `[bg][pk]overlay=${110 * S}:${(H * S - box) / 2}:shortest=1,` +
-    `drawbox=x=${1010 * S}:y=${300 * S}:w=${8 * S}:h=${470 * S}:color=${accent}:t=fill,` +
+    `drawbox=x=${1010 * S}:y=${236 * S}:w=${8 * S}:h=${534 * S}:color=${accent}:t=fill,` +
+    `drawtext=${fontOpt}:textfile=${rel(tagFile)}:fontsize=${34 * S}:fontcolor=${accent}:x=${1060 * S}:y=${236 * S},` +
     `drawtext=${fontOpt}:textfile=${rel(nameFile)}:fontsize=${50 * S}:line_spacing=${14 * S}:fontcolor=white:x=${1060 * S}:y=${300 * S},` +
     `drawtext=${fontOpt}:textfile=${rel(priceFile)}:fontsize=${92 * S}:fontcolor=${accent}:x=${1060 * S}:y=${620 * S},` +
     `drawtext=${fontOpt}:textfile=${rel(hintFile)}:fontsize=${32 * S}:fontcolor=white@0.7:x=${1060 * S}:y=${740 * S},` +
