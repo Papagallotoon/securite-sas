@@ -85,14 +85,17 @@ export function sortDroppedImages(theme) {
 }
 
 function resolveSectionImages(theme, section) {
-  if (section.images?.length) return section.images.map((p) => path.resolve(ROOT_DIR, p));
+  // Explicit list: paths relative to the repo root, or { path, card } for a
+  // product slide (card: { name, price }).
+  if (section.images?.length)
+    return section.images.map((e) => (typeof e === "string" ? { path: path.resolve(ROOT_DIR, e) } : { ...e, path: path.resolve(ROOT_DIR, e.path) }));
   const dir = path.join(LONG_DIR, "images", theme.slug, section.dir);
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
     .filter((f) => IMAGE_EXT.test(f))
     .sort()
-    .map((f) => path.join(dir, f));
+    .map((f) => ({ path: path.join(dir, f) }));
 }
 
 function shopTheLook(slugs, perArticle = 2) {
@@ -111,6 +114,19 @@ function shopTheLook(slugs, perArticle = 2) {
   return blocks.join("\n\n");
 }
 
+// "featured": [{ slug, asin }] — the few products worth putting right at the
+// top of the description, looked up in their comparison article.
+function featuredProducts(list) {
+  const lines = [];
+  for (const { slug, asin } of list || []) {
+    const file = path.join(ARTICLES_DIR, `${slug}.json`);
+    if (!fs.existsSync(file)) continue;
+    const p = JSON.parse(fs.readFileSync(file, "utf8")).products.find((x) => x.affiliateUrl.includes(asin));
+    if (p) lines.push(`${lines.length + 1}. ${p.name} (${p.price}) : ${p.affiliateUrl}`);
+  }
+  return lines.join("\n");
+}
+
 // SEO layout modelled on top-ranking decor channels: a keyword headline, the
 // first hashtags (YouTube shows the first 3 above the title), chapters, what
 // the video covers, shop-the-look links, a long-tail keyword paragraph, then
@@ -121,6 +137,8 @@ export function buildDescription(theme, chapters) {
   const tags = (theme.hashtags || []).slice(0, 25).map((h) => `#${h}`);
   const lines = [];
   if (seo.headline) lines.push(seo.headline, tags.slice(0, 4).join(" "), "");
+  const featured = featuredProducts(theme.featured);
+  if (featured) lines.push(seo.featuredTitle || "⭐ LES PRODUITS ESSENTIELS :", featured, "");
   lines.push(theme.intro, "", "⏱ CHAPITRES", ...chapters.map((c) => `${formatTimestamp(c.time)} ${c.title}`));
   if (seo.covers?.length) lines.push("", "📌 DANS CETTE VIDÉO :", ...seo.covers.map((c) => `• ${c}`));
   const shop = shopTheLook(theme.shop, theme.shopProductsPerArticle);
@@ -152,9 +170,9 @@ async function main() {
   const sections = theme.sections
     .map((s) => ({
       ...s,
-      images: resolveSectionImages(theme, s).map((p) => ({
-        path: p,
-        cta: theme.cta && sameImage(theme.cta.image, `${s.dir}/${path.basename(p)}`) ? theme.cta.text : undefined,
+      images: resolveSectionImages(theme, s).map((img) => ({
+        ...img,
+        cta: theme.cta && sameImage(theme.cta.image, `${s.dir}/${path.basename(img.path)}`) ? theme.cta.text : undefined,
       })),
     }))
     .filter((s) => s.images.length);

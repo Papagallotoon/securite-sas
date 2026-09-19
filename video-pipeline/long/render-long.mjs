@@ -128,6 +128,55 @@ async function renderClip({ image, duration, label, zoomIn, outPath, tmpDir, ind
   ]);
 }
 
+// Wraps a product name into short lines for drawtext (which has no wrapping).
+function wrapText(text, max) {
+  const lines = [];
+  let line = "";
+  for (const word of text.split(/\s+/)) {
+    if (line && (line + " " + word).length > max) {
+      lines.push(line);
+      line = word;
+    } else line = line ? `${line} ${word}` : word;
+  }
+  if (line) lines.push(line);
+  return lines.slice(0, 4).join("\n");
+}
+
+// Product slide: the packshot on a white card on the left, name and price on
+// the right, over the brand colour, with a slow push-in.
+async function renderProductClip({ image, duration, outPath, tmpDir, index, font, card, color, accent }) {
+  const frames = Math.round(duration * FPS);
+  const fontOpt = font ? `fontfile=${rel(font)}` : "font=Sans";
+  const nameFile = path.join(tmpDir, `card-name-${index}.txt`);
+  const priceFile = path.join(tmpDir, `card-price-${index}.txt`);
+  const hintFile = path.join(tmpDir, `card-hint-${index}.txt`);
+  fs.writeFileSync(nameFile, wrapText(card.name, 26));
+  fs.writeFileSync(priceFile, card.price || "");
+  fs.writeFileSync(hintFile, card.hint || "Lien dans la description");
+  const brandFile = path.join(tmpDir, "brand.txt");
+  fs.writeFileSync(brandFile, SITE_BRAND_CAPTION);
+  // Built at 2x then zoompanned down, like the photo clips, for a smooth zoom.
+  const S = 2;
+  const box = 820 * S;
+  const graph =
+    `color=c=${color}:s=${W * S}x${H * S}:d=${duration}[bg];` +
+    `[0:v]scale=${(box - 80 * S)}:${(box - 80 * S)}:force_original_aspect_ratio=decrease,pad=${box}:${box}:(ow-iw)/2:(oh-ih)/2:color=white[pk];` +
+    `[bg][pk]overlay=${110 * S}:${(H * S - box) / 2}:shortest=1,` +
+    `drawbox=x=${1010 * S}:y=${300 * S}:w=${8 * S}:h=${470 * S}:color=${accent}:t=fill,` +
+    `drawtext=${fontOpt}:textfile=${rel(nameFile)}:fontsize=${50 * S}:line_spacing=${14 * S}:fontcolor=white:x=${1060 * S}:y=${300 * S},` +
+    `drawtext=${fontOpt}:textfile=${rel(priceFile)}:fontsize=${92 * S}:fontcolor=${accent}:x=${1060 * S}:y=${620 * S},` +
+    `drawtext=${fontOpt}:textfile=${rel(hintFile)}:fontsize=${32 * S}:fontcolor=white@0.7:x=${1060 * S}:y=${740 * S},` +
+    `drawtext=${fontOpt}:textfile=${rel(brandFile)}:fontsize=${26 * S}:fontcolor=white@0.6:x=w-tw-${40 * S}:y=h-th-${34 * S},` +
+    `zoompan=z='1+0.035*on/${frames}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=${FPS},format=yuv420p[v]`;
+  await ffmpeg([
+    "-loop", "1", "-t", String(duration), "-i", rel(image),
+    "-filter_complex", graph,
+    "-map", "[v]", "-t", String(duration), "-r", String(FPS),
+    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+    rel(outPath),
+  ]);
+}
+
 // Chains clips with crossfades. Returns the merged file's duration.
 async function xfadeMerge(clips, outPath) {
   if (clips.length === 1) {
@@ -258,7 +307,7 @@ export async function renderLongVideo({ theme, outPath, tmpDir }) {
       // YouTube requires the first chapter at 0:00, so it also covers the intro.
       if (i === 0) chapters.push({ time: chapters.length ? timeline : 0, title: section.title });
       if (item.voice) voices.push({ file: item.voice, start: timeline + VOICE_LEAD });
-      clips.push({ image: item.path, duration, label: i === 0 ? section.title : null, index, cta: item.cta });
+      clips.push({ image: item.path, duration, label: i === 0 ? section.title : null, index, cta: item.cta, card: item.card });
       timeline += duration - XFADE;
       index++;
     });
@@ -278,6 +327,8 @@ export async function renderLongVideo({ theme, outPath, tmpDir }) {
         font,
         tmpDir,
       });
+    } else if (clip.card) {
+      await renderProductClip({ ...clip, outPath: clip.file, tmpDir, font, color: theme.cardColor || "0x0B1422", accent: theme.cardAccent || "0x3CC8F5" });
     } else {
       await renderClip({ ...clip, zoomIn: clip.index % 2 === 0, outPath: clip.file, tmpDir, font, logo: theme.introLogo, ctaColor: theme.ctaColor });
     }
