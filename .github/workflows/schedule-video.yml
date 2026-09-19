@@ -1,0 +1,28 @@
+name: Schedule video
+
+# Puts an uploaded video back to private and schedules its publication.
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: "ID de la vidéo YouTube"
+        required: true
+      publish_at:
+        description: "Date de publication, ex. 2026-09-20T08:00:00+02:00"
+        required: true
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: node video-pipeline/long/schedule-video.mjs "${{ inputs.video_id }}" "${{ inputs.publish_at }}"
