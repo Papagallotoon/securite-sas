@@ -53,14 +53,15 @@
     "solo-top-5-barrieres-securite-piscine-B07Y41FH2P",
     "solo-top-5-barrieres-securite-piscine-B07S36YV3Z",
     "solo-top-5-barrieres-securite-piscine-B096TRHYQL",
-    "solo-top-5-barrieres-securite-piscine-B00GWEQD4U"
+    "solo-top-5-barrieres-securite-piscine-B00GWEQD4U",
+    "solo-top-5-barrieres-securite-piscine-B0FB3Y7JYW"
   ],
-  "lastRunAt": "2026-09-19T22:17:11.073Z",
+  "lastRunAt": "2026-09-20T07:02:23.745Z",
   "dailyCounts": {
-    "date": "2026-09-19",
+    "date": "2026-09-20",
     "comparatif": 0,
     "audible": 0,
-    "solo": 4
+    "solo": 1
   },
-  "soloIndex": 24
+  "soloIndex": 25
 }
