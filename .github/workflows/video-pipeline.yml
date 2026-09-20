@@ -5,15 +5,15 @@ on:
     # 5 crenaux/jour (objectif : 5 videos/jour, cf. standing rule), espaces
     # de 3h30 pour rester au-dessus du garde-fou de 3h dans select-article.mjs
     # (recentlyPublished) sans jamais bloquer le crenau suivant. Heure de
-    # Paris (actuellement UTC+2, CEST) : 8h, 11h30, 15h, 18h30, 22h = 6h,
-    # 9h30, 13h, 16h30, 20h UTC. cron est toujours en UTC — quand la France
-    # repasse a UTC+1 fin octobre, decaler les 5 d'1h (7h/10h30/14h/17h30/
-    # 21h UTC) pour garder les memes heures locales.
-    - cron: "0 6 * * *"
-    - cron: "30 9 * * *"
-    - cron: "0 13 * * *"
-    - cron: "30 16 * * *"
-    - cron: "0 20 * * *"
+    # Paris (actuellement UTC+2, CEST) : 7h, 10h30, 14h, 17h30, 21h = 5h,
+    # 8h30, 12h, 15h30, 19h UTC. cron est toujours en UTC — quand la France
+    # repasse a UTC+1 fin octobre, decaler les 5 d'1h (6h/9h30/13h/16h30/
+    # 20h UTC) pour garder les memes heures locales.
+    - cron: "0 5 * * *"
+    - cron: "30 8 * * *"
+    - cron: "0 12 * * *"
+    - cron: "30 15 * * *"
+    - cron: "0 19 * * *"
   workflow_dispatch:
     inputs:
       force_article_slug:
