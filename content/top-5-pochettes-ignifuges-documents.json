@@ -1,0 +1,85 @@
+{
+  "title": "Top 5 Pochettes et Sacs Ignifuges pour Documents",
+  "slug": "top-5-pochettes-ignifuges-documents",
+  "excerpt": "De la pochette à 16 € au sac ignifuge fermé à clé, notre sélection pour protéger papiers d'identité, actes et argent liquide du feu et de l'eau.",
+  "image": "/images/products/flasld-sac-ignifuge-documents.jpg",
+  "hookSubject": "les meilleures pochettes et sacs ignifuges pour vos documents",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "FLASLD Grand Sac Ignifuge pour Documents",
+      "speechName": "ce grand sac ignifuge à moins de seize euros",
+      "price": "15,99 €",
+      "pros": [
+        "Le moins cher de la sélection",
+        "Résiste au feu et à l'eau, se range dans un tiroir"
+      ],
+      "cons": [
+        "Pas de fermeture à clé"
+      ],
+      "image": "/images/products/flasld-sac-ignifuge-documents.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BXNNTX5X?tag=secure012de-21",
+      "category": "coffre-fort"
+    },
+    {
+      "name": "Lot de 3 Porte-Documents Ignifuges",
+      "speechName": "ce lot de trois pochettes de tailles différentes",
+      "price": "20,99 €",
+      "pros": [
+        "Trois tailles : papiers, passeports, disque dur",
+        "Très bonne note client"
+      ],
+      "cons": [
+        "Protection limitée dans le temps en cas d'incendie long"
+      ],
+      "image": "/images/products/lot-3-porte-documents-ignifuges.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0B2ZHMM9Q?tag=secure012de-21",
+      "category": "coffre-fort"
+    },
+    {
+      "name": "Lot de 2 Sacs Anti-Feu Étanches",
+      "speechName": "ce lot de deux sacs anti-feu étanches",
+      "price": "24,99 €",
+      "pros": [
+        "Étanches, utiles aussi contre un dégât des eaux",
+        "Une des meilleures notes du comparatif"
+      ],
+      "cons": [
+        "Format souple, les documents peuvent se corner"
+      ],
+      "image": "/images/products/lot-2-sacs-anti-feu-etanches.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08P9GDYF8?tag=secure012de-21",
+      "category": "coffre-fort"
+    },
+    {
+      "name": "Tamfile Boîte à Documents Ignifuge",
+      "speechName": "cette boîte ignifuge rigide pour classer les papiers",
+      "price": "37,79 €",
+      "pros": [
+        "Format rigide, les documents restent plats",
+        "Intercalaires inclus pour trier"
+      ],
+      "cons": [
+        "Plus encombrant qu'une pochette"
+      ],
+      "image": "/images/products/tamfile-boite-documents-ignifuge.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BZ4T1DN2?tag=secure012de-21",
+      "category": "coffre-fort"
+    },
+    {
+      "name": "QNIGLO Sac Ignifuge avec Serrure",
+      "speechName": "ce sac ignifuge fermé par une serrure",
+      "price": "39,59 €",
+      "pros": [
+        "Serrure intégrée, il protège aussi des regards",
+        "Le plus complet : feu, eau et fermeture à clé"
+      ],
+      "cons": [
+        "Le plus cher de la sélection"
+      ],
+      "image": "/images/products/qniglo-sac-ignifuge-serrure.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09XBFDM2C?tag=secure012de-21",
+      "category": "coffre-fort"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Top 5 Caméras de Surveillance Intérieures Connectées",
+  "slug": "top-5-cameras-interieures-connectees",
+  "excerpt": "De la caméra à 20 € qui surveille le salon au modèle 2K avec suivi automatique, notre sélection de caméras intérieures pour garder un œil sur la maison, les enfants et les animaux.",
+  "image": "/images/products/imou-2k-camera-interieure-360.jpg",
+  "hookSubject": "les meilleures caméras de surveillance intérieures connectées",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Imou 2K Caméra Surveillance WiFi Intérieur 360°",
+      "speechName": "cette caméra intérieure qui pivote à trois cent soixante degrés",
+      "price": "19,99 €",
+      "pros": [
+        "Le prix le plus bas du comparatif",
+        "Rotation complète et vision nocturne, stockage sur carte mémoire"
+      ],
+      "cons": [
+        "Pas de détection intelligente des personnes"
+      ],
+      "image": "/images/products/imou-2k-camera-interieure-360.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08X6DCJT2?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "EZVIZ C6N Caméra Intérieure WiFi Motorisée",
+      "speechName": "cette caméra motorisée d'une marque spécialisée",
+      "price": "20,99 €",
+      "pros": [
+        "Suivi automatique du mouvement dans la pièce",
+        "Marque spécialisée en vidéosurveillance"
+      ],
+      "cons": [
+        "Résolution 1080p seulement"
+      ],
+      "image": "/images/products/ezviz-c6n-camera-interieure.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07W4FMSD9?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "Tapo C100 Caméra WiFi Intérieure 1080p",
+      "speechName": "cette caméra fixe très simple à installer",
+      "price": "24,99 €",
+      "pros": [
+        "Installation en quelques minutes depuis le téléphone",
+        "Alertes de mouvement sans abonnement"
+      ],
+      "cons": [
+        "Caméra fixe, elle ne pivote pas"
+      ],
+      "image": "/images/products/tapo-c100-camera-interieure.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B083V41T6M?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "eufy C220 Caméra Intérieure 2K",
+      "speechName": "cette caméra deux K qui distingue les humains des animaux",
+      "price": "29,99 €",
+      "pros": [
+        "Image 2K, bien plus nette pour reconnaître un visage",
+        "Reconnaissance des personnes et des animaux"
+      ],
+      "cons": [
+        "Fonctions avancées liées à l'application de la marque"
+      ],
+      "image": "/images/products/eufy-c220-camera-interieure-2k.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CVVTB2SB?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "eufy E220 Caméra Intérieure 2K Motorisée",
+      "speechName": "cette caméra deux K motorisée avec suivi automatique",
+      "price": "37,99 €",
+      "pros": [
+        "Le modèle le plus complet de la sélection",
+        "Suivi automatique et stockage local sans abonnement"
+      ],
+      "cons": [
+        "Le plus cher du comparatif"
+      ],
+      "image": "/images/products/eufy-e220-camera-interieure-2k.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B086LBCQJL?tag=secure012de-21",
+      "category": "camera-interieure"
+    }
+  ]
+}

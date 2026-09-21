@@ -1,0 +1,85 @@
+{
+  "title": "Top 5 Babyphones Vidéo pour Surveiller Bébé",
+  "slug": "top-5-babyphones-video",
+  "excerpt": "Du modèle à 18 € qui surveille aussi les animaux au babyphone longue autonomie sans wifi, notre sélection d'écoute-bébés vidéo pour dormir tranquille.",
+  "image": "/images/products/cinnado-camera-bebe-animaux.jpg",
+  "hookSubject": "les meilleurs babyphones vidéo pour surveiller bébé",
+  "format": "coup-de-coeur",
+  "products": [
+    {
+      "name": "Cinnado Caméra Intérieure pour Bébé et Animaux",
+      "speechName": "cette petite caméra qui sert aussi bien pour bébé que pour le chat",
+      "price": "17,93 €",
+      "pros": [
+        "Le moins cher de la sélection",
+        "Vision nocturne et détection des pleurs"
+      ],
+      "cons": [
+        "Passe par le wifi et l'application, pas d'écran dédié"
+      ],
+      "image": "/images/products/cinnado-camera-bebe-animaux.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CDBTDRTP?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "GALAYOU 3K Babyphone Caméra WiFi",
+      "speechName": "ce babyphone en très haute définition",
+      "price": "39,99 €",
+      "pros": [
+        "Image très nette, on voit la respiration de l'enfant",
+        "Suivi du mouvement et berceuses intégrées"
+      ],
+      "cons": [
+        "Dépend de la qualité du wifi dans la chambre"
+      ],
+      "image": "/images/products/galayou-3k-babyphone-camera.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DCBF1HN9?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "HelloBaby HB32 Babyphone sans WiFi",
+      "speechName": "ce babyphone à écran, qui fonctionne sans wifi",
+      "price": "59,99 €",
+      "pros": [
+        "Fonctionne sans internet, rien ne passe par le réseau",
+        "Écran dédié, le téléphone reste libre"
+      ],
+      "cons": [
+        "Pas de consultation à distance"
+      ],
+      "image": "/images/products/hellobaby-hb32-babyphone.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B01MYYTFVI?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "BOIFUN Babyphone Caméra Écran 4 Pouces",
+      "speechName": "ce babyphone avec écran et détection de bruit",
+      "price": "59,99 €",
+      "pros": [
+        "L'écran s'allume au moindre bruit, pour économiser la batterie",
+        "Caméra orientable à distance"
+      ],
+      "cons": [
+        "Portée réduite à travers des murs épais"
+      ],
+      "image": "/images/products/boifun-babyphone-ecran-4-pouces.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07K118Z63?tag=secure012de-21",
+      "category": "camera-interieure"
+    },
+    {
+      "name": "Babyphone Vidéo 19 Heures d'Autonomie",
+      "speechName": "ce babyphone haut de gamme avec dix-neuf heures d'autonomie",
+      "price": "154,99 €",
+      "pros": [
+        "Dix-neuf heures d'autonomie et trois cents mètres de portée",
+        "Pensé pour les grandes maisons"
+      ],
+      "cons": [
+        "Budget élevé pour un babyphone"
+      ],
+      "image": "/images/products/babyphone-video-19h-autonomie.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08V8RWP3W?tag=secure012de-21",
+      "category": "camera-interieure"
+    }
+  ]
+}

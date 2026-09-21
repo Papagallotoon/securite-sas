@@ -1,0 +1,85 @@
+{
+  "title": "Top 5 Détecteurs de Gaz et de Monoxyde de Carbone",
+  "slug": "top-5-detecteurs-gaz-monoxyde",
+  "excerpt": "Du détecteur certifié à 15 € au modèle 4 en 1 sur prise, notre sélection pour repérer une fuite de gaz ou le monoxyde de carbone, invisible et inodore.",
+  "image": "/images/products/detecteur-monoxyde-certifie-nf.jpg",
+  "hookSubject": "les meilleurs détecteurs de gaz et de monoxyde de carbone",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Détecteur de Monoxyde de Carbone Certifié NF",
+      "speechName": "ce détecteur de monoxyde certifié",
+      "price": "14,24 €",
+      "pros": [
+        "Le moins cher, et certifié NF et CE",
+        "Écran qui affiche le niveau en temps réel"
+      ],
+      "cons": [
+        "Détecte le monoxyde uniquement, pas le gaz"
+      ],
+      "image": "/images/products/detecteur-monoxyde-certifie-nf.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GF7T98PP?tag=secure012de-21",
+      "category": "detecteur"
+    },
+    {
+      "name": "Détecteur de Monoxyde 10 Ans d'Autonomie",
+      "speechName": "ce détecteur qui tient dix ans sans changer la pile",
+      "price": "14,99 €",
+      "pros": [
+        "Dix ans d'autonomie, rien à faire une fois posé",
+        "Une des meilleures notes du comparatif"
+      ],
+      "cons": [
+        "Pile non remplaçable, l'appareil se change en entier"
+      ],
+      "image": "/images/products/detecteur-monoxyde-10-ans.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GHDJGRXK?tag=secure012de-21",
+      "category": "detecteur"
+    },
+    {
+      "name": "X-Sense Détecteur de Monoxyde Autonome",
+      "speechName": "ce détecteur d'une marque spécialisée dans la détection",
+      "price": "19,99 €",
+      "pros": [
+        "Capteur électrochimique de qualité",
+        "Écran numérique et alarme de 85 décibels"
+      ],
+      "cons": [
+        "Pas connecté, alerte sonore uniquement"
+      ],
+      "image": "/images/products/x-sense-detecteur-monoxyde-xc0c.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0D66LK5NP?tag=secure012de-21",
+      "category": "detecteur"
+    },
+    {
+      "name": "Firlarm Détecteur de Gaz Naturel et Propane",
+      "speechName": "ce détecteur de gaz de ville et de propane",
+      "price": "26,99 €",
+      "pros": [
+        "Détecte le gaz de ville, le propane et le butane",
+        "Se branche sur une prise près de la chaudière"
+      ],
+      "cons": [
+        "Nécessite une prise à proximité"
+      ],
+      "image": "/images/products/firlarm-detecteur-gaz-propane.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07Q6B5LBV?tag=secure012de-21",
+      "category": "detecteur"
+    },
+    {
+      "name": "Détecteur 4 en 1 Gaz et Monoxyde sur Prise",
+      "speechName": "ce détecteur quatre en un qui surveille plusieurs gaz",
+      "price": "36,99 €",
+      "pros": [
+        "Surveille le monoxyde, le gaz naturel, le propane et le butane",
+        "Le plus complet, écran et alarme sonore"
+      ],
+      "cons": [
+        "Le plus cher de la sélection"
+      ],
+      "image": "/images/products/detecteur-4en1-gaz-monoxyde-prise.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F21D8M2T?tag=secure012de-21",
+      "category": "detecteur"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Top 5 Boutons d'Alerte et Bracelets d'Urgence pour Personnes Âgées",
+  "slug": "top-5-boutons-alerte-personnes-agees",
+  "excerpt": "Du bouton d'appel à 21 € au bracelet connecté qui alerte le téléphone des proches, notre sélection pour garder un lien en cas de chute ou de malaise.",
+  "image": "/images/products/bracelet-alarme-personne-agee.jpg",
+  "hookSubject": "les meilleurs boutons d'alerte et bracelets d'urgence pour personnes âgées",
+  "format": "comparatif",
+  "products": [
+    {
+      "name": "Bracelet Alarme Personne Âgée avec Récepteur",
+      "speechName": "ce bracelet d'appel avec son récepteur",
+      "price": "20,99 €",
+      "pros": [
+        "Le moins cher de la sélection",
+        "Aucun abonnement, le récepteur sonne dans la pièce voisine"
+      ],
+      "cons": [
+        "Portée limitée à la maison"
+      ],
+      "image": "/images/products/bracelet-alarme-personne-agee.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BRN4444Q?tag=secure012de-21",
+      "category": "alarme"
+    },
+    {
+      "name": "Cuteefun Téléavertisseur sans Fil 5 Modes",
+      "speechName": "ce système d'appel sans fil à cinq sonneries",
+      "price": "31,34 €",
+      "pros": [
+        "Cinq sonneries et volume réglable",
+        "Portée large, utile dans une maison à étage"
+      ],
+      "cons": [
+        "Le bracelet reste simple, sans détection de chute"
+      ],
+      "image": "/images/products/cuteefun-teleavertisseur-sans-fil.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DRG5KSS2?tag=secure012de-21",
+      "category": "alarme"
+    },
+    {
+      "name": "ChunHee Bouton d'Appel d'Urgence avec Bracelet",
+      "speechName": "ce bouton d'appel livré avec bracelet et support mural",
+      "price": "32,99 €",
+      "pros": [
+        "Bracelet et support mural fournis, pour la salle de bain",
+        "Résiste aux projections d'eau"
+      ],
+      "cons": [
+        "Note client un peu en retrait"
+      ],
+      "image": "/images/products/chunhee-bouton-appel-urgence.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DT4CNLQS?tag=secure012de-21",
+      "category": "alarme"
+    },
+    {
+      "name": "C1 Bouton d'Appel sans Fil pour Personne Âgée",
+      "speechName": "ce bouton d'appel à la finition soignée",
+      "price": "44,90 €",
+      "pros": [
+        "Bonne note client et fabrication soignée",
+        "Émetteurs supplémentaires disponibles"
+      ],
+      "cons": [
+        "Prix plus élevé pour une fonction simple"
+      ],
+      "image": "/images/products/c1-bouton-appel-sans-fil.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07YY1JSLM?tag=secure012de-21",
+      "category": "alarme"
+    },
+    {
+      "name": "Daytech Bracelet Alarme Connecté WiFi",
+      "speechName": "ce bracelet connecté qui alerte directement le téléphone",
+      "price": "49,99 €",
+      "pros": [
+        "Alerte envoyée aux proches, même loin de la maison",
+        "Utile quand la famille n'habite pas à côté"
+      ],
+      "cons": [
+        "Dépend du wifi et de l'application"
+      ],
+      "image": "/images/products/daytech-bracelet-alarme-wifi.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DXDVF46N?tag=secure012de-21",
+      "category": "alarme"
+    }
+  ]
+}
