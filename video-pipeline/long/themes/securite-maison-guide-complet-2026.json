@@ -1,0 +1,141 @@
+{
+  "slug": "securite-maison-guide-complet-2026",
+  "title": "Sécurité de la maison : le guide complet (cambriolage, incendie, monoxyde, chutes, piscine)",
+  "introLogo": "video-pipeline/assets/logo-securite-maison.jpg",
+  "introSeconds": 4.5,
+  "introColor": "0x070B14",
+  "introCrop": 0.66,
+  "introText": "SÉCURITÉ MAISON",
+  "introTextColor": "0x3CC8F5",
+  "ctaColor": "0x0E5A8A",
+  "cta": {
+    "image": "07-incendie/Le feu, premier danger de la nuit 01",
+    "text": "Abonnez-vous  •  Likez la vidéo"
+  },
+  "intro": "En 1966, une infirmière du Queens, à New York, inventait le premier système de vidéosurveillance de la maison. Soixante ans plus tard, voici le guide complet pour protéger votre maison et votre famille : cambriolage, incendie, monoxyde de carbone, chutes, piscine et maison connectée. Des conseils concrets, vérifiés, et sans aucun produit à vendre.",
+  "imageSeconds": 7,
+  "sections": [
+    {
+      "title": "Une invention née de la peur",
+      "dir": "01-histoire",
+      "prompt": "Cinematic photograph of a quiet residential street in Queens, New York, in 1966 at night, brick row houses, warm street lamps, vintage cars parked, light mist, nostalgic film look, 16:9, no people, no text"
+    },
+    {
+      "title": "Aujourd'hui, chez nous",
+      "dir": "02-intro",
+      "prompt": "Aerial photograph of a stunning contemporary luxury villa at golden hour, white walls, large glass windows, infinity pool, manicured garden, olive trees, warm sunset light, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "La porte d'entrée",
+      "dir": "03-porte",
+      "prompt": "Photograph of the grand front entrance of a luxury modern house, tall pivoting solid oak door, stone steps, warm wall lights, potted olive trees, soft evening light, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "Fenêtres et baies vitrées",
+      "dir": "04-fenetres",
+      "prompt": "Photograph of a luxury living room with huge sliding glass doors opening onto a terrace and pool, sheer linen curtains, bright daylight, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "Jardin, lumière et clôture",
+      "dir": "05-exterieur",
+      "prompt": "Photograph of a luxury villa with a low trimmed boxwood hedge and an open view of the facade from the street, sunny day, manicured lawn, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "Partir l'esprit tranquille",
+      "dir": "06-vacances",
+      "prompt": "Photograph of an elegant luxury entrance hall with a leather suitcase and a straw hat by the door, bright summer morning light, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "Le feu, premier danger de la nuit",
+      "dir": "07-incendie",
+      "prompt": "Photograph of a serene luxury master bedroom at night, soft moonlight, a discreet white smoke detector on the ceiling, elegant linen bedding, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "Les dangers invisibles",
+      "dir": "08-monoxyde",
+      "prompt": "Photograph of a luxurious living room with a modern fireplace burning softly, stone surround, cosy armchairs, warm evening light, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "Chutes et accidents domestiques",
+      "dir": "09-chutes",
+      "prompt": "Photograph of an elegant luxury staircase with oak steps, a sleek handrail and soft LED step lights, bright hallway, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "La piscine et les enfants",
+      "dir": "10-piscine",
+      "prompt": "Photograph of a stunning infinity pool of a luxury villa at midday, turquoise water, sun loungers, olive trees, sea view, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "La maison connectée",
+      "dir": "11-numerique",
+      "prompt": "Photograph of a sleek home office in a luxury house, a closed laptop, a smartphone showing a smart home app, a modern wifi router, garden view, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    },
+    {
+      "title": "La check-list finale",
+      "dir": "12-conclusion",
+      "prompt": "Photograph of a luxurious bright living room at sunset, open terrace doors, calm and safe atmosphere, warm golden light, elegant furniture, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos"
+    }
+  ],
+  "shop": [],
+  "hashtags": [
+    "securitemaison",
+    "securite",
+    "cambriolage",
+    "incendie",
+    "detecteurdefumee",
+    "monoxydedecarbone",
+    "prevention",
+    "maison",
+    "conseils",
+    "piscine",
+    "securiteenfant",
+    "chutes",
+    "seniors",
+    "maisonconnectee",
+    "astucesmaison",
+    "guide",
+    "famille",
+    "protection",
+    "habitat",
+    "documentaire"
+  ],
+  "tags": [
+    "sécurité maison",
+    "protéger sa maison",
+    "conseils sécurité maison",
+    "éviter un cambriolage",
+    "prévention incendie maison",
+    "détecteur de fumée obligatoire",
+    "monoxyde de carbone danger",
+    "chutes personnes âgées prévention",
+    "sécurité piscine enfant",
+    "opération tranquillité vacances",
+    "serrure multipoints A2P",
+    "sécurité enfant maison",
+    "maison connectée sécurité",
+    "Marie Van Brittan Brown",
+    "guide sécurité domicile"
+  ],
+  "seo": {
+    "headline": "Protéger sa maison et sa famille | Guide complet sécurité 2026 | Cambriolage, incendie, monoxyde, chutes, piscine",
+    "covers": [
+      "L'histoire vraie de Marie Van Brittan Brown, inventrice du premier système de vidéosurveillance domestique (1966)",
+      "Porte d'entrée : serrure multipoints, cylindre A2P, où ne jamais cacher ses clés",
+      "Fenêtres et baies : barre dans le rail, vitrage feuilleté, volets et étage",
+      "Extérieur : haie basse, éclairage à détection, gravier, portail et abri de jardin",
+      "Vacances : réseaux sociaux, simulation de présence, opération tranquillité vacances",
+      "Incendie : pourquoi le détecteur de fumée sauve des vies, feu de cuisine, multiprises, plan d'évacuation",
+      "Monoxyde de carbone : chaudière, aération, symptômes, erreurs à ne jamais commettre",
+      "Chutes, enfants et piscine : les gestes qui évitent les accidents graves"
+    ],
+    "keywords": "Sécurité maison, protéger sa maison, conseils anti-cambriolage, prévention incendie domestique, détecteur de fumée, monoxyde de carbone, chutes des personnes âgées, sécurité piscine, sécurité enfant, opération tranquillité vacances, serrure A2P, maison connectée, guide sécurité 2026.",
+    "subscribe": "🔔 Abonnez-vous et likez la vidéo pour plus de conseils pour protéger votre maison et votre famille."
+  },
+  "sources": [
+    "Ministère de l'Intérieur, SSMSI : Insécurité et délinquance en 2025, bilan statistique",
+    "Pompiers de France : détecteurs de fumée (DAAF), une obligation légale",
+    "Santé publique France : monoxyde de carbone, noyades (surveillance été 2024), chutes des personnes âgées",
+    "Observatoire national de la sécurité électrique (ONSE)",
+    "Brevet US 3 482 037, Marie Van Brittan Brown et Albert L. Brown, 1969"
+  ]
+}

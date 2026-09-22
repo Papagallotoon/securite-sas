@@ -1,0 +1,256 @@
+﻿PROMPTS GOOGLE FLOW — « Sécurité de la maison : le guide complet » — Sécurité Maison (45 images)
+==============================================================================
+
+RÉGLAGES FLOW : format 16:9 (paysage). 1 prompt = 1 image.
+STYLE : maisons luxueuses, lumineuses, décors de magazine d'architecture.
+
+OÙ LES METTRE : toutes dans le même dossier, sans les ranger :
+  securite-sas\video-pipeline\long\images\securite-maison-guide-complet-2026\
+
+NOM DU FICHIER : exactement le nom indiqué (voir aussi noms-images.txt).
+  L'extension n'a pas d'importance (.jpg, .jpeg ou .png).
+  Le début du nom range l'image dans le bon chapitre, le numéro fixe l'ordre.
+
+Chapitre 1 (l'histoire de 1966) : on ne montre jamais le visage de l'inventrice,
+seulement le décor, les objets et les mains. Les prompts sont écrits pour ça.
+
+
+##############################################################################
+CHAPITRE 01 — Une invention née de la peur
+##############################################################################
+
+Nom : Une invention née de la peur 01
+Cinematic photograph of a quiet residential street in Queens, New York, in 1966 at night, brick row houses, warm street lamps, vintage cars parked, light mist, nostalgic film look, 16:9, no people, no text
+(voix off : « New York, 1966. Dans le quartier de Jamaica, dans le Queens, une infirmière rentre chez elle au... »)
+
+Nom : Une invention née de la peur 02
+Cinematic close-up of a nurse's white shoes and a small leather handbag on the doorstep of a 1960s apartment door at night, warm hallway light, vintage atmosphere, film grain, no face visible, no text
+(voix off : « Cette infirmière s'appelle Marie Van Brittan Brown. Elle travaille de nuit et le week-end, et s... »)
+
+Nom : Une invention née de la peur 03
+Cinematic photograph of a 1960s wooden apartment front door with four small round peepholes arranged vertically, brass hardware, warm lamp light, vintage wallpaper, film look, no people, no text
+(voix off : « Alors elle a une idée. Percer quatre judas dans la porte, à quatre hauteurs différentes, pour v... »)
+
+Nom : Une invention née de la peur 04
+Cinematic photograph of a vintage 1960s television monitor on a bedside table showing a black and white image of a doorway, a small microphone and a button panel beside it, warm bedroom lamp light, film grain, no people, no text
+(voix off : « Ce n'est pas tout. Un micro permet de parler à la personne sans ouvrir. Un bouton déverrouille ... »)
+
+Nom : Une invention née de la peur 05
+Elegant flat lay of an old technical patent drawing of a home security system on aged paper, fountain pen and brass magnifying glass, warm light, vintage style, illegible handwriting, no readable text
+(voix off : « Judas à hauteur d'enfant, caméra, écran, interphone, ouverture à distance, bouton d'alarme. Rel... »)
+
+
+##############################################################################
+CHAPITRE 02 — Aujourd'hui, chez nous
+##############################################################################
+
+Nom : Aujourd'hui, chez nous 01
+Aerial photograph of a stunning contemporary luxury villa at golden hour, white walls, large glass windows, infinity pool, manicured garden, olive trees, warm sunset light, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Soixante ans plus tard, les risques n'ont pas disparu. En France, plus de deux cent onze mille ... »)
+
+Nom : Aujourd'hui, chez nous 02
+Photograph of a bright luxurious open-plan living room with double height ceiling, floor to ceiling windows, cream sofa, oak floor, sculptural lighting, garden view, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Le feu, le monoxyde de carbone, les chutes, la piscine : à la maison, les vrais dangers sont so... »)
+
+
+##############################################################################
+CHAPITRE 03 — La porte d'entrée
+##############################################################################
+
+Nom : La porte d'entrée 01
+Photograph of the grand front entrance of a luxury modern house, tall pivoting solid oak door, stone steps, warm wall lights, potted olive trees, soft evening light, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Commençons par la porte d'entrée. C'est par là que passent la majorité des cambrioleurs, en for... »)
+
+Nom : La porte d'entrée 02
+Close-up architectural photograph of the edge of a thick luxury front door showing a long stainless steel multipoint lock with several bolts, warm hallway behind, shallow depth of field, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Première règle : une serrure multipoints, qui verrouille la porte en haut, au milieu et en bas.... »)
+
+Nom : La porte d'entrée 03
+Macro photograph of a high security brass door lock cylinder with a key inserted, polished metal, luxury door panel, soft light, shallow depth of field, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Deuxième règle : le cylindre, la pièce où l'on met la clé. Cherchez la mention A2P. Une étoile ... »)
+
+Nom : La porte d'entrée 04
+Photograph of an elegant bright entrance hall in a luxury home, marble floor, console table with a ceramic bowl, round mirror, fresh flowers, staircase in the background, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Troisième règle, et elle ne coûte rien : ne cachez jamais de clé dehors. Sous le paillasson, da... »)
+
+Nom : La porte d'entrée 05
+Photograph of a modern video doorbell next to a luxury front door, natural stone wall, warm light, climbing jasmine, elegant architecture, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Avant un cambriolage, beaucoup de voleurs sonnent, pour vérifier que la maison est vide. Si per... »)
+
+
+##############################################################################
+CHAPITRE 04 — Fenêtres et baies vitrées
+##############################################################################
+
+Nom : Fenêtres et baies vitrées 01
+Photograph of a luxury living room with huge sliding glass doors opening onto a terrace and pool, sheer linen curtains, bright daylight, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Deuxième point d'entrée : les fenêtres, et surtout les grandes baies coulissantes. Certaines pe... »)
+
+Nom : Fenêtres et baies vitrées 02
+Close-up photograph of an elegant window with a lockable brushed steel handle and thick laminated glass, garden softly blurred outside, bright light, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Au rez-de-chaussée, deux protections font la différence. Une poignée qui ferme à clé, pour qu'o... »)
+
+Nom : Fenêtres et baies vitrées 03
+Photograph of the facade of a luxury modern villa at dusk with sleek motorised roller shutters half closed, warm interior light glowing, stone and wood cladding, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Les volets restent une excellente défense, à condition de les fermer. Les volets motorisés, qu'... »)
+
+Nom : Fenêtres et baies vitrées 04
+Photograph of a luxurious bedroom with a large window, closed sheer curtains, soft evening lamp light, elegant upholstered bed, calm atmosphere, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Et pensez à l'étage. Une fenêtre de chambre entrouverte en été, au-dessus d'un toit de véranda ... »)
+
+
+##############################################################################
+CHAPITRE 05 — Jardin, lumière et clôture
+##############################################################################
+
+Nom : Jardin, lumière et clôture 01
+Photograph of a luxury villa with a low trimmed boxwood hedge and an open view of the facade from the street, sunny day, manicured lawn, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Passons dehors. On croit souvent qu'une haie haute protège. C'est l'inverse : elle cache le vol... »)
+
+Nom : Jardin, lumière et clôture 02
+Photograph of a luxury garden path at night lit by elegant low bollard lights, lush planting, the house glowing softly in the background, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « La lumière est votre alliée. Un éclairage à détection de mouvement sur les accès et à l'arrière... »)
+
+Nom : Jardin, lumière et clôture 03
+Photograph of a white gravel driveway leading to an elegant luxury house, ground level perspective, cypress trees, soft morning light, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Une vieille astuce toujours efficace : le gravier. Impossible de marcher dessus sans faire de b... »)
+
+Nom : Jardin, lumière et clôture 04
+Photograph of a modern anthracite aluminium sliding gate and matching fence in front of a luxury villa, trimmed hedge, bright daylight, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Un portail fermé ralentit l'entrée, mais surtout, il empêche de repartir vite avec des objets v... »)
+
+Nom : Jardin, lumière et clôture 05
+Photograph of a beautiful wooden garden shed with a solid lock, next to a luxury house, flowering garden, bicycles neatly stored inside, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « L'abri de jardin et le garage sont souvent les portes les moins protégées de la maison. Ils con... »)
+
+
+##############################################################################
+CHAPITRE 06 — Partir l'esprit tranquille
+##############################################################################
+
+Nom : Partir l'esprit tranquille 01
+Photograph of an elegant luxury entrance hall with a leather suitcase and a straw hat by the door, bright summer morning light, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Les vacances sont la période préférée des cambrioleurs. Premier réflexe, avant même de faire la... »)
+
+Nom : Partir l'esprit tranquille 02
+Photograph of a luxurious living room in the evening with a single table lamp glowing, empty, curtains open, the house looks lived in, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Le but, c'est que la maison ait l'air habitée. Une lampe qui s'allume le soir grâce à une minut... »)
+
+Nom : Partir l'esprit tranquille 03
+Photograph of an elegant letterbox at the gate of a luxury property, tidy entrance, blooming lavender, sunny day, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Une boîte aux lettres qui déborde signale une absence. Demandez à un voisin de relever le courr... »)
+
+Nom : Partir l'esprit tranquille 04
+Photograph of a sleek modern wall safe open inside a luxury walk-in wardrobe, jewellery boxes, soft warm lighting, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Les bijoux et l'argent liquide sont les premiers objets recherchés, et les voleurs connaissent ... »)
+
+
+##############################################################################
+CHAPITRE 07 — Le feu, premier danger de la nuit
+##############################################################################
+
+Nom : Le feu, premier danger de la nuit 01
+Photograph of a serene luxury master bedroom at night, soft moonlight, a discreet white smoke detector on the ceiling, elegant linen bedding, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Parlons maintenant du danger le plus sous-estimé. En France, les incendies domestiques tuent en... »)
+
+Nom : Le feu, premier danger de la nuit 02
+Close-up photograph of a white smoke detector on a bright white ceiling in a luxury hallway, soft light, minimalist architecture, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Voici pourquoi. Quand on dort, l'odorat ne nous réveille pas. On peut respirer de la fumée sans... »)
+
+Nom : Le feu, premier danger de la nuit 03
+Photograph of a stunning bright luxury kitchen with marble island, brass fixtures, induction hob, pendant lights, garden view, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « La cuisine est l'autre point chaud. Ne laissez jamais une poêle sur le feu sans surveillance. E... »)
+
+Nom : Le feu, premier danger de la nuit 04
+Photograph of a tidy modern electrical panel with circuit breakers in a clean luxury utility room, soft light, neat cabling, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Entre vingt et trente-cinq pour cent des incendies d'habitation ont une origine électrique. Les... »)
+
+Nom : Le feu, premier danger de la nuit 05
+Photograph of an elegant luxury hallway with a clear path to the front door at night, soft floor lighting, open doors, calm atmosphere, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Dernier conseil, le plus important : préparez votre sortie. Une fois par an, avec toute la fami... »)
+
+
+##############################################################################
+CHAPITRE 08 — Les dangers invisibles
+##############################################################################
+
+Nom : Les dangers invisibles 01
+Photograph of a luxurious living room with a modern fireplace burning softly, stone surround, cosy armchairs, warm evening light, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Il existe un danger qu'on ne voit pas, qu'on ne sent pas, et qui ne fait aucun bruit : le monox... »)
+
+Nom : Les dangers invisibles 02
+Photograph of a clean modern boiler room in a luxury house, wall-mounted boiler, neat pipes, bright white walls, soft light, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « La cause numéro un : les appareils de chauffage mal entretenus, chaudières en tête. L'entretien... »)
+
+Nom : Les dangers invisibles 03
+Photograph of a bright luxury bedroom with a large window wide open onto a garden in the morning, curtains moving in the breeze, fresh atmosphere, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Aérez votre logement au moins dix minutes par jour, même en hiver. Les signes d'une intoxicatio... »)
+
+Nom : Les dangers invisibles 04
+Photograph of a garage of a luxury house at dusk with the door open, clean floor, a generator placed far outside on the driveway, soft light, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Deux erreurs à ne jamais commettre : utiliser un groupe électrogène ou un barbecue dans un espa... »)
+
+
+##############################################################################
+CHAPITRE 09 — Chutes et accidents domestiques
+##############################################################################
+
+Nom : Chutes et accidents domestiques 01
+Photograph of an elegant luxury staircase with oak steps, a sleek handrail and soft LED step lights, bright hallway, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « On y pense rarement, mais les chutes sont la première cause de décès accidentel chez les plus d... »)
+
+Nom : Chutes et accidents domestiques 02
+Photograph of a luxurious bright bathroom with a walk-in shower, grab bar in brushed brass, non-slip stone floor, natural light, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « La salle de bain est la pièce la plus risquée : sol mouillé, gestes brusques, rebord de baignoi... »)
+
+Nom : Chutes et accidents domestiques 03
+Photograph of a luxury hallway at night with discreet motion activated floor lights guiding the way to the bedroom, calm dark atmosphere, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « La nuit, la plupart des chutes se produisent sur le trajet entre la chambre et les toilettes. D... »)
+
+Nom : Chutes et accidents domestiques 04
+Photograph of an elegant luxury kitchen with child safety locks on low cabinets, a stair gate in the background, bright family home, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Pour les jeunes enfants, trois zones à sécuriser en priorité : l'escalier, avec une barrière vi... »)
+
+
+##############################################################################
+CHAPITRE 10 — La piscine et les enfants
+##############################################################################
+
+Nom : La piscine et les enfants 01
+Photograph of a stunning infinity pool of a luxury villa at midday, turquoise water, sun loungers, olive trees, sea view, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « La piscine est un bonheur, et un vrai danger. Sept noyades sur dix chez les enfants de moins de... »)
+
+Nom : La piscine et les enfants 02
+Photograph of an elegant glass pool safety fence around a luxury pool, gate with a latch, modern garden, bright daylight, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Depuis 2003, toute piscine enterrée doit être équipée d'un dispositif de sécurité normalisé : u... »)
+
+Nom : La piscine et les enfants 03
+Photograph of a calm luxury pool terrace at the end of the day, towels folded on a lounger, a safety ring hanging on the wall, soft golden light, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Mais aucun équipement ne remplace un adulte. Désignez toujours une personne qui surveille, et q... »)
+
+
+##############################################################################
+CHAPITRE 11 — La maison connectée
+##############################################################################
+
+Nom : La maison connectée 01
+Photograph of a sleek home office in a luxury house, a closed laptop, a smartphone showing a smart home app, a modern wifi router, garden view, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Aujourd'hui, la sécurité passe aussi par le numérique. Caméras, serrures, alarmes : tout est re... »)
+
+Nom : La maison connectée 02
+Photograph of an elegant luxury garden at dusk with a discreet security camera under the roof overhang pointing at the entrance path, warm lights, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Et un point de loi à connaître : une caméra installée chez vous ne doit filmer que votre propri... »)
+
+
+##############################################################################
+CHAPITRE 12 — La check-list finale
+##############################################################################
+
+Nom : La check-list finale 01
+Photograph of a luxurious bright living room at sunset, open terrace doors, calm and safe atmosphere, warm golden light, elegant furniture, architectural digest magazine photography, bright natural light, luxurious elegant interior design, warm neutral palette, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « Récapitulons l'essentiel. Une porte multipoints et un bon cylindre. Les fenêtres et les baies b... »)
+
+Nom : La check-list finale 02
+Aerial photograph of a beautiful luxury villa at blue hour, all windows glowing warmly, pool lit, surrounding garden lights, peaceful atmosphere, luxury contemporary villa, architectural digest magazine photography, beautiful landscaping, ultra detailed, photorealistic, 16:9, no people, no text, no logos
+(voix off : « La plupart de ces conseils ne coûtent rien, ou presque. Marie Van Brittan Brown n'avait pas de ... »)
+

@@ -29,10 +29,13 @@ async function attachNarration(themeFile, theme, sections, tmpDir) {
   let count = 0;
   for (const section of sections) {
     for (const item of section.images) {
-      const key = `${section.dir}/${path.basename(item.path)}`;
+      // Keys may be written with or without the extension, since Flow exports
+      // arrive as .jpg, .jpeg or .png.
+      const withExt = `${section.dir}/${path.basename(item.path)}`;
+      const key = withExt in items ? withExt : withExt.replace(/\.(jpe?g|png|webp)$/i, "");
       const text = items[key];
       if (!text) {
-        console.warn(`Pas de commentaire pour ${key}`);
+        console.warn(`Pas de commentaire pour ${withExt}`);
         continue;
       }
       used.add(key);
@@ -143,6 +146,7 @@ export function buildDescription(theme, chapters) {
   if (seo.covers?.length) lines.push("", "📌 DANS CETTE VIDÉO :", ...seo.covers.map((c) => `• ${c}`));
   const shop = shopTheLook(theme.shop, theme.shopProductsPerArticle);
   if (shop) lines.push("", seo.shopTitle || "🛒 NOS SÉLECTIONS :", "", shop);
+  if (theme.sources?.length) lines.push("", "📚 SOURCES :", ...theme.sources.map((s) => `• ${s}`));
   if (seo.keywords) lines.push("", seo.keywords);
   lines.push(
     "",
