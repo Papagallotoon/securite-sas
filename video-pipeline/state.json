@@ -60,12 +60,13 @@
     "top-5-babyphones-video",
     "top-5-boutons-alerte-personnes-agees",
     "top-5-cameras-interieures-connectees",
-    "top-5-detecteurs-gaz-monoxyde"
+    "top-5-detecteurs-gaz-monoxyde",
+    "top-5-pochettes-ignifuges-documents"
   ],
-  "lastRunAt": "2026-09-21T20:07:56.861Z",
+  "lastRunAt": "2026-09-22T07:04:34.101Z",
   "dailyCounts": {
-    "date": "2026-09-21",
-    "comparatif": 4,
+    "date": "2026-09-22",
+    "comparatif": 1,
     "audible": 0,
     "solo": 0
   },
