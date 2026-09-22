@@ -52,7 +52,6 @@
     "solo-top-5-barrieres-securite-escalier-enfant-B0C88Y1RLF",
     "solo-top-5-barrieres-securite-piscine-B07Y41FH2P",
     "solo-top-5-barrieres-securite-piscine-B07S36YV3Z",
-    "solo-top-5-barrieres-securite-piscine-B00GWEQD4U",
     "solo-top-5-barrieres-securite-piscine-B0FB3Y7JYW",
     "solo-top-5-boites-a-cles-connectees-B0D86T1G7C",
     "solo-top-5-boites-a-cles-connectees-B0GD6WH6G4",
@@ -61,14 +60,15 @@
     "top-5-cameras-interieures-connectees",
     "top-5-detecteurs-gaz-monoxyde",
     "top-5-pochettes-ignifuges-documents",
-    "solo-top-5-barrieres-securite-piscine-B096TRHYQL"
+    "solo-top-5-barrieres-securite-piscine-B096TRHYQL",
+    "solo-top-5-barrieres-securite-piscine-B00GWEQD4U"
   ],
-  "lastRunAt": "2026-09-22T12:02:23.719Z",
+  "lastRunAt": "2026-09-22T16:01:53.843Z",
   "dailyCounts": {
     "date": "2026-09-22",
     "comparatif": 1,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 28
+  "soloIndex": 29
 }
