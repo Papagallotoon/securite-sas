@@ -62,14 +62,15 @@
     "solo-top-5-barrieres-securite-piscine-B0FB3Y7JYW",
     "solo-top-5-boites-a-cles-connectees-B0D86T1G7C",
     "solo-top-5-boites-a-cles-connectees-B0GD6WH6G4",
-    "solo-top-5-boites-a-cles-connectees-B09KNR761L"
+    "solo-top-5-boites-a-cles-connectees-B09KNR761L",
+    "solo-top-5-boites-a-cles-connectees-B07G8CVQNK"
   ],
-  "lastRunAt": "2026-09-23T15:51:46.812Z",
+  "lastRunAt": "2026-09-23T19:10:06.286Z",
   "dailyCounts": {
     "date": "2026-09-23",
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 33
+  "soloIndex": 34
 }
