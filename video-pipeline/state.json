@@ -64,14 +64,15 @@
     "solo-top-5-boites-a-cles-connectees-B0GD6WH6G4",
     "solo-top-5-boites-a-cles-connectees-B09KNR761L",
     "solo-top-5-boites-a-cles-connectees-B07G8CVQNK",
-    "solo-top-5-boites-a-cles-connectees-B072LC6VKP"
+    "solo-top-5-boites-a-cles-connectees-B072LC6VKP",
+    "solo-top-5-boutons-alerte-personnes-agees-B0BRN4444Q"
   ],
-  "lastRunAt": "2026-09-23T22:11:05.454Z",
+  "lastRunAt": "2026-09-24T07:02:32.787Z",
   "dailyCounts": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "comparatif": 0,
     "audible": 0,
-    "solo": 5
+    "solo": 1
   },
-  "soloIndex": 35
+  "soloIndex": 36
 }
