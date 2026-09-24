@@ -67,14 +67,15 @@
     "solo-top-5-boites-a-cles-connectees-B072LC6VKP",
     "solo-top-5-boutons-alerte-personnes-agees-B0BRN4444Q",
     "solo-top-5-boutons-alerte-personnes-agees-B0DRG5KSS2",
-    "solo-top-5-boutons-alerte-personnes-agees-B0DT4CNLQS"
+    "solo-top-5-boutons-alerte-personnes-agees-B0DT4CNLQS",
+    "solo-top-5-boutons-alerte-personnes-agees-B07YY1JSLM"
   ],
-  "lastRunAt": "2026-09-24T16:14:34.637Z",
+  "lastRunAt": "2026-09-24T19:23:34.245Z",
   "dailyCounts": {
     "date": "2026-09-24",
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 38
+  "soloIndex": 39
 }
