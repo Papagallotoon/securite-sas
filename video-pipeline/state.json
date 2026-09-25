@@ -68,14 +68,15 @@
     "solo-top-5-boutons-alerte-personnes-agees-B0BRN4444Q",
     "solo-top-5-boutons-alerte-personnes-agees-B0DRG5KSS2",
     "solo-top-5-boutons-alerte-personnes-agees-B0DT4CNLQS",
-    "solo-top-5-boutons-alerte-personnes-agees-B07YY1JSLM"
+    "solo-top-5-boutons-alerte-personnes-agees-B07YY1JSLM",
+    "solo-top-5-boutons-alerte-personnes-agees-B0DXDVF46N"
   ],
-  "lastRunAt": "2026-09-24T19:23:34.245Z",
+  "lastRunAt": "2026-09-25T07:02:32.498Z",
   "dailyCounts": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "comparatif": 0,
     "audible": 0,
-    "solo": 4
+    "solo": 1
   },
-  "soloIndex": 39
+  "soloIndex": 40
 }
