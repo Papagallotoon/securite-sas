@@ -73,14 +73,15 @@
     "solo-top-5-caches-prises-securite-enfant-B01LRS24E8",
     "solo-top-5-caches-prises-securite-enfant-B08Y9SFZ1P",
     "solo-top-5-caches-prises-securite-enfant-B0049GY2R8",
-    "solo-top-5-caches-prises-securite-enfant-B07VPKFTS9"
+    "solo-top-5-caches-prises-securite-enfant-B07VPKFTS9",
+    "solo-top-5-caches-prises-securite-enfant-B0DWSZK3CR"
   ],
-  "lastRunAt": "2026-09-26T07:02:23.115Z",
+  "lastRunAt": "2026-09-26T12:02:44.978Z",
   "dailyCounts": {
     "date": "2026-09-26",
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 44
+  "soloIndex": 45
 }
