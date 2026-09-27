@@ -80,14 +80,15 @@
     "solo-top-5-cadenas-connectes-B0CYZCSN7T",
     "solo-top-5-cadenas-connectes-B0BLHCTKH2",
     "solo-top-5-cadenas-connectes-B0FVX78TX5",
-    "solo-top-5-cameras-interieures-connectees-B08X6DCJT2"
+    "solo-top-5-cameras-interieures-connectees-B08X6DCJT2",
+    "solo-top-5-cameras-interieures-connectees-B07W4FMSD9"
   ],
-  "lastRunAt": "2026-09-27T14:12:35.192Z",
+  "lastRunAt": "2026-09-27T19:09:19.028Z",
   "dailyCounts": {
     "date": "2026-09-27",
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 51
+  "soloIndex": 52
 }
