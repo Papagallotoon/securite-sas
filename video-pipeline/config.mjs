@@ -6,6 +6,7 @@ export const ROOT_DIR = path.resolve(__dirname, "..");
 export const ARTICLES_DIR = path.join(ROOT_DIR, "content");
 export const PUBLIC_DIR = path.join(ROOT_DIR, "public");
 export const STATE_PATH = path.join(__dirname, "state.json");
+export const REQUETES_PATH = path.join(__dirname, "requetes.json");
 export const TMP_DIR = path.join(__dirname, "tmp");
 export const OUT_DIR = path.join(__dirname, "out");
 

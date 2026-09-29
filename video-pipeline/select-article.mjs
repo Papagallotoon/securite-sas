@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { ARTICLES_DIR, STATE_PATH } from "./config.mjs";
+import { ARTICLES_DIR, STATE_PATH, REQUETES_PATH } from "./config.mjs";
 
 export function loadState() {
   if (!fs.existsSync(STATE_PATH)) return { usedSlugs: [] };
@@ -50,7 +50,10 @@ export function recentlyPublished() {
 // from one product picked out of the comparatif catalog (see
 // buildSoloArticle below) instead of requiring dozens of hand-authored
 // one-product articles.
-const FORMAT_SEQUENCE = ["comparatif", "audible", "comparatif", "audible", "solo"];
+// "requete" = a short answering one real Google/YouTube search query of the
+// channel (see requetes.json, built from Search Console) — first slot of
+// the day, falls back to the normal comparatif logic once the list is used up.
+const FORMAT_SEQUENCE = ["requete", "comparatif", "audible", "comparatif", "solo"];
 
 function todayKey() {
   return new Date().toISOString().slice(0, 10); // UTC date, matches cron's own clock
@@ -59,7 +62,7 @@ function todayKey() {
 function getDailyCounts() {
   const state = loadState();
   if (!state.dailyCounts || state.dailyCounts.date !== todayKey()) {
-    return { date: todayKey(), comparatif: 0, audible: 0, solo: 0 };
+    return { date: todayKey(), requete: 0, comparatif: 0, audible: 0, solo: 0 };
   }
   return state.dailyCounts;
 }
@@ -71,7 +74,7 @@ function getDailyCounts() {
 // erroring.
 export function nextFormatType() {
   const counts = getDailyCounts();
-  const totalToday = counts.comparatif + counts.audible + counts.solo;
+  const totalToday = (counts.requete || 0) + (counts.comparatif || 0) + (counts.audible || 0) + (counts.solo || 0);
   if (totalToday < FORMAT_SEQUENCE.length) return FORMAT_SEQUENCE[totalToday];
   return totalToday % 2 === 0 ? "comparatif" : "audible";
 }
@@ -106,6 +109,8 @@ function readArticle(file) {
 // Loads one specific article by slug regardless of whether it was already
 // used — for redoing a video after fixing the article's content.
 export function loadArticleBySlug(slug) {
+  const requete = loadRequetes().find((r) => r.slug === slug);
+  if (requete) return buildRequeteArticle(requete);
   const file = path.join(ARTICLES_DIR, `${slug}.json`);
   if (!fs.existsSync(file)) return null;
   const article = readArticle(`${slug}.json`);
@@ -216,4 +221,44 @@ export function buildSoloArticle() {
     article,
     actualType: "solo",
   };
+}
+
+// --- "requete" shorts (one real search query answered in ~30 s) ----------
+export function loadRequetes() {
+  if (!fs.existsSync(REQUETES_PATH)) return [];
+  return JSON.parse(fs.readFileSync(REQUETES_PATH, "utf8").replace(/^\uFEFF/, ""));
+}
+
+// Wraps one requetes.json entry into an article the rest of the pipeline
+// understands. article.slug stays the SOURCE article's slug so upload.mjs
+// finds the matching site page (SITE_ARTICLE_PATHS) and hashes stay stable.
+export function buildRequeteArticle(r) {
+  const file = path.join(ARTICLES_DIR, `${r.source}.json`);
+  if (!fs.existsSync(file)) return null;
+  const source = readArticle(`${r.source}.json`);
+  const pick = source.products.find((p) => p.name.toLowerCase().includes(r.pick.toLowerCase())) || source.products[0];
+  if (!pick) return null;
+  const article = {
+    videoType: "requete",
+    slug: r.source,
+    title: r.title,
+    hook: r.hook,
+    tips: r.tips,
+    keywords: r.keywords || [],
+    excerpt: [r.title, "", ...r.tips.map(([spoken]) => `✅ ${spoken}`)].join("\n"),
+    gallery: source.products.filter((p) => p !== pick).map((p) => p.image),
+    products: [pick],
+  };
+  return { slug: r.slug, article, actualType: "requete" };
+}
+
+// Next requete not published yet, in file order (sorted by potential).
+export function selectNextRequete() {
+  const state = loadState();
+  for (const r of loadRequetes()) {
+    if (state.usedSlugs.includes(r.slug)) continue;
+    const picked = buildRequeteArticle(r);
+    if (picked) return picked;
+  }
+  return null;
 }

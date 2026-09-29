@@ -262,7 +262,35 @@ function articleIndex(slug) {
   return i === -1 ? 0 : i;
 }
 
+// "requete" short: hook naming the exact search query, 3 quick tips, one
+// recommended product, outro. ~30 s.
+function buildRequeteScript(article) {
+  const [pick] = article.products;
+  // Same product photo on every tip: the tips describe THIS product, and
+  // another product's photo under them would contradict the narration.
+  const lines = [{ id: "intro", spoken: clean(fixPronunciation(article.hook)), caption: article.title, image: pick.image }];
+  article.tips.forEach(([spoken, caption], i) => {
+    lines.push({ id: `tip-${i}`, spoken: clean(spoken), caption, image: pick.image });
+  });
+  lines.push({
+    id: "product-0",
+    spoken: clean(`Notre conseil : ${spokenProductName(pick)}, à ${pick.price} !`),
+    caption: `${pick.name}\n${pick.price}`,
+    image: pick.image,
+    product: pick,
+  });
+  lines.push({
+    id: "outro",
+    spoken: "Le lien est juste en dessous. Abonne-toi pour d'autres astuces sécurité !",
+    caption: "Lien en description",
+    image: INTRO_BG_PATH,
+    fullBleed: true,
+  });
+  return lines;
+}
+
 export function buildScript(article) {
+  if (article.videoType === "requete") return buildRequeteScript(article);
   const lines = [];
   const cover = INTRO_BG_PATH;
   const outroCover = cover;

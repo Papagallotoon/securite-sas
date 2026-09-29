@@ -32,6 +32,8 @@ const HOOK_TEMPLATES = [
 ];
 
 function buildHookTitle(article) {
+  // A requete short's title IS the search query — keep it exact, no hook.
+  if (article.videoType === "requete") return `${article.title} #Shorts`.slice(0, 100);
   const template = HOOK_TEMPLATES[hashString(article.slug) % HOOK_TEMPLATES.length];
   return `${template(article.title)} #Shorts`.slice(0, 100);
 }
@@ -73,7 +75,7 @@ function buildTags(article) {
   const base = ["securite maison", "maison connectee", "domotique", "shorts"];
   const fromCategories = [...new Set(article.products.map((p) => p.category))]
     .flatMap((cat) => CATEGORY_TAGS[cat] || []);
-  return [...new Set([...base, ...fromCategories])];
+  return [...new Set([...(article.keywords || []), ...base, ...fromCategories])].slice(0, 20);
 }
 
 // securite-sas slug -> matching article path on securitemaison-site (the

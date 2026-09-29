@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {
   selectNextArticleForType,
+  selectNextRequete,
   buildSoloArticle,
   loadArticleBySlug,
   markUsed,
@@ -38,7 +39,12 @@ async function main() {
     // Daily format mix: 2 comparatif / 2 audible / 1 solo, per the standing
     // rule — nextFormatType() says which slot today's run should fill.
     const targetType = nextFormatType();
-    picked = targetType === "solo" ? buildSoloArticle() : selectNextArticleForType(targetType);
+    picked =
+      targetType === "requete"
+        ? selectNextRequete()
+        : targetType === "solo"
+          ? buildSoloArticle()
+          : selectNextArticleForType(targetType);
     // The target type may be out of fresh content (nothing authored yet, or
     // its catalog is fully used up for now) — try the other comparatif/
     // audible type fresh, then a solo spotlight, rather than ever calling
