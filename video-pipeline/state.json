@@ -88,15 +88,16 @@
     "solo-top-5-cameras-securite-connectees-B095CLQ1PT",
     "req-verrou-placard-invisible",
     "solo-top-5-cameras-securite-connectees-B0CF8R2P24",
-    "solo-top-5-cameras-securite-connectees-B0B6GKHS2S"
+    "solo-top-5-cameras-securite-connectees-B0B6GKHS2S",
+    "solo-top-5-cameras-securite-connectees-B0CVHPQ9P3"
   ],
-  "lastRunAt": "2026-09-29T14:58:31.834Z",
+  "lastRunAt": "2026-09-29T20:07:17.310Z",
   "dailyCounts": {
     "date": "2026-09-29",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 2
+    "solo": 3
   },
-  "soloIndex": 58
+  "soloIndex": 59
 }
