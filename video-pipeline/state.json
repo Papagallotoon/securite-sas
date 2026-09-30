@@ -90,15 +90,16 @@
     "solo-top-5-cameras-securite-connectees-B0CF8R2P24",
     "solo-top-5-cameras-securite-connectees-B0B6GKHS2S",
     "solo-top-5-cameras-securite-connectees-B0CVHPQ9P3",
-    "req-alarme-maison-sans-abonnement"
+    "req-alarme-maison-sans-abonnement",
+    "solo-top-5-cameras-securite-connectees-B0BTMGK4VT"
   ],
-  "lastRunAt": "2026-09-30T07:02:57.660Z",
+  "lastRunAt": "2026-09-30T11:04:09.051Z",
   "dailyCounts": {
     "date": "2026-09-30",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 59
+  "soloIndex": 60
 }
