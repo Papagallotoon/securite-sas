@@ -94,15 +94,16 @@
     "solo-top-5-cameras-securite-connectees-B0BTMGK4VT",
     "solo-top-5-cameras-solaires-exterieures-B0GXVNM9K2",
     "solo-top-5-cameras-solaires-exterieures-B0F1MT6QBY",
-    "req-protection-angle-meuble"
+    "req-protection-angle-meuble",
+    "solo-top-5-cameras-solaires-exterieures-B0CNCRQW9F"
   ],
-  "lastRunAt": "2026-10-01T07:02:38.381Z",
+  "lastRunAt": "2026-10-01T11:30:56.105Z",
   "dailyCounts": {
     "date": "2026-10-01",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 62
+  "soloIndex": 63
 }
