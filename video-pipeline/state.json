@@ -96,15 +96,16 @@
     "solo-top-5-cameras-solaires-exterieures-B0F1MT6QBY",
     "req-protection-angle-meuble",
     "solo-top-5-cameras-solaires-exterieures-B0CNCRQW9F",
-    "solo-top-5-cameras-solaires-exterieures-B0FDXKV6CN"
+    "solo-top-5-cameras-solaires-exterieures-B0FDXKV6CN",
+    "solo-top-5-cameras-solaires-exterieures-B0GCD435G3"
   ],
-  "lastRunAt": "2026-10-01T15:41:12.639Z",
+  "lastRunAt": "2026-10-01T20:46:49.798Z",
   "dailyCounts": {
     "date": "2026-10-01",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 2
+    "solo": 3
   },
-  "soloIndex": 64
+  "soloIndex": 65
 }
