@@ -93,15 +93,16 @@
     "req-alarme-maison-sans-abonnement",
     "solo-top-5-cameras-securite-connectees-B0BTMGK4VT",
     "solo-top-5-cameras-solaires-exterieures-B0GXVNM9K2",
-    "solo-top-5-cameras-solaires-exterieures-B0F1MT6QBY"
+    "solo-top-5-cameras-solaires-exterieures-B0F1MT6QBY",
+    "req-protection-angle-meuble"
   ],
-  "lastRunAt": "2026-09-30T20:13:12.747Z",
+  "lastRunAt": "2026-10-01T07:02:38.381Z",
   "dailyCounts": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 0
   },
   "soloIndex": 62
 }
