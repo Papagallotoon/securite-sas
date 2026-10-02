@@ -99,15 +99,16 @@
     "solo-top-5-cameras-solaires-exterieures-B0FDXKV6CN",
     "solo-top-5-cameras-solaires-exterieures-B0GCD435G3",
     "req-coffre-fort-empreinte-digitale",
-    "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0CQ56T4M4"
+    "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0CQ56T4M4",
+    "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0BF5MC9QX"
   ],
-  "lastRunAt": "2026-10-02T10:59:57.804Z",
+  "lastRunAt": "2026-10-02T14:54:21.566Z",
   "dailyCounts": {
     "date": "2026-10-02",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 66
+  "soloIndex": 67
 }
