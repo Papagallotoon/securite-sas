@@ -104,15 +104,16 @@
     "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B07D37VDM3",
     "req-barriere-escalier-sans-percer",
     "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0GKFB66JZ",
-    "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0BTL8B72D"
+    "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0BTL8B72D",
+    "solo-top-5-coffres-forts-connectes-B0B4BJ4D63"
   ],
-  "lastRunAt": "2026-10-03T13:36:37.749Z",
+  "lastRunAt": "2026-10-03T17:02:22.085Z",
   "dailyCounts": {
     "date": "2026-10-03",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 2
+    "solo": 3
   },
-  "soloIndex": 70
+  "soloIndex": 71
 }
