@@ -106,15 +106,16 @@
     "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0GKFB66JZ",
     "solo-top-5-capteurs-ouverture-porte-fenetre-connectes-B0BTL8B72D",
     "solo-top-5-coffres-forts-connectes-B0B4BJ4D63",
-    "solo-top-5-coffres-forts-connectes-B00UG9HB1Q"
+    "solo-top-5-coffres-forts-connectes-B00UG9HB1Q",
+    "req-alarme-gsm-ou-wifi"
   ],
-  "lastRunAt": "2026-10-03T22:07:42.766Z",
+  "lastRunAt": "2026-10-04T07:02:45.972Z",
   "dailyCounts": {
-    "date": "2026-10-03",
+    "date": "2026-10-04",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 4
+    "solo": 0
   },
   "soloIndex": 72
 }
