@@ -113,15 +113,16 @@
     "solo-top-5-coffres-forts-connectes-B0BN33DTT2",
     "solo-top-5-detecteurs-alarme-diy-B094XZ8H5H",
     "req-cache-prise-bebe",
-    "solo-top-5-detecteurs-alarme-diy-B0DWXV41FS"
+    "solo-top-5-detecteurs-alarme-diy-B0DWXV41FS",
+    "solo-top-5-detecteurs-alarme-diy-B07D37VDM3"
   ],
-  "lastRunAt": "2026-10-05T12:02:31.498Z",
+  "lastRunAt": "2026-10-05T17:02:32.240Z",
   "dailyCounts": {
     "date": "2026-10-05",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 77
+  "soloIndex": 78
 }
