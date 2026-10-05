@@ -114,15 +114,16 @@
     "solo-top-5-detecteurs-alarme-diy-B094XZ8H5H",
     "req-cache-prise-bebe",
     "solo-top-5-detecteurs-alarme-diy-B0DWXV41FS",
-    "solo-top-5-detecteurs-alarme-diy-B07D37VDM3"
+    "solo-top-5-detecteurs-alarme-diy-B07D37VDM3",
+    "solo-top-5-detecteurs-alarme-diy-B0B9XZ1D51"
   ],
-  "lastRunAt": "2026-10-05T17:02:32.240Z",
+  "lastRunAt": "2026-10-05T20:05:55.466Z",
   "dailyCounts": {
     "date": "2026-10-05",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 2
+    "solo": 3
   },
-  "soloIndex": 78
+  "soloIndex": 79
 }
