@@ -119,15 +119,16 @@
     "req-camera-surveillance-sans-abonnement",
     "solo-top-5-detecteurs-alarme-diy-B072DTT57R",
     "solo-top-5-detecteurs-bris-vitre-fenetre-B0FWCNQ7HB",
-    "solo-top-5-detecteurs-bris-vitre-fenetre-B07QBDCJX6"
+    "solo-top-5-detecteurs-bris-vitre-fenetre-B07QBDCJX6",
+    "solo-top-5-detecteurs-bris-vitre-fenetre-B0FNF8VNNK"
   ],
-  "lastRunAt": "2026-10-06T15:23:28.815Z",
+  "lastRunAt": "2026-10-06T20:28:39.732Z",
   "dailyCounts": {
     "date": "2026-10-06",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 82
+  "soloIndex": 83
 }
