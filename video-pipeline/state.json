@@ -122,15 +122,16 @@
     "solo-top-5-detecteurs-bris-vitre-fenetre-B07QBDCJX6",
     "solo-top-5-detecteurs-bris-vitre-fenetre-B0FNF8VNNK",
     "req-visiophone-2-fils",
-    "solo-top-5-detecteurs-bris-vitre-fenetre-B0FTFQTTP3"
+    "solo-top-5-detecteurs-bris-vitre-fenetre-B0FTFQTTP3",
+    "solo-top-5-detecteurs-bris-vitre-fenetre-B08ZJ92T9F"
   ],
-  "lastRunAt": "2026-10-07T11:40:17.694Z",
+  "lastRunAt": "2026-10-07T15:42:08.458Z",
   "dailyCounts": {
     "date": "2026-10-07",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 84
+  "soloIndex": 85
 }
