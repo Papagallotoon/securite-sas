@@ -125,15 +125,16 @@
     "solo-top-5-detecteurs-bris-vitre-fenetre-B0FTFQTTP3",
     "solo-top-5-detecteurs-bris-vitre-fenetre-B08ZJ92T9F",
     "solo-top-5-detecteurs-co-connectes-B0DCNR4FH3",
-    "req-bloqueur-tiroir-enfant"
+    "req-bloqueur-tiroir-enfant",
+    "solo-top-5-detecteurs-co-connectes-B0CM3KGFGB"
   ],
-  "lastRunAt": "2026-10-08T07:02:54.679Z",
+  "lastRunAt": "2026-10-08T11:55:18.163Z",
   "dailyCounts": {
     "date": "2026-10-08",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 86
+  "soloIndex": 87
 }
