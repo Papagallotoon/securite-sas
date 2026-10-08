@@ -124,15 +124,16 @@
     "req-visiophone-2-fils",
     "solo-top-5-detecteurs-bris-vitre-fenetre-B0FTFQTTP3",
     "solo-top-5-detecteurs-bris-vitre-fenetre-B08ZJ92T9F",
-    "solo-top-5-detecteurs-co-connectes-B0DCNR4FH3"
+    "solo-top-5-detecteurs-co-connectes-B0DCNR4FH3",
+    "req-bloqueur-tiroir-enfant"
   ],
-  "lastRunAt": "2026-10-07T20:42:56.629Z",
+  "lastRunAt": "2026-10-08T07:02:54.679Z",
   "dailyCounts": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 0
   },
   "soloIndex": 86
 }
