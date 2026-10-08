@@ -127,15 +127,16 @@
     "solo-top-5-detecteurs-co-connectes-B0DCNR4FH3",
     "req-bloqueur-tiroir-enfant",
     "solo-top-5-detecteurs-co-connectes-B0CM3KGFGB",
-    "solo-top-5-detecteurs-co-connectes-B0FW4N9V42"
+    "solo-top-5-detecteurs-co-connectes-B0FW4N9V42",
+    "solo-top-5-detecteurs-co-connectes-B0GGQRBRWB"
   ],
-  "lastRunAt": "2026-10-08T15:47:49.381Z",
+  "lastRunAt": "2026-10-08T20:46:34.203Z",
   "dailyCounts": {
     "date": "2026-10-08",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 2
+    "solo": 3
   },
-  "soloIndex": 88
+  "soloIndex": 89
 }
