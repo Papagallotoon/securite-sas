@@ -130,15 +130,16 @@
     "solo-top-5-detecteurs-co-connectes-B0FW4N9V42",
     "solo-top-5-detecteurs-co-connectes-B0GGQRBRWB",
     "req-sonnette-video-sans-fil",
-    "solo-top-5-detecteurs-co-connectes-B0CNCFT2TF"
+    "solo-top-5-detecteurs-co-connectes-B0CNCFT2TF",
+    "solo-top-5-detecteurs-fuite-eau-B0CRRL9DNN"
   ],
-  "lastRunAt": "2026-10-09T11:47:25.171Z",
+  "lastRunAt": "2026-10-09T15:29:25.785Z",
   "dailyCounts": {
     "date": "2026-10-09",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 90
+  "soloIndex": 91
 }
