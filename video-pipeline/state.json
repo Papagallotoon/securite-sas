@@ -140,15 +140,16 @@
     "req-serrure-connectee-alternative-nuki",
     "solo-top-5-detecteurs-fumee-connectes-B0B7SP58DM",
     "solo-top-5-detecteurs-fumee-connectes-B0FCMG6N93",
-    "solo-top-5-detecteurs-fumee-connectes-B0CM3KGFGB"
+    "solo-top-5-detecteurs-fumee-connectes-B0CM3KGFGB",
+    "solo-top-5-detecteurs-fumee-connectes-B0CBTWJP2Y"
   ],
-  "lastRunAt": "2026-10-11T19:38:57.917Z",
+  "lastRunAt": "2026-10-11T22:46:19.197Z",
   "dailyCounts": {
     "date": "2026-10-11",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 98
+  "soloIndex": 99
 }
