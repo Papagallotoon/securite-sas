@@ -136,15 +136,16 @@
     "req-prix-alarme-maison",
     "solo-top-5-detecteurs-fuite-eau-B0F29FQ7XR",
     "solo-top-5-detecteurs-fuite-eau-B0FPG9SGLJ",
-    "solo-top-5-detecteurs-fuite-eau-B0F42XJBBJ"
+    "solo-top-5-detecteurs-fuite-eau-B0F42XJBBJ",
+    "req-serrure-connectee-alternative-nuki"
   ],
-  "lastRunAt": "2026-10-10T19:26:31.347Z",
+  "lastRunAt": "2026-10-11T07:02:45.155Z",
   "dailyCounts": {
-    "date": "2026-10-10",
+    "date": "2026-10-11",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 0
   },
   "soloIndex": 95
 }
