@@ -53,7 +53,9 @@ export function recentlyPublished() {
 // "requete" = a short answering one real Google/YouTube search query of the
 // channel (see requetes.json, built from Search Console) — first slot of
 // the day, falls back to the normal comparatif logic once the list is used up.
-const FORMAT_SEQUENCE = ["requete", "comparatif", "audible", "comparatif", "solo"];
+// 2026-10-14 : le catalogue comparatif/audible est épuisé — les sujets "requete"
+// (requetes.json, enrichi des fiches sujets) passent en priorité : 4 par jour + 1 solo.
+const FORMAT_SEQUENCE = ["requete", "requete", "solo", "requete", "requete"];
 
 function todayKey() {
   return new Date().toISOString().slice(0, 10); // UTC date, matches cron's own clock
@@ -196,6 +198,11 @@ export function buildSoloArticle() {
   }
   if (pool.length === 0) return null;
 
+  // Ordre « en alternance » : 1er produit de chaque article, puis 2e produit de
+  // chaque article… pour ne jamais enchaîner 5 vidéos sur le même sujet.
+  const perArticle = {};
+  pool.forEach((p) => { p.rank = (perArticle[p.sourceSlug] = (perArticle[p.sourceSlug] ?? -1) + 1); });
+  pool.sort((a, b) => a.rank - b.rank || a.sourceSlug.localeCompare(b.sourceSlug));
   const soloIndex = state.soloIndex || 0;
   const pick = pool[soloIndex % pool.length];
   state.soloIndex = soloIndex + 1;
