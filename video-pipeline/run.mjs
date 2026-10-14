@@ -56,6 +56,10 @@ async function main() {
       console.log(`No fresh "${targetType}" article available — trying "${altType}" instead.`);
       picked = selectNextArticleForType(altType);
     }
+    if (!picked && targetType !== "requete") {
+      console.log("No fresh comparatif/audible article left — trying a fresh requete topic.");
+      picked = selectNextRequete();
+    }
     if (!picked) {
       console.log("No fresh comparatif/audible article left — falling back to a solo spotlight.");
       picked = buildSoloArticle();
