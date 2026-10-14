@@ -26,6 +26,17 @@ const auth = new google.auth.OAuth2(YT_CLIENT_ID, YT_CLIENT_SECRET);
 auth.setCredentials({ refresh_token: YT_REFRESH_TOKEN });
 const youtube = google.youtube({ version: "v3", auth });
 
+// YT_PRIVACY="publish:<date ISO UTC>" : vidéo envoyée en privé et publiée
+// automatiquement par YouTube à cette date (programmation).
+const privacyInput = process.env.YT_PRIVACY || "public";
+const publishAt = privacyInput.startsWith("publish:") ? new Date(privacyInput.slice(8)).toISOString() : null;
+const status = {
+  privacyStatus: publishAt ? "private" : privacyInput,
+  selfDeclaredMadeForKids: false,
+  containsSyntheticMedia: true,
+  ...(publishAt ? { publishAt } : {}),
+};
+
 const res = await youtube.videos.insert({
   part: ["snippet", "status"],
   requestBody: {
@@ -37,17 +48,13 @@ const res = await youtube.videos.insert({
       defaultLanguage: "fr",
       defaultAudioLanguage: "fr",
     },
-    status: {
-      privacyStatus: process.env.YT_PRIVACY || "public",
-      selfDeclaredMadeForKids: false,
-      containsSyntheticMedia: true,
-    },
+    status,
   },
   media: { body: fs.createReadStream(videoPath) },
 });
 
 const id = res.data.id;
-console.log(`Vidéo publiée : https://youtube.com/watch?v=${id} (${res.data.status?.privacyStatus})`);
+console.log(`Vidéo publiée : https://youtube.com/watch?v=${id} (${res.data.status?.privacyStatus}${res.data.status?.publishAt ? `, mise en ligne programmée le ${res.data.status.publishAt}` : ""})`);
 
 if (thumbnailPath && fs.existsSync(thumbnailPath)) {
   try {
