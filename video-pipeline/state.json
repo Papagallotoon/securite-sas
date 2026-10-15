@@ -147,12 +147,13 @@
     "solo-top-5-eclairage-exterieur-connecte-B0C9ZYHLBZ",
     "req-mini-coffre-fort-cachette",
     "req-barre-anti-effraction-porte",
-    "solo-top-5-extincteurs-couvertures-anti-feu-maison-B007C1S9FS"
+    "solo-top-5-extincteurs-couvertures-anti-feu-maison-B007C1S9FS",
+    "req-detecteur-fuite-eau"
   ],
-  "lastRunAt": "2026-10-15T17:02:41.877Z",
+  "lastRunAt": "2026-10-15T22:06:05.485Z",
   "dailyCounts": {
     "date": "2026-10-15",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
