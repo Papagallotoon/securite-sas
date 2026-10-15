@@ -145,12 +145,13 @@
     "req-detecteur-fumee-sans-fil",
     "req-antivol-velo-u",
     "solo-top-5-eclairage-exterieur-connecte-B0C9ZYHLBZ",
-    "req-mini-coffre-fort-cachette"
+    "req-mini-coffre-fort-cachette",
+    "req-barre-anti-effraction-porte"
   ],
-  "lastRunAt": "2026-10-15T07:03:03.396Z",
+  "lastRunAt": "2026-10-15T12:02:56.506Z",
   "dailyCounts": {
     "date": "2026-10-15",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
