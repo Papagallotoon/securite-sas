@@ -152,12 +152,13 @@
     "req-traceur-gps-sans-abonnement",
     "req-boite-a-cles-connectee",
     "solo-top-5-films-securite-anti-effraction-fenetre-B07S6QP9KS",
-    "req-detecteur-ouverture-porte"
+    "req-detecteur-ouverture-porte",
+    "req-alarme-piscine-choisir"
   ],
-  "lastRunAt": "2026-10-16T18:54:51.136Z",
+  "lastRunAt": "2026-10-16T22:00:13.754Z",
   "dailyCounts": {
     "date": "2026-10-16",
-    "requete": 3,
+    "requete": 4,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
