@@ -150,15 +150,16 @@
     "solo-top-5-extincteurs-couvertures-anti-feu-maison-B007C1S9FS",
     "req-detecteur-fuite-eau",
     "req-traceur-gps-sans-abonnement",
-    "req-boite-a-cles-connectee"
+    "req-boite-a-cles-connectee",
+    "solo-top-5-films-securite-anti-effraction-fenetre-B07S6QP9KS"
   ],
-  "lastRunAt": "2026-10-16T12:02:56.973Z",
+  "lastRunAt": "2026-10-16T15:51:45.715Z",
   "dailyCounts": {
     "date": "2026-10-16",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 101
+  "soloIndex": 102
 }
