@@ -154,12 +154,13 @@
     "solo-top-5-films-securite-anti-effraction-fenetre-B07S6QP9KS",
     "req-detecteur-ouverture-porte",
     "req-alarme-piscine-choisir",
-    "req-camera-solaire-exterieure"
+    "req-camera-solaire-exterieure",
+    "req-sirene-alarme-exterieure"
   ],
-  "lastRunAt": "2026-10-17T07:02:45.560Z",
+  "lastRunAt": "2026-10-17T12:02:44.427Z",
   "dailyCounts": {
     "date": "2026-10-17",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
