@@ -156,12 +156,13 @@
     "req-alarme-piscine-choisir",
     "req-camera-solaire-exterieure",
     "req-sirene-alarme-exterieure",
-    "solo-top-5-interphones-video-connectes-B0GVS83X4G"
+    "solo-top-5-interphones-video-connectes-B0GVS83X4G",
+    "req-detecteur-monoxyde"
   ],
-  "lastRunAt": "2026-10-17T17:54:25.576Z",
+  "lastRunAt": "2026-10-17T21:23:05.673Z",
   "dailyCounts": {
     "date": "2026-10-17",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
