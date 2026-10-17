@@ -155,15 +155,16 @@
     "req-detecteur-ouverture-porte",
     "req-alarme-piscine-choisir",
     "req-camera-solaire-exterieure",
-    "req-sirene-alarme-exterieure"
+    "req-sirene-alarme-exterieure",
+    "solo-top-5-interphones-video-connectes-B0GVS83X4G"
   ],
-  "lastRunAt": "2026-10-17T12:02:44.427Z",
+  "lastRunAt": "2026-10-17T17:54:25.576Z",
   "dailyCounts": {
     "date": "2026-10-17",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 102
+  "soloIndex": 103
 }
