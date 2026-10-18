@@ -34,7 +34,7 @@ const HOOK_TEMPLATES = [
 function buildHookTitle(article) {
   // A requete short's title IS the search query — keep it exact, no hook.
   if (article.videoType === "requete") return `${article.title} #Shorts`.slice(0, 100);
-  const template = HOOK_TEMPLATES[hashString(article.slug) % HOOK_TEMPLATES.length];
+  const template = HOOK_TEMPLATES[hashString(article.title) % HOOK_TEMPLATES.length];
   return `${template(article.title)} #Shorts`.slice(0, 100);
 }
 

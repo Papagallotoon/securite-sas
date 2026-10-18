@@ -237,7 +237,7 @@ const SITUATION_PHRASES = {
 const HOOK_TEMPLATES = {
   "coup-de-coeur": [
     (t) => `Aujourd'hui, nos coups de cœur parmi ${t} !`,
-    (t) => `On a testé pour toi ${t} !`,
+    (t) => `On a sélectionné pour toi ${t} !`,
     (t) => `Voici ${t}, notre sélection du jour !`,
     (t) => `Tu cherches ${t} ? T'es au bon endroit !`,
   ],
@@ -304,7 +304,10 @@ export function buildScript(article) {
 
   const hookSubject = article.hookSubject || "les meilleurs produits pour sécuriser sa maison";
   const hookPool = HOOK_TEMPLATES[format];
-  const hookTemplate = hookPool[articleIndex(article.slug) % hookPool.length];
+  // Solo shorts (one product) pick their hook from the product name: several
+  // solos taken from the same roundup used to open on the very same sentence.
+  const hookKey = article.products.length === 1 ? [...article.title].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 0) : articleIndex(article.slug);
+  const hookTemplate = hookPool[hookKey % hookPool.length];
   // The intro used to be a flat gradient behind big hero text — replaced by
   // the first product's own photo so the intro shows something relevant to
   // the topic instead of a plain color card. Goes through the normal
