@@ -162,15 +162,16 @@
     "req-film-anti-effraction-fenetre",
     "req-simulateur-presence-vacances",
     "solo-top-5-antivols-velo-u-B0D76TF1GH",
-    "req-protection-coin-table-bebe"
+    "req-protection-coin-table-bebe",
+    "req-babyphone-camera"
   ],
-  "lastRunAt": "2026-10-19T20:41:33.723Z",
+  "lastRunAt": "2026-10-20T07:02:48.822Z",
   "dailyCounts": {
-    "date": "2026-10-19",
-    "requete": 3,
+    "date": "2026-10-20",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 104
 }
