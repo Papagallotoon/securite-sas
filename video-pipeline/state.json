@@ -164,15 +164,16 @@
     "solo-top-5-antivols-velo-u-B0D76TF1GH",
     "req-protection-coin-table-bebe",
     "req-babyphone-camera",
-    "req-alarme-sans-abonnement-installer"
+    "req-alarme-sans-abonnement-installer",
+    "solo-top-5-detecteurs-gaz-monoxyde-B0GF7T98PP"
   ],
-  "lastRunAt": "2026-10-20T12:03:07.700Z",
+  "lastRunAt": "2026-10-20T16:07:04.843Z",
   "dailyCounts": {
     "date": "2026-10-20",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 104
+  "soloIndex": 105
 }
