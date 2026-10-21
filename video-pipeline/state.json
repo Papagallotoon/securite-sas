@@ -167,12 +167,13 @@
     "req-alarme-sans-abonnement-installer",
     "solo-top-5-detecteurs-gaz-monoxyde-B0GF7T98PP",
     "req-ou-placer-detecteur-mouvement",
-    "req-porte-entree-resiste"
+    "req-porte-entree-resiste",
+    "req-cylindre-a2p-etoiles"
   ],
-  "lastRunAt": "2026-10-21T07:02:54.515Z",
+  "lastRunAt": "2026-10-21T12:03:04.762Z",
   "dailyCounts": {
     "date": "2026-10-21",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
