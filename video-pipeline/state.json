@@ -168,15 +168,16 @@
     "solo-top-5-detecteurs-gaz-monoxyde-B0GF7T98PP",
     "req-ou-placer-detecteur-mouvement",
     "req-porte-entree-resiste",
-    "req-cylindre-a2p-etoiles"
+    "req-cylindre-a2p-etoiles",
+    "solo-top-5-eclairage-exterieur-connecte-B0BPL8ZKGS"
   ],
-  "lastRunAt": "2026-10-21T12:03:04.762Z",
+  "lastRunAt": "2026-10-21T19:28:09.645Z",
   "dailyCounts": {
     "date": "2026-10-21",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 105
+  "soloIndex": 106
 }
