@@ -172,12 +172,13 @@
     "solo-top-5-eclairage-exterieur-connecte-B0BPL8ZKGS",
     "req-cles-perdues-que-faire",
     "req-telesurveillance-ou-alarme-autonome",
-    "solo-top-5-babyphones-video-B0CDBTDRTP"
+    "solo-top-5-babyphones-video-B0CDBTDRTP",
+    "req-grilles-defense-fenetre"
   ],
-  "lastRunAt": "2026-10-22T16:23:49.205Z",
+  "lastRunAt": "2026-10-22T22:14:27.558Z",
   "dailyCounts": {
     "date": "2026-10-22",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
