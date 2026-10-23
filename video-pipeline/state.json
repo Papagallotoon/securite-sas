@@ -175,15 +175,16 @@
     "solo-top-5-babyphones-video-B0CDBTDRTP",
     "req-grilles-defense-fenetre",
     "req-securiser-baie-vitree",
-    "req-signes-maison-reperee"
+    "req-signes-maison-reperee",
+    "solo-top-5-extincteurs-couvertures-anti-feu-maison-B09RX1ZJHJ"
   ],
-  "lastRunAt": "2026-10-23T10:36:54.069Z",
+  "lastRunAt": "2026-10-23T13:43:10.206Z",
   "dailyCounts": {
     "date": "2026-10-23",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 107
+  "soloIndex": 108
 }
