@@ -173,15 +173,16 @@
     "req-cles-perdues-que-faire",
     "req-telesurveillance-ou-alarme-autonome",
     "solo-top-5-babyphones-video-B0CDBTDRTP",
-    "req-grilles-defense-fenetre"
+    "req-grilles-defense-fenetre",
+    "req-securiser-baie-vitree"
   ],
-  "lastRunAt": "2026-10-22T22:14:27.558Z",
+  "lastRunAt": "2026-10-23T07:02:52.710Z",
   "dailyCounts": {
-    "date": "2026-10-22",
-    "requete": 3,
+    "date": "2026-10-23",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 107
 }
