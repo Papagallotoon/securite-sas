@@ -174,12 +174,13 @@
     "req-telesurveillance-ou-alarme-autonome",
     "solo-top-5-babyphones-video-B0CDBTDRTP",
     "req-grilles-defense-fenetre",
-    "req-securiser-baie-vitree"
+    "req-securiser-baie-vitree",
+    "req-signes-maison-reperee"
   ],
-  "lastRunAt": "2026-10-23T07:02:52.710Z",
+  "lastRunAt": "2026-10-23T10:36:54.069Z",
   "dailyCounts": {
     "date": "2026-10-23",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
