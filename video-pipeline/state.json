@@ -177,15 +177,16 @@
     "req-securiser-baie-vitree",
     "req-signes-maison-reperee",
     "solo-top-5-extincteurs-couvertures-anti-feu-maison-B09RX1ZJHJ",
-    "req-arnaque-serrurier"
+    "req-arnaque-serrurier",
+    "req-alarme-gsm-residence-secondaire"
   ],
-  "lastRunAt": "2026-10-23T17:02:27.622Z",
+  "lastRunAt": "2026-10-28T20:15:47.795Z",
   "dailyCounts": {
-    "date": "2026-10-23",
-    "requete": 3,
+    "date": "2026-10-28",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 108
 }
