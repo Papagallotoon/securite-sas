@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "googleapis": "^176.0.0",
-    "msedge-tts": "^2.1.0",
+    "msedge-tts": "^2.1.1",
     "nodemailer": "^10.0.1"
   }
 }
