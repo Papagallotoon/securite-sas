@@ -180,15 +180,16 @@
     "req-arnaque-serrurier",
     "req-alarme-gsm-residence-secondaire",
     "req-faux-techniciens",
-    "req-heure-cambriolage"
+    "req-heure-cambriolage",
+    "solo-top-5-films-securite-anti-effraction-fenetre-B0F8NTS3V7"
   ],
-  "lastRunAt": "2026-10-29T11:26:32.109Z",
+  "lastRunAt": "2026-10-29T15:26:12.410Z",
   "dailyCounts": {
     "date": "2026-10-29",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 108
+  "soloIndex": 109
 }
