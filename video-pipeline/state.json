@@ -178,11 +178,12 @@
     "req-signes-maison-reperee",
     "solo-top-5-extincteurs-couvertures-anti-feu-maison-B09RX1ZJHJ",
     "req-arnaque-serrurier",
-    "req-alarme-gsm-residence-secondaire"
+    "req-alarme-gsm-residence-secondaire",
+    "req-faux-techniciens"
   ],
-  "lastRunAt": "2026-10-28T20:15:47.795Z",
+  "lastRunAt": "2026-10-29T07:02:29.859Z",
   "dailyCounts": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "requete": 1,
     "comparatif": 0,
     "audible": 0,
