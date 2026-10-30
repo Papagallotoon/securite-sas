@@ -185,12 +185,13 @@
     "req-volet-roulant-anti-soulevement",
     "req-apres-cambriolage",
     "req-assurance-vol-clauses",
-    "solo-top-5-interphones-video-connectes-B0F1ZBYDQJ"
+    "solo-top-5-interphones-video-connectes-B0F1ZBYDQJ",
+    "req-colis-voles"
   ],
-  "lastRunAt": "2026-10-30T15:11:38.391Z",
+  "lastRunAt": "2026-10-30T20:02:15.109Z",
   "dailyCounts": {
     "date": "2026-10-30",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
