@@ -184,15 +184,16 @@
     "solo-top-5-films-securite-anti-effraction-fenetre-B0F8NTS3V7",
     "req-volet-roulant-anti-soulevement",
     "req-apres-cambriolage",
-    "req-assurance-vol-clauses"
+    "req-assurance-vol-clauses",
+    "solo-top-5-interphones-video-connectes-B0F1ZBYDQJ"
   ],
-  "lastRunAt": "2026-10-30T11:18:02.670Z",
+  "lastRunAt": "2026-10-30T15:11:38.391Z",
   "dailyCounts": {
     "date": "2026-10-30",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 109
+  "soloIndex": 110
 }
