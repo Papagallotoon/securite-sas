@@ -183,12 +183,13 @@
     "req-heure-cambriolage",
     "solo-top-5-films-securite-anti-effraction-fenetre-B0F8NTS3V7",
     "req-volet-roulant-anti-soulevement",
-    "req-apres-cambriolage"
+    "req-apres-cambriolage",
+    "req-assurance-vol-clauses"
   ],
-  "lastRunAt": "2026-10-30T07:02:47.249Z",
+  "lastRunAt": "2026-10-30T11:18:02.670Z",
   "dailyCounts": {
     "date": "2026-10-30",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
