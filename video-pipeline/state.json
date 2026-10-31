@@ -187,12 +187,13 @@
     "req-assurance-vol-clauses",
     "solo-top-5-interphones-video-connectes-B0F1ZBYDQJ",
     "req-colis-voles",
-    "req-checklist-vacances"
+    "req-checklist-vacances",
+    "req-boite-aux-lettres-vol"
   ],
-  "lastRunAt": "2026-10-31T07:02:35.819Z",
+  "lastRunAt": "2026-10-31T10:50:41.960Z",
   "dailyCounts": {
     "date": "2026-10-31",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
