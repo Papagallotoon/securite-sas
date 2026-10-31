@@ -188,15 +188,16 @@
     "solo-top-5-interphones-video-connectes-B0F1ZBYDQJ",
     "req-colis-voles",
     "req-checklist-vacances",
-    "req-boite-aux-lettres-vol"
+    "req-boite-aux-lettres-vol",
+    "solo-top-5-judas-numeriques-porte-B014LC93QO"
   ],
-  "lastRunAt": "2026-10-31T10:50:41.960Z",
+  "lastRunAt": "2026-10-31T14:40:20.273Z",
   "dailyCounts": {
     "date": "2026-10-31",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 110
+  "soloIndex": 111
 }
