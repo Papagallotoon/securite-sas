@@ -192,15 +192,16 @@
     "solo-top-5-judas-numeriques-porte-B014LC93QO",
     "req-porte-garage-faille",
     "req-eclairage-anti-cambriolage",
-    "req-cloture-haie-portail"
+    "req-cloture-haie-portail",
+    "solo-top-5-kits-alarme-sans-fil-B08MQR67SM"
   ],
-  "lastRunAt": "2026-11-01T11:48:02.529Z",
+  "lastRunAt": "2026-11-01T15:23:50.889Z",
   "dailyCounts": {
     "date": "2026-11-01",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 111
+  "soloIndex": 112
 }
