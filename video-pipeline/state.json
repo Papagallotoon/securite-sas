@@ -191,12 +191,13 @@
     "req-boite-aux-lettres-vol",
     "solo-top-5-judas-numeriques-porte-B014LC93QO",
     "req-porte-garage-faille",
-    "req-eclairage-anti-cambriolage"
+    "req-eclairage-anti-cambriolage",
+    "req-cloture-haie-portail"
   ],
-  "lastRunAt": "2026-11-01T07:02:23.346Z",
+  "lastRunAt": "2026-11-01T11:48:02.529Z",
   "dailyCounts": {
     "date": "2026-11-01",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
