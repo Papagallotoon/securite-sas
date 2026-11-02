@@ -194,15 +194,16 @@
     "req-eclairage-anti-cambriolage",
     "req-cloture-haie-portail",
     "solo-top-5-kits-alarme-sans-fil-B08MQR67SM",
-    "req-camera-loi-filmer"
+    "req-camera-loi-filmer",
+    "req-abri-jardin-securiser"
   ],
-  "lastRunAt": "2026-11-01T22:41:59.173Z",
+  "lastRunAt": "2026-11-02T07:02:50.698Z",
   "dailyCounts": {
-    "date": "2026-11-01",
-    "requete": 3,
+    "date": "2026-11-02",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 112
 }
