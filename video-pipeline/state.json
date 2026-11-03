@@ -199,12 +199,13 @@
     "req-camera-stockage-sd-cloud",
     "solo-top-5-kits-videosurveillance-exterieure-B0DQTX37VJ",
     "req-camera-piratage-reglages",
-    "req-securiser-box-wifi"
+    "req-securiser-box-wifi",
+    "req-vol-voiture-keyless"
   ],
-  "lastRunAt": "2026-11-03T07:02:59.031Z",
+  "lastRunAt": "2026-11-03T12:02:54.854Z",
   "dailyCounts": {
     "date": "2026-11-03",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
