@@ -203,12 +203,13 @@
     "req-vol-voiture-keyless",
     "solo-top-5-motorisations-portail-battant-B0BFHLFV56",
     "req-plan-evacuation-incendie",
-    "req-echelle-evacuation"
+    "req-echelle-evacuation",
+    "req-orage-proteger-appareils"
   ],
-  "lastRunAt": "2026-11-04T07:02:43.734Z",
+  "lastRunAt": "2026-11-04T12:02:55.097Z",
   "dailyCounts": {
     "date": "2026-11-04",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
