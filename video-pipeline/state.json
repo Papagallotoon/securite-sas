@@ -202,15 +202,16 @@
     "req-securiser-box-wifi",
     "req-vol-voiture-keyless",
     "solo-top-5-motorisations-portail-battant-B0BFHLFV56",
-    "req-plan-evacuation-incendie"
+    "req-plan-evacuation-incendie",
+    "req-echelle-evacuation"
   ],
-  "lastRunAt": "2026-11-03T23:57:25.073Z",
+  "lastRunAt": "2026-11-04T07:02:43.734Z",
   "dailyCounts": {
-    "date": "2026-11-03",
-    "requete": 3,
+    "date": "2026-11-04",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 114
 }
