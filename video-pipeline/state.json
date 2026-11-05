@@ -208,15 +208,16 @@
     "solo-top-5-pochettes-ignifuges-documents-B0BXNNTX5X",
     "req-degat-des-eaux-preparer",
     "req-antivol-voiture",
-    "req-coupure-courant-kit"
+    "req-coupure-courant-kit",
+    "solo-top-5-protections-angles-meubles-enfant-B0C7Q4SY3L"
   ],
-  "lastRunAt": "2026-11-05T07:03:25.847Z",
+  "lastRunAt": "2026-11-05T12:02:13.379Z",
   "dailyCounts": {
     "date": "2026-11-05",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 115
+  "soloIndex": 116
 }
