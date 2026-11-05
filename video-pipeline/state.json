@@ -210,12 +210,13 @@
     "req-antivol-voiture",
     "req-coupure-courant-kit",
     "solo-top-5-protections-angles-meubles-enfant-B0C7Q4SY3L",
-    "req-multiprise-incendie"
+    "req-multiprise-incendie",
+    "req-batterie-trottinette-incendie"
   ],
-  "lastRunAt": "2026-11-05T17:02:35.961Z",
+  "lastRunAt": "2026-11-05T21:31:58.585Z",
   "dailyCounts": {
     "date": "2026-11-05",
-    "requete": 3,
+    "requete": 4,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
