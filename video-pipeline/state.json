@@ -207,12 +207,13 @@
     "req-orage-proteger-appareils",
     "solo-top-5-pochettes-ignifuges-documents-B0BXNNTX5X",
     "req-degat-des-eaux-preparer",
-    "req-antivol-voiture"
+    "req-antivol-voiture",
+    "req-coupure-courant-kit"
   ],
-  "lastRunAt": "2026-11-05T00:35:44.058Z",
+  "lastRunAt": "2026-11-05T07:03:25.847Z",
   "dailyCounts": {
     "date": "2026-11-05",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
