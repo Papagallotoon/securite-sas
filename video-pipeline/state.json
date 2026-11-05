@@ -209,12 +209,13 @@
     "req-degat-des-eaux-preparer",
     "req-antivol-voiture",
     "req-coupure-courant-kit",
-    "solo-top-5-protections-angles-meubles-enfant-B0C7Q4SY3L"
+    "solo-top-5-protections-angles-meubles-enfant-B0C7Q4SY3L",
+    "req-multiprise-incendie"
   ],
-  "lastRunAt": "2026-11-05T12:02:13.379Z",
+  "lastRunAt": "2026-11-05T17:02:35.961Z",
   "dailyCounts": {
     "date": "2026-11-05",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
