@@ -211,15 +211,16 @@
     "req-coupure-courant-kit",
     "solo-top-5-protections-angles-meubles-enfant-B0C7Q4SY3L",
     "req-multiprise-incendie",
-    "req-batterie-trottinette-incendie"
+    "req-batterie-trottinette-incendie",
+    "req-maison-hauteur-bebe"
   ],
-  "lastRunAt": "2026-11-05T21:31:58.585Z",
+  "lastRunAt": "2026-11-06T07:02:49.495Z",
   "dailyCounts": {
-    "date": "2026-11-05",
-    "requete": 4,
+    "date": "2026-11-06",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 116
 }
