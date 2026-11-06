@@ -214,12 +214,13 @@
     "req-batterie-trottinette-incendie",
     "req-maison-hauteur-bebe",
     "req-fenetre-defenestration-enfant",
-    "solo-top-5-prises-simulateur-presence-B089B6ZJ22"
+    "solo-top-5-prises-simulateur-presence-B089B6ZJ22",
+    "req-chute-senior-maison"
   ],
-  "lastRunAt": "2026-11-06T16:07:25.989Z",
+  "lastRunAt": "2026-11-06T21:00:25.561Z",
   "dailyCounts": {
     "date": "2026-11-06",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
