@@ -216,12 +216,13 @@
     "req-fenetre-defenestration-enfant",
     "solo-top-5-prises-simulateur-presence-B089B6ZJ22",
     "req-chute-senior-maison",
-    "req-airbnb-securiser"
+    "req-airbnb-securiser",
+    "req-locataire-securiser-sans-travaux"
   ],
-  "lastRunAt": "2026-11-07T07:02:33.361Z",
+  "lastRunAt": "2026-11-07T11:38:41.878Z",
   "dailyCounts": {
     "date": "2026-11-07",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
