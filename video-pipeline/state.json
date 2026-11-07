@@ -217,15 +217,16 @@
     "solo-top-5-prises-simulateur-presence-B089B6ZJ22",
     "req-chute-senior-maison",
     "req-airbnb-securiser",
-    "req-locataire-securiser-sans-travaux"
+    "req-locataire-securiser-sans-travaux",
+    "solo-top-5-securite-maison-luxe-B0B8DW39TZ"
   ],
-  "lastRunAt": "2026-11-07T11:38:41.878Z",
+  "lastRunAt": "2026-11-07T15:00:53.629Z",
   "dailyCounts": {
     "date": "2026-11-07",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 117
+  "soloIndex": 118
 }
