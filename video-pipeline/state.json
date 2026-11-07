@@ -215,15 +215,16 @@
     "req-maison-hauteur-bebe",
     "req-fenetre-defenestration-enfant",
     "solo-top-5-prises-simulateur-presence-B089B6ZJ22",
-    "req-chute-senior-maison"
+    "req-chute-senior-maison",
+    "req-airbnb-securiser"
   ],
-  "lastRunAt": "2026-11-06T21:00:25.561Z",
+  "lastRunAt": "2026-11-07T07:02:33.361Z",
   "dailyCounts": {
-    "date": "2026-11-06",
-    "requete": 3,
+    "date": "2026-11-07",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 117
 }
