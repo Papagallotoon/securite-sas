@@ -224,15 +224,16 @@
     "req-residence-secondaire-inoccupee",
     "req-teleassistance-ou-montre",
     "solo-top-5-serrures-alarmes-connectees-B0CK4W99Y7",
-    "req-ce-qui-dissuade-cambrioleur"
+    "req-ce-qui-dissuade-cambrioleur",
+    "req-motorisation-portail-choisir"
   ],
-  "lastRunAt": "2026-11-08T19:52:55.864Z",
+  "lastRunAt": "2026-11-09T07:02:32.628Z",
   "dailyCounts": {
-    "date": "2026-11-08",
-    "requete": 3,
+    "date": "2026-11-09",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 119
 }
