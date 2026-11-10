@@ -229,12 +229,13 @@
     "req-pochette-ignifuge-papiers",
     "solo-top-5-serrures-connectees-nuki-alternatives-B0FPX9YMYV",
     "req-cadenas-empreinte",
-    "req-barriere-piscine-norme"
+    "req-barriere-piscine-norme",
+    "req-alarme-diy-capteurs"
   ],
-  "lastRunAt": "2026-11-10T01:58:36.734Z",
+  "lastRunAt": "2026-11-10T12:28:04.226Z",
   "dailyCounts": {
     "date": "2026-11-10",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
