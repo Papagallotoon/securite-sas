@@ -228,15 +228,16 @@
     "req-motorisation-portail-choisir",
     "req-pochette-ignifuge-papiers",
     "solo-top-5-serrures-connectees-nuki-alternatives-B0FPX9YMYV",
-    "req-cadenas-empreinte"
+    "req-cadenas-empreinte",
+    "req-barriere-piscine-norme"
   ],
-  "lastRunAt": "2026-11-09T21:48:22.646Z",
+  "lastRunAt": "2026-11-10T01:58:36.734Z",
   "dailyCounts": {
-    "date": "2026-11-09",
-    "requete": 3,
+    "date": "2026-11-10",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 120
 }
