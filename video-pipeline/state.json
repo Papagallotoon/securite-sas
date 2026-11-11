@@ -234,15 +234,16 @@
     "solo-top-5-sirenes-alarme-exterieures-connectees-B0FP9G1FGP",
     "req-kit-videosurveillance-nvr",
     "req-airtag-voiture",
-    "req-camera-animaux"
+    "req-camera-animaux",
+    "solo-top-5-sonnettes-video-connectees-B0931VRJT5"
   ],
-  "lastRunAt": "2026-11-11T12:02:47.956Z",
+  "lastRunAt": "2026-11-11T22:06:53.125Z",
   "dailyCounts": {
     "date": "2026-11-11",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 121
+  "soloIndex": 122
 }
