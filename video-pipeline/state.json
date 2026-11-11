@@ -233,12 +233,13 @@
     "req-alarme-diy-capteurs",
     "solo-top-5-sirenes-alarme-exterieures-connectees-B0FP9G1FGP",
     "req-kit-videosurveillance-nvr",
-    "req-airtag-voiture"
+    "req-airtag-voiture",
+    "req-camera-animaux"
   ],
-  "lastRunAt": "2026-11-11T07:02:38.704Z",
+  "lastRunAt": "2026-11-11T12:02:47.956Z",
   "dailyCounts": {
     "date": "2026-11-11",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
