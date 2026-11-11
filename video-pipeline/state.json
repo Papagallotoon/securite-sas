@@ -232,15 +232,16 @@
     "req-barriere-piscine-norme",
     "req-alarme-diy-capteurs",
     "solo-top-5-sirenes-alarme-exterieures-connectees-B0FP9G1FGP",
-    "req-kit-videosurveillance-nvr"
+    "req-kit-videosurveillance-nvr",
+    "req-airtag-voiture"
   ],
-  "lastRunAt": "2026-11-10T23:59:17.276Z",
+  "lastRunAt": "2026-11-11T07:02:38.704Z",
   "dailyCounts": {
-    "date": "2026-11-10",
-    "requete": 3,
+    "date": "2026-11-11",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 121
 }
