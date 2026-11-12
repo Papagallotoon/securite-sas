@@ -238,12 +238,13 @@
     "solo-top-5-sonnettes-video-connectees-B0931VRJT5",
     "req-alarme-pro-ajax",
     "req-barriere-escalier-haut-bas",
-    "solo-top-5-verrous-securite-enfant-placards-B09F656CBN"
+    "solo-top-5-verrous-securite-enfant-placards-B09F656CBN",
+    "req-extincteur-quel-type"
   ],
-  "lastRunAt": "2026-11-12T12:02:11.083Z",
+  "lastRunAt": "2026-11-12T16:59:37.424Z",
   "dailyCounts": {
     "date": "2026-11-12",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
