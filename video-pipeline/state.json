@@ -237,15 +237,16 @@
     "req-camera-animaux",
     "solo-top-5-sonnettes-video-connectees-B0931VRJT5",
     "req-alarme-pro-ajax",
-    "req-barriere-escalier-haut-bas"
+    "req-barriere-escalier-haut-bas",
+    "solo-top-5-verrous-securite-enfant-placards-B09F656CBN"
   ],
-  "lastRunAt": "2026-11-12T07:02:44.881Z",
+  "lastRunAt": "2026-11-12T12:02:11.083Z",
   "dailyCounts": {
     "date": "2026-11-12",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 122
+  "soloIndex": 123
 }
