@@ -240,15 +240,16 @@
     "req-barriere-escalier-haut-bas",
     "solo-top-5-verrous-securite-enfant-placards-B09F656CBN",
     "req-extincteur-quel-type",
-    "req-detecteur-gaz"
+    "req-detecteur-gaz",
+    "req-babyphone-portee"
   ],
-  "lastRunAt": "2026-11-12T21:54:57.876Z",
+  "lastRunAt": "2026-11-13T07:02:47.858Z",
   "dailyCounts": {
-    "date": "2026-11-12",
-    "requete": 4,
+    "date": "2026-11-13",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 123
 }
