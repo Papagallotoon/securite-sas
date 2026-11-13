@@ -241,12 +241,13 @@
     "solo-top-5-verrous-securite-enfant-placards-B09F656CBN",
     "req-extincteur-quel-type",
     "req-detecteur-gaz",
-    "req-babyphone-portee"
+    "req-babyphone-portee",
+    "req-bris-vitre"
   ],
-  "lastRunAt": "2026-11-13T07:02:47.858Z",
+  "lastRunAt": "2026-11-13T12:03:03.666Z",
   "dailyCounts": {
     "date": "2026-11-13",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
