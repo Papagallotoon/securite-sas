@@ -244,15 +244,16 @@
     "req-babyphone-portee",
     "req-bris-vitre",
     "solo-top-5-trackers-gps-antivol-B0CHN2D8KM",
-    "req-judas-ou-sonnette"
+    "req-judas-ou-sonnette",
+    "req-sonnette-video-batterie"
   ],
-  "lastRunAt": "2026-11-13T21:30:17.840Z",
+  "lastRunAt": "2026-11-14T07:02:33.002Z",
   "dailyCounts": {
-    "date": "2026-11-13",
-    "requete": 3,
+    "date": "2026-11-14",
+    "requete": 1,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 0
   },
   "soloIndex": 124
 }
