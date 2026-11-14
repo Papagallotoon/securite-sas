@@ -247,12 +247,13 @@
     "req-judas-ou-sonnette",
     "req-sonnette-video-batterie",
     "req-couverture-anti-feu",
-    "solo-top-5-antivols-velo-u-B0778VBSD6"
+    "solo-top-5-antivols-velo-u-B0778VBSD6",
+    "req-camera-solaire-4g"
   ],
-  "lastRunAt": "2026-11-14T15:16:32.212Z",
+  "lastRunAt": "2026-11-14T20:01:16.374Z",
   "dailyCounts": {
     "date": "2026-11-14",
-    "requete": 2,
+    "requete": 3,
     "comparatif": 0,
     "audible": 0,
     "solo": 1
