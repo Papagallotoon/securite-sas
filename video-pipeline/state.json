@@ -245,12 +245,13 @@
     "req-bris-vitre",
     "solo-top-5-trackers-gps-antivol-B0CHN2D8KM",
     "req-judas-ou-sonnette",
-    "req-sonnette-video-batterie"
+    "req-sonnette-video-batterie",
+    "req-couverture-anti-feu"
   ],
-  "lastRunAt": "2026-11-14T07:02:33.002Z",
+  "lastRunAt": "2026-11-14T12:01:25.990Z",
   "dailyCounts": {
     "date": "2026-11-14",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
