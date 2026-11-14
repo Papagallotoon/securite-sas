@@ -246,15 +246,16 @@
     "solo-top-5-trackers-gps-antivol-B0CHN2D8KM",
     "req-judas-ou-sonnette",
     "req-sonnette-video-batterie",
-    "req-couverture-anti-feu"
+    "req-couverture-anti-feu",
+    "solo-top-5-antivols-velo-u-B0778VBSD6"
   ],
-  "lastRunAt": "2026-11-14T12:01:25.990Z",
+  "lastRunAt": "2026-11-14T15:16:32.212Z",
   "dailyCounts": {
     "date": "2026-11-14",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 124
+  "soloIndex": 125
 }
