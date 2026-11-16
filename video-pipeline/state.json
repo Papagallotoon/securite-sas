@@ -253,12 +253,13 @@
     "req-prise-programmable-vacances",
     "solo-top-5-babyphones-video-B0DCBF1HN9",
     "req-serrure-connectee-coupure",
-    "req-alarme-piscine-immersion"
+    "req-alarme-piscine-immersion",
+    "req-antivol-velo-attacher"
   ],
-  "lastRunAt": "2026-11-16T07:02:54.057Z",
+  "lastRunAt": "2026-11-16T12:02:57.298Z",
   "dailyCounts": {
     "date": "2026-11-16",
-    "requete": 1,
+    "requete": 2,
     "comparatif": 0,
     "audible": 0,
     "solo": 0
