@@ -254,15 +254,16 @@
     "solo-top-5-babyphones-video-B0DCBF1HN9",
     "req-serrure-connectee-coupure",
     "req-alarme-piscine-immersion",
-    "req-antivol-velo-attacher"
+    "req-antivol-velo-attacher",
+    "solo-top-5-detecteurs-gaz-monoxyde-B0GHDJGRXK"
   ],
-  "lastRunAt": "2026-11-16T12:02:57.298Z",
+  "lastRunAt": "2026-11-16T17:02:34.405Z",
   "dailyCounts": {
     "date": "2026-11-16",
     "requete": 2,
     "comparatif": 0,
     "audible": 0,
-    "solo": 0
+    "solo": 1
   },
-  "soloIndex": 126
+  "soloIndex": 127
 }
