@@ -259,15 +259,16 @@
     "solo-top-5-eclairage-exterieur-connecte-B0BB1KHTF7",
     "solo-top-5-extincteurs-couvertures-anti-feu-maison-B0DMTH57J3",
     "solo-top-5-films-securite-anti-effraction-fenetre-B088RL1919",
-    "solo-top-5-interphones-video-connectes-B0DHVRDXNX"
+    "solo-top-5-interphones-video-connectes-B0DHVRDXNX",
+    "solo-top-5-judas-numeriques-porte-B0D92GJRFX"
   ],
-  "lastRunAt": "2026-11-17T12:02:37.165Z",
+  "lastRunAt": "2026-11-17T17:45:39.229Z",
   "dailyCounts": {
     "date": "2026-11-17",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 131
+  "soloIndex": 132
 }
