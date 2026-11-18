@@ -261,15 +261,16 @@
     "solo-top-5-films-securite-anti-effraction-fenetre-B088RL1919",
     "solo-top-5-interphones-video-connectes-B0DHVRDXNX",
     "solo-top-5-judas-numeriques-porte-B0D92GJRFX",
-    "solo-top-5-kits-alarme-sans-fil-B0DF2SRPT3"
+    "solo-top-5-kits-alarme-sans-fil-B0DF2SRPT3",
+    "solo-top-5-kits-videosurveillance-exterieure-B07PY74V1L"
   ],
-  "lastRunAt": "2026-11-17T23:03:04.153Z",
+  "lastRunAt": "2026-11-18T07:02:34.928Z",
   "dailyCounts": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 5
+    "solo": 1
   },
-  "soloIndex": 133
+  "soloIndex": 134
 }
