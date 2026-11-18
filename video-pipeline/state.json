@@ -264,15 +264,16 @@
     "solo-top-5-kits-alarme-sans-fil-B0DF2SRPT3",
     "solo-top-5-kits-videosurveillance-exterieure-B07PY74V1L",
     "solo-top-5-motorisations-portail-battant-B0BFHV5XS7",
-    "solo-top-5-pochettes-ignifuges-documents-B0B2ZHMM9Q"
+    "solo-top-5-pochettes-ignifuges-documents-B0B2ZHMM9Q",
+    "solo-top-5-prises-simulateur-presence-B0BBFL6PXM"
   ],
-  "lastRunAt": "2026-11-18T17:02:33.330Z",
+  "lastRunAt": "2026-11-18T22:40:31.900Z",
   "dailyCounts": {
     "date": "2026-11-18",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 136
+  "soloIndex": 137
 }
