@@ -266,15 +266,16 @@
     "solo-top-5-motorisations-portail-battant-B0BFHV5XS7",
     "solo-top-5-pochettes-ignifuges-documents-B0B2ZHMM9Q",
     "solo-top-5-prises-simulateur-presence-B0BBFL6PXM",
-    "solo-top-5-protections-angles-meubles-enfant-B0BXDVXSNT"
+    "solo-top-5-protections-angles-meubles-enfant-B0BXDVXSNT",
+    "solo-top-5-securite-maison-luxe-B0CLV9ZG9M"
   ],
-  "lastRunAt": "2026-11-19T07:05:27.711Z",
+  "lastRunAt": "2026-11-19T19:48:39.824Z",
   "dailyCounts": {
     "date": "2026-11-19",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 138
+  "soloIndex": 139
 }
