@@ -270,15 +270,16 @@
     "solo-top-5-securite-maison-luxe-B0CLV9ZG9M",
     "solo-top-5-serrures-alarmes-connectees-B0DC6RXKY6",
     "solo-top-5-serrures-connectees-nuki-alternatives-B0D1C75J4F",
-    "solo-top-5-sirenes-alarme-exterieures-connectees-B0HCNSMYBL"
+    "solo-top-5-sirenes-alarme-exterieures-connectees-B0HCNSMYBL",
+    "solo-top-5-sonnettes-video-connectees-B0C8BFXFN6"
   ],
-  "lastRunAt": "2026-11-20T12:02:32.127Z",
+  "lastRunAt": "2026-11-20T17:02:40.411Z",
   "dailyCounts": {
     "date": "2026-11-20",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 142
+  "soloIndex": 143
 }
