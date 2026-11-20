@@ -271,15 +271,16 @@
     "solo-top-5-serrures-alarmes-connectees-B0DC6RXKY6",
     "solo-top-5-serrures-connectees-nuki-alternatives-B0D1C75J4F",
     "solo-top-5-sirenes-alarme-exterieures-connectees-B0HCNSMYBL",
-    "solo-top-5-sonnettes-video-connectees-B0C8BFXFN6"
+    "solo-top-5-sonnettes-video-connectees-B0C8BFXFN6",
+    "solo-top-5-trackers-gps-antivol-B0C3V545KJ"
   ],
-  "lastRunAt": "2026-11-20T17:02:40.411Z",
+  "lastRunAt": "2026-11-20T22:18:28.552Z",
   "dailyCounts": {
     "date": "2026-11-20",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 4
+    "solo": 5
   },
-  "soloIndex": 143
+  "soloIndex": 144
 }
