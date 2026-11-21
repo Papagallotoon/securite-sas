@@ -275,15 +275,16 @@
     "solo-top-5-trackers-gps-antivol-B0C3V545KJ",
     "solo-top-5-verrous-securite-enfant-placards-B0CQQGLJ38",
     "solo-top-5-antivols-velo-u-B06XZT8KZ1",
-    "solo-top-5-babyphones-video-B01MYYTFVI"
+    "solo-top-5-babyphones-video-B01MYYTFVI",
+    "solo-top-5-detecteurs-gaz-monoxyde-B0D66LK5NP"
   ],
-  "lastRunAt": "2026-11-21T16:19:42.403Z",
+  "lastRunAt": "2026-11-21T20:59:05.904Z",
   "dailyCounts": {
     "date": "2026-11-21",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 147
+  "soloIndex": 148
 }
