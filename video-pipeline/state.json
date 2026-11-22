@@ -279,15 +279,16 @@
     "solo-top-5-detecteurs-gaz-monoxyde-B0D66LK5NP",
     "solo-top-5-judas-numeriques-porte-B0G6CYZTVG",
     "solo-top-5-kits-alarme-sans-fil-B09GVQLPTY",
-    "solo-top-5-kits-videosurveillance-exterieure-B0CWNVMY3J"
+    "solo-top-5-kits-videosurveillance-exterieure-B0CWNVMY3J",
+    "solo-top-5-motorisations-portail-battant-B0BX3PSL7J"
   ],
-  "lastRunAt": "2026-11-22T16:32:44.615Z",
+  "lastRunAt": "2026-11-22T21:09:33.286Z",
   "dailyCounts": {
     "date": "2026-11-22",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 151
+  "soloIndex": 152
 }
