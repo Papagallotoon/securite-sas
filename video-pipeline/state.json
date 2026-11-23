@@ -282,15 +282,16 @@
     "solo-top-5-kits-videosurveillance-exterieure-B0CWNVMY3J",
     "solo-top-5-motorisations-portail-battant-B0BX3PSL7J",
     "solo-top-5-pochettes-ignifuges-documents-B08P9GDYF8",
-    "solo-top-5-prises-simulateur-presence-B0CKSZL9DW"
+    "solo-top-5-prises-simulateur-presence-B0CKSZL9DW",
+    "solo-top-5-protections-angles-meubles-enfant-B0BR5TH5L7"
   ],
-  "lastRunAt": "2026-11-23T15:54:07.943Z",
+  "lastRunAt": "2026-11-23T20:27:52.890Z",
   "dailyCounts": {
     "date": "2026-11-23",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 2
+    "solo": 3
   },
-  "soloIndex": 154
+  "soloIndex": 155
 }
