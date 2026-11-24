@@ -286,15 +286,16 @@
     "solo-top-5-protections-angles-meubles-enfant-B0BR5TH5L7",
     "solo-top-5-securite-maison-luxe-B0GNN1T453",
     "solo-top-5-serrures-alarmes-connectees-B0BZSD2L1W",
-    "solo-top-5-serrures-connectees-nuki-alternatives-B0DX2FPQFQ"
+    "solo-top-5-serrures-connectees-nuki-alternatives-B0DX2FPQFQ",
+    "solo-top-5-sirenes-alarme-exterieures-connectees-B0GRW7B4H9"
   ],
-  "lastRunAt": "2026-11-24T12:02:19.603Z",
+  "lastRunAt": "2026-11-24T15:41:16.913Z",
   "dailyCounts": {
     "date": "2026-11-24",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 158
+  "soloIndex": 159
 }
