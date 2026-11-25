@@ -291,15 +291,16 @@
     "solo-top-5-sonnettes-video-connectees-B0BZYL6W56",
     "solo-top-5-trackers-gps-antivol-B0FRLWSGPW",
     "solo-top-5-verrous-securite-enfant-placards-B0BG2V4QFN",
-    "solo-top-5-antivols-velo-u-B0D3RGPXWN"
+    "solo-top-5-antivols-velo-u-B0D3RGPXWN",
+    "solo-top-5-babyphones-video-B07K118Z63"
   ],
-  "lastRunAt": "2026-11-25T12:02:28.381Z",
+  "lastRunAt": "2026-11-25T15:25:52.591Z",
   "dailyCounts": {
     "date": "2026-11-25",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 3
+    "solo": 4
   },
-  "soloIndex": 163
+  "soloIndex": 164
 }
