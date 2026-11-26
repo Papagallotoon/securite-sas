@@ -298,15 +298,16 @@
     "solo-top-5-extincteurs-couvertures-anti-feu-maison-B0DW429QVS",
     "solo-top-5-films-securite-anti-effraction-fenetre-B0G3PCL63R",
     "solo-top-5-interphones-video-connectes-B0BYSK333C",
-    "solo-top-5-judas-numeriques-porte-B07DW9ZYFL"
+    "solo-top-5-judas-numeriques-porte-B07DW9ZYFL",
+    "solo-top-5-kits-alarme-sans-fil-B0GZPLS7FV"
   ],
-  "lastRunAt": "2026-11-26T20:46:06.551Z",
+  "lastRunAt": "2026-11-26T23:56:57.801Z",
   "dailyCounts": {
     "date": "2026-11-26",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 4
+    "solo": 5
   },
-  "soloIndex": 170
+  "soloIndex": 171
 }
