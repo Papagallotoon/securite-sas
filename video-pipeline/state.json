@@ -300,15 +300,16 @@
     "solo-top-5-interphones-video-connectes-B0BYSK333C",
     "solo-top-5-judas-numeriques-porte-B07DW9ZYFL",
     "solo-top-5-kits-alarme-sans-fil-B0GZPLS7FV",
-    "solo-top-5-motorisations-portail-battant-B09NKZ1L5V"
+    "solo-top-5-motorisations-portail-battant-B09NKZ1L5V",
+    "solo-top-5-pochettes-ignifuges-documents-B0BZ4T1DN2"
   ],
-  "lastRunAt": "2026-11-27T07:02:32.898Z",
+  "lastRunAt": "2026-11-27T12:02:15.551Z",
   "dailyCounts": {
     "date": "2026-11-27",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 172
+  "soloIndex": 173
 }
