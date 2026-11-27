@@ -301,15 +301,16 @@
     "solo-top-5-judas-numeriques-porte-B07DW9ZYFL",
     "solo-top-5-kits-alarme-sans-fil-B0GZPLS7FV",
     "solo-top-5-motorisations-portail-battant-B09NKZ1L5V",
-    "solo-top-5-pochettes-ignifuges-documents-B0BZ4T1DN2"
+    "solo-top-5-pochettes-ignifuges-documents-B0BZ4T1DN2",
+    "solo-top-5-prises-simulateur-presence-B0GV46P7RB"
   ],
-  "lastRunAt": "2026-11-27T12:02:15.551Z",
+  "lastRunAt": "2026-11-27T17:02:31.320Z",
   "dailyCounts": {
     "date": "2026-11-27",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 2
+    "solo": 3
   },
-  "soloIndex": 173
+  "soloIndex": 174
 }
