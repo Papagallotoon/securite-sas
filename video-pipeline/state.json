@@ -304,15 +304,16 @@
     "solo-top-5-pochettes-ignifuges-documents-B0BZ4T1DN2",
     "solo-top-5-prises-simulateur-presence-B0GV46P7RB",
     "solo-top-5-protections-angles-meubles-enfant-B07DZSTTNT",
-    "solo-top-5-securite-maison-luxe-B00ITRSOCM"
+    "solo-top-5-securite-maison-luxe-B00ITRSOCM",
+    "solo-top-5-serrures-alarmes-connectees-B0718W696D"
   ],
-  "lastRunAt": "2026-11-27T23:38:49.221Z",
+  "lastRunAt": "2026-11-28T07:02:18.821Z",
   "dailyCounts": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 5
+    "solo": 1
   },
-  "soloIndex": 176
+  "soloIndex": 177
 }
