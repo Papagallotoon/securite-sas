@@ -305,15 +305,16 @@
     "solo-top-5-prises-simulateur-presence-B0GV46P7RB",
     "solo-top-5-protections-angles-meubles-enfant-B07DZSTTNT",
     "solo-top-5-securite-maison-luxe-B00ITRSOCM",
-    "solo-top-5-serrures-alarmes-connectees-B0718W696D"
+    "solo-top-5-serrures-alarmes-connectees-B0718W696D",
+    "solo-top-5-serrures-connectees-nuki-alternatives-B0F2HM2P6F"
   ],
-  "lastRunAt": "2026-11-28T07:02:18.821Z",
+  "lastRunAt": "2026-11-28T12:02:53.469Z",
   "dailyCounts": {
     "date": "2026-11-28",
     "requete": 0,
     "comparatif": 0,
     "audible": 0,
-    "solo": 1
+    "solo": 2
   },
-  "soloIndex": 177
+  "soloIndex": 178
 }
